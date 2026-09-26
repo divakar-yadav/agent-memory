@@ -1,0 +1,242 @@
+[
+ {
+  "condition": "control",
+  "q": "Would Caroline pursue writing as a career option?",
+  "gold": "LIkely no; though she likes reading, she wants to be a counselor",
+  "pred": "No",
+  "correct": true,
+  "tokens": 892,
+  "tool_calls": 10,
+  "category": 3
+ },
+ {
+  "condition": "control",
+  "q": "When did Caroline apply to adoption agencies?",
+  "gold": "The week of 23 August 2023",
+  "pred": "This week (during session 13)",
+  "correct": false,
+  "tokens": 805,
+  "tool_calls": 8,
+  "category": 2
+ },
+ {
+  "condition": "control",
+  "q": "What symbols are important to Caroline?",
+  "gold": "Rainbow flag, transgender symbol",
+  "pred": "Rainbow flag (trans community courage/strength), eagle (freedom, pride, resilience), stained glass (togetherness/celebrating differences), necklace from grandma (love, faith, strength, roots), red and blue mixed (breaking binary thinking, authentic self).",
+  "correct": false,
+  "tokens": 671,
+  "tool_calls": 7,
+  "category": 1
+ },
+ {
+  "condition": "control",
+  "q": "What happened to Melanie's son on their road trip?",
+  "gold": "He got into an accident",
+  "pred": "Got into an accident",
+  "correct": true,
+  "tokens": 296,
+  "tool_calls": 2,
+  "category": 4
+ },
+ {
+  "condition": "control",
+  "q": "What did Caroline find in her neighborhood during her walk?",
+  "gold": "a rainbow sidewalk",
+  "pred": "A rainbow sidewalk for Pride Month",
+  "correct": true,
+  "tokens": 465,
+  "tool_calls": 4,
+  "category": 4
+ },
+ {
+  "condition": "control",
+  "q": "Would Caroline still want to pursue counseling as a career if she hadn't received support growing up?",
+  "gold": "Likely no",
+  "pred": "Yes",
+  "correct": false,
+  "tokens": 1183,
+  "tool_calls": 13,
+  "category": 3
+ },
+ {
+  "condition": "control",
+  "q": "What book did Melanie read from Caroline's suggestion?",
+  "gold": "\"Becoming Nicole\"",
+  "pred": "Based on the memory files, the book that Melanie read from Caroline's suggestion was **'Becoming Nicole' by Amy Ellis Nutt**.",
+  "correct": true,
+  "tokens": 1892,
+  "tool_calls": 24,
+  "category": 1
+ },
+ {
+  "condition": "control",
+  "q": "What painting did Melanie show to Caroline on October 13, 2023?",
+  "gold": "A painting inspired by sunsets with a pink sky.",
+  "pred": "The memory doesn't contain explicit dates. Let me check if there's any metadata or naming pattern that could indicate October 13, 2023. Based on what I found, session-1-e5 mentions Melanie showing Caroline a painting of a lake sunrise. Without explicit dates in the memory, I cannot confirm this was on October 13, 2023, but this appears to be the relevant painting shown.\n\nlake sunrise",
+  "correct": false,
+  "tokens": 1142,
+  "tool_calls": 10,
+  "category": 4
+ },
+ {
+  "condition": "control",
+  "q": "What did Melanie and her family see during their camping trip last year?",
+  "gold": "Perseid meteor shower",
+  "pred": "Perseid meteor shower",
+  "correct": true,
+  "tokens": 466,
+  "tool_calls": 4,
+  "category": 4
+ },
+ {
+  "condition": "control",
+  "q": "When did Melanie go to the pottery workshop?",
+  "gold": "The Friday before 15 July 2023",
+  "pred": "Last Friday",
+  "correct": false,
+  "tokens": 453,
+  "tool_calls": 4,
+  "category": 2
+ },
+ {
+  "condition": "control",
+  "q": "What would Caroline's political leaning likely be?",
+  "gold": "Liberal",
+  "pred": "Based on the memory files, Caroline's political leaning would likely be **progressive/liberal**.\n\nKey indicators:\n- LGBTQ activist and advocate for LGBTQ and trans rights\n- Member of LGBTQ activist group\n- Had negative experience with \"religious conservatives\"\n- Values authenticity, equality, love and acceptance as rights",
+  "correct": true,
+  "tokens": 818,
+  "tool_calls": 6,
+  "category": 3
+ },
+ {
+  "condition": "control",
+  "q": "How did Melanie feel about her family supporting her?",
+  "gold": "She appreciated them a lot",
+  "pred": "Grateful and appreciative",
+  "correct": true,
+  "tokens": 783,
+  "tool_calls": 7,
+  "category": 4
+ },
+ {
+  "condition": "regen",
+  "q": "Would Caroline pursue writing as a career option?",
+  "gold": "LIkely no; though she likes reading, she wants to be a counselor",
+  "pred": "No",
+  "correct": true,
+  "tokens": 3221,
+  "tool_calls": 36,
+  "category": 3
+ },
+ {
+  "condition": "regen",
+  "q": "When did Caroline apply to adoption agencies?",
+  "gold": "The week of 23 August 2023",
+  "pred": "The memory files show that Caroline applied to adoption agencies, but don't contain a specific date for when she applied. The most recent dated information shows she passed adoption agency interviews on **Friday, October 20, 2023**.",
+  "correct": false,
+  "tokens": 1666,
+  "tool_calls": 17,
+  "category": 2
+ },
+ {
+  "condition": "regen",
+  "q": "What symbols are important to Caroline?",
+  "gold": "Rainbow flag, transgender symbol",
+  "pred": "Blue, flowers, rainbow mural (trans courage/resilience), rainbow sidewalk (love/acceptance), painting (trans journey)",
+  "correct": false,
+  "tokens": 2066,
+  "tool_calls": 20,
+  "category": 1
+ },
+ {
+  "condition": "regen",
+  "q": "What happened to Melanie's son on their road trip?",
+  "gold": "He got into an accident",
+  "pred": "He got into an accident, but was okay.",
+  "correct": true,
+  "tokens": 376,
+  "tool_calls": 3,
+  "category": 4
+ },
+ {
+  "condition": "regen",
+  "q": "What did Caroline find in her neighborhood during her walk?",
+  "gold": "a rainbow sidewalk",
+  "pred": "Rainbow sidewalk",
+  "correct": true,
+  "tokens": 516,
+  "tool_calls": 4,
+  "category": 4
+ },
+ {
+  "condition": "regen",
+  "q": "Would Caroline still want to pursue counseling as a career if she hadn't received support growing up?",
+  "gold": "Likely no",
+  "pred": "No",
+  "correct": true,
+  "tokens": 1733,
+  "tool_calls": 19,
+  "category": 3
+ },
+ {
+  "condition": "regen",
+  "q": "What book did Melanie read from Caroline's suggestion?",
+  "gold": "\"Becoming Nicole\"",
+  "pred": "Becoming Nicole by Nutt",
+  "correct": true,
+  "tokens": 1328,
+  "tool_calls": 13,
+  "category": 1
+ },
+ {
+  "condition": "regen",
+  "q": "What painting did Melanie show to Caroline on October 13, 2023?",
+  "gold": "A painting inspired by sunsets with a pink sky.",
+  "pred": "Based on my search through the memory files, I found references to Melanie showing Caroline a painting during what appears to be session 17, but the specific details about what the painting depicted have been compressed in the memory system. The files indicate it was a \"sunset-inspired\" painting that Melanie did the previous week, but the complete description is truncated.\n\n**sunset-inspired painting**",
+  "correct": false,
+  "tokens": 2314,
+  "tool_calls": 23,
+  "category": 4
+ },
+ {
+  "condition": "regen",
+  "q": "What did Melanie and her family see during their camping trip last year?",
+  "gold": "Perseid meteor shower",
+  "pred": "I don't have information in the memory files about what Melanie and her family saw during a camping trip last year.",
+  "correct": false,
+  "tokens": 1597,
+  "tool_calls": 14,
+  "category": 4
+ },
+ {
+  "condition": "regen",
+  "q": "When did Melanie go to the pottery workshop?",
+  "gold": "The Friday before 15 July 2023",
+  "pred": "The memory files don't contain a specific date for when Melanie went to the pottery workshop. The only relevant information found indicates that Melanie's kids enjoyed a pottery workshop, but no date is recorded.",
+  "correct": false,
+  "tokens": 1328,
+  "tool_calls": 12,
+  "category": 2
+ },
+ {
+  "condition": "regen",
+  "q": "What would Caroline's political leaning likely be?",
+  "gold": "Liberal",
+  "pred": "Progressive or liberal",
+  "correct": true,
+  "tokens": 1586,
+  "tool_calls": 18,
+  "category": 3
+ },
+ {
+  "condition": "regen",
+  "q": "How did Melanie feel about her family supporting her?",
+  "gold": "She appreciated them a lot",
+  "pred": "Grateful",
+  "correct": true,
+  "tokens": 1152,
+  "tool_calls": 13,
+  "category": 4
+ }
+]

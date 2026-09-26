@@ -1,0 +1,91 @@
+[
+ {
+  "experiment": "continual",
+  "mult": 1,
+  "system": "Active (MRAgent-style)",
+  "nodes": 219,
+  "working_set": 219,
+  "store_chars": 32464,
+  "acc": 55.0,
+  "tokens_per_q": 3971.65,
+  "seconds": 71.53049683570862
+ },
+ {
+  "experiment": "continual",
+  "mult": 1,
+  "system": "REGEN",
+  "nodes": 219,
+  "working_set": 219,
+  "store_chars": 10647,
+  "acc": 30.0,
+  "tokens_per_q": 6191.25,
+  "seconds": 107.6163227558136
+ },
+ {
+  "experiment": "continual",
+  "mult": 4,
+  "system": "Active (MRAgent-style)",
+  "nodes": 876,
+  "working_set": 219,
+  "store_chars": 121241,
+  "acc": 50.0,
+  "tokens_per_q": 3545.65,
+  "seconds": 41.084733963012695
+ },
+ {
+  "experiment": "continual",
+  "mult": 4,
+  "system": "REGEN",
+  "nodes": 876,
+  "working_set": 219,
+  "store_chars": 33931,
+  "acc": 35.0,
+  "tokens_per_q": 6294.15,
+  "seconds": 106.03680324554443
+ },
+ {
+  "experiment": "continual",
+  "mult": 16,
+  "system": "Active (MRAgent-style)",
+  "nodes": 3504,
+  "working_set": 219,
+  "store_chars": 480839,
+  "acc": 45.0,
+  "tokens_per_q": 7553.6,
+  "seconds": 92.70988178253174
+ },
+ {
+  "experiment": "continual",
+  "mult": 16,
+  "system": "REGEN",
+  "nodes": 3504,
+  "working_set": 219,
+  "store_chars": 127779,
+  "acc": 35.0,
+  "tokens_per_q": 7183.55,
+  "seconds": 68.67311000823975
+ },
+ {
+  "experiment": "recovery",
+  "mode": "default gate",
+  "theta": 0.05,
+  "stage": 7,
+  "ev_recall": 0.0,
+  "acc": 20.0
+ },
+ {
+  "experiment": "recovery",
+  "mode": "relaxed gate (re-seed)",
+  "theta": 0.0025000000000000005,
+  "stage": 7,
+  "ev_recall": 0.8,
+  "acc": 30.0
+ },
+ {
+  "experiment": "recovery",
+  "mode": "deletion (Mem0-style)",
+  "ev_recall": 0.0,
+  "acc": 0.0,
+  "note": "deleted traces are unrecoverable by construction"
+ }
+]

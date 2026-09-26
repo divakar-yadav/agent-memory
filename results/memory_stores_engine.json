@@ -1,0 +1,110 @@
+[
+ {
+  "condition": "regen-engine",
+  "q": "Would Caroline pursue writing as a career option?",
+  "gold": "LIkely no; though she likes reading, she wants to be a counselor",
+  "pred": "Based on the memory data, I found this key information:\n\n**No.**\n\nCaroline plans to work in **counseling or mental health** to support people with similar issues, not pursue writing as a career.",
+  "correct": true,
+  "tokens": 699,
+  "tool_calls": 7
+ },
+ {
+  "condition": "regen-engine",
+  "q": "When did Caroline apply to adoption agencies?",
+  "gold": "The week of 23 August 2023",
+  "pred": "This week (week of June 6, 2026)",
+  "correct": false,
+  "tokens": 894,
+  "tool_calls": 9
+ },
+ {
+  "condition": "regen-engine",
+  "q": "What symbols are important to Caroline?",
+  "gold": "Rainbow flag, transgender symbol",
+  "pred": "Perfect! Now I have the key information. Let me provide a concise answer:\n\nNecklace from her grandma (love, faith, strength)\nRainbow flag\nEagle\nBlue color\nStained glass windows\nRed/blue mixed colors in paintings",
+  "correct": false,
+  "tokens": 941,
+  "tool_calls": 8
+ },
+ {
+  "condition": "regen-engine",
+  "q": "What happened to Melanie's son on their road trip?",
+  "gold": "He got into an accident",
+  "pred": "Based on the memory records, Melanie's son **got into an accident** during their road trip over the past weekend, which was **very scary** for the family, but **he was okay**.",
+  "correct": true,
+  "tokens": 843,
+  "tool_calls": 6
+ },
+ {
+  "condition": "regen-engine",
+  "q": "What did Caroline find in her neighborhood during her walk?",
+  "gold": "a rainbow sidewalk",
+  "pred": "I'm not finding a clear match for \"Caroline found something in her neighborhood during her walk.\" The memory retrieval engine has a syntax error, and my searches aren't yielding a specific event about Caroline walking in her neighborhood and finding something. Without access to functional memory search or finding the specific conversation, I cannot provide the accurate answer.\n\nUnable to determine from available memory files.",
+  "correct": false,
+  "tokens": 1134,
+  "tool_calls": 10
+ },
+ {
+  "condition": "regen-engine",
+  "q": "Would Caroline still want to pursue counseling as a career if she hadn't received support growing up?",
+  "gold": "Likely no",
+  "pred": "Based on the memory search results, I can see information about Caroline's motivation for counseling. Looking at the search results:\n\nNo\n\nCaroline's own mental health struggles and the helpful support she received are what motivated her to pursue counseling as a career.",
+  "correct": true,
+  "tokens": 619,
+  "tool_calls": 5
+ },
+ {
+  "condition": "regen-engine",
+  "q": "What book did Melanie read from Caroline's suggestion?",
+  "gold": "\"Becoming Nicole\"",
+  "pred": "Becoming Nicole",
+  "correct": true,
+  "tokens": 1095,
+  "tool_calls": 8
+ },
+ {
+  "condition": "regen-engine",
+  "q": "What painting did Melanie show to Caroline on October 13, 2023?",
+  "gold": "A painting inspired by sunsets with a pink sky.",
+  "pred": "Lake sunrise painting",
+  "correct": false,
+  "tokens": 894,
+  "tool_calls": 8
+ },
+ {
+  "condition": "regen-engine",
+  "q": "What did Melanie and her family see during their camping trip last year?",
+  "gold": "Perseid meteor shower",
+  "pred": "Perseid meteor shower",
+  "correct": true,
+  "tokens": 1246,
+  "tool_calls": 10
+ },
+ {
+  "condition": "regen-engine",
+  "q": "When did Melanie go to the pottery workshop?",
+  "gold": "The Friday before 15 July 2023",
+  "pred": "Last Friday, 68 days into the conversation.",
+  "correct": false,
+  "tokens": 1103,
+  "tool_calls": 7
+ },
+ {
+  "condition": "regen-engine",
+  "q": "What would Caroline's political leaning likely be?",
+  "gold": "Liberal",
+  "pred": "Based on my search of the conversation memory between Caroline and Melanie, I found no explicit discussion of Caroline's political views, voting preferences, party affiliation, or policy positions.\n\nHowever, I can infer from what was discussed:\n\n**Progressive/Left-leaning**\n\nThe evidence strongly suggests this based on:\n- Caroline is transgender and active in LGBTQ+ community\n- Attended LGBTQ conferences and support groups\n- Passionate about trans rights and LGBTQ+ activism\n- Chose an LGBTQ+-inclusive adoption agency\n- Pursuing mental health/counseling career to help marginalized communities",
+  "correct": true,
+  "tokens": 858,
+  "tool_calls": 7
+ },
+ {
+  "condition": "regen-engine",
+  "q": "How did Melanie feel about her family supporting her?",
+  "gold": "She appreciated them a lot",
+  "pred": "Based on the memory search, I found that the question is referring to CAROLINE's family supporting HER (specifically Caroline's Swedish grandmother giving her a necklace). The entry I found was:\n\n\"Caroline showed Melanie a necklace that her grandma gave her when she was young in Sweden, explaining it symbolizes love, faith and strength and reminds her of her roots and family support.\"\n\nThere doesn't appear to be a conversation about Melanie's feelings about her family supporting her. The question might be confused, or may be asking about how Caroline felt about her family's support. Let me provide the answer based on what was found:\n\nGrateful and reminded of her roots",
+  "correct": false,
+  "tokens": 1274,
+  "tool_calls": 9
+ }
+]

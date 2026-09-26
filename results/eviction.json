@@ -1,0 +1,282 @@
+[
+ {
+  "policy": "regen",
+  "q": "Which  classical musicians does Melanie enjoy listening to?",
+  "gold": "Bach and Mozart",
+  "pred": "Bach, Mozart",
+  "correct": true,
+  "age": 721.0,
+  "conv": "conv-26",
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "When did Maria get Coco?",
+  "gold": "Two weeks before 11 August 2023",
+  "pred": "t+828d",
+  "correct": false,
+  "age": 5.0,
+  "conv": "conv-41",
+  "category": 2
+ },
+ {
+  "policy": "regen",
+  "q": "How is Maria's new puppy adjusting to its new home?",
+  "gold": "doing great - learning commands and house training",
+  "pred": "Doing great, learning commands and house training",
+  "correct": true,
+  "age": 3.0,
+  "conv": "conv-41",
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What desserts has Maria made?",
+  "gold": "Banana split sundae, Peach cobbler",
+  "pred": "Peach cobbler and cakes",
+  "correct": false,
+  "age": 237.0,
+  "conv": "conv-41",
+  "category": 1
+ },
+ {
+  "policy": "regen",
+  "q": "What inspired John to join the marching event for veterans' rights?",
+  "gold": "Respect for the military and the desire to show support",
+  "pred": "His great respect for the military and being around others who shared the same values and passion for supporting veterans",
+  "correct": true,
+  "age": 44.0,
+  "conv": "conv-41",
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "How many weeks passed between Maria adopting Coco and Shadow?",
+  "gold": "two weeks",
+  "pred": "2",
+  "correct": true,
+  "age": 5.0,
+  "conv": "conv-41",
+  "category": 2
+ },
+ {
+  "policy": "regen",
+  "q": "What did Maria participate in last weekend before April 10, 2023?",
+  "gold": "a 5K charity run",
+  "pred": "I cannot find any evidence about Maria in the provided information. The evidence only contains information about Caroline, Melanie, Jon, and Gina.",
+  "correct": false,
+  "age": 131.0,
+  "conv": "conv-41",
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What are Caroline's plans for the summer?",
+  "gold": "researching adoption agencies",
+  "pred": "Attending transgender conference July 2023",
+  "correct": false,
+  "age": 816.0,
+  "conv": "conv-26",
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What did Mel and her kids paint in their latest project in July 2023?",
+  "gold": "a sunset with a palm tree",
+  "pred": "Nature",
+  "correct": false,
+  "age": 765.0,
+  "conv": "conv-26",
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What did Gina receive from a dance contest?",
+  "gold": "a trophy",
+  "pred": "trophy",
+  "correct": true,
+  "age": 467.0,
+  "conv": "conv-30",
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What new activity did Maria start recently, as mentioned on 3 June, 2023?",
+  "gold": "volunteering at a local dog shelter once a month",
+  "pred": "Aerial yoga",
+  "correct": false,
+  "age": 74.0,
+  "conv": "conv-41",
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "When did Caroline have a picnic?",
+  "gold": "The week before 6 July 2023",
+  "pred": "Week of 1 July 2023",
+  "correct": false,
+  "age": 774.0,
+  "conv": "conv-26",
+  "category": 2
+ },
+ {
+  "policy": "regen",
+  "q": "What activity did Maria and her mom do together in May 2023?",
+  "gold": "Made dinner together",
+  "pred": "Based on the evidence provided, there is no information about any activity Maria and her mom did together in May 2023.",
+  "correct": false,
+  "age": 104.0,
+  "conv": "conv-41",
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "When did Caroline go to the adoption meeting?",
+  "gold": "The friday before 15 July 2023",
+  "pred": "7 July 2023",
+  "correct": true,
+  "age": 765.0,
+  "conv": "conv-26",
+  "category": 2
+ },
+ {
+  "policy": "regen",
+  "q": "What kind of counseling and mental health services is Caroline interested in pursuing?",
+  "gold": "working with trans people, helping them accept themselves and supporting their mental health",
+  "pred": "counseling or mental health",
+  "correct": false,
+  "age": 783.0,
+  "conv": "conv-26",
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What motivated Maria and John to discuss potential solutions for their community on 7 July, 2023?",
+  "gold": "Flood in John's old area",
+  "pred": "John's childhood neighborhood issues motivated his political interest",
+  "correct": false,
+  "age": 40.0,
+  "conv": "conv-41",
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "Where has Maria made friends?",
+  "gold": "homeless shelter, gym, church",
+  "pred": "church and the shelter",
+  "correct": true,
+  "age": 237.0,
+  "conv": "conv-41",
+  "category": 1
+ },
+ {
+  "policy": "regen",
+  "q": "What book did Melanie read from Caroline's suggestion?",
+  "gold": "\"Becoming Nicole\"",
+  "pred": "Becoming Nicole by Amy Ellis Nutt",
+  "correct": true,
+  "age": 768.0,
+  "conv": "conv-26",
+  "category": 1
+ },
+ {
+  "policy": "regen",
+  "q": "What is the name of Maria's second puppy?",
+  "gold": "Shadow",
+  "pred": "Coco",
+  "correct": false,
+  "age": 3.0,
+  "conv": "conv-41",
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What plans does Jon have after receiving advice at the networking event?",
+  "gold": "Sprucing up his business plan, tweaking his pitch to investors, and working on an online platform.",
+  "pred": "Jon plans to go full-time with his business idea and is learning marketing analytics tools",
+  "correct": false,
+  "age": 364.0,
+  "conv": "conv-30",
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What states has Maria vacationed at?",
+  "gold": "Oregon, Florida",
+  "pred": "Florida",
+  "correct": false,
+  "age": 65.0,
+  "conv": "conv-41",
+  "category": 1
+ },
+ {
+  "policy": "regen",
+  "q": "When did Melanie read the book \"nothing is impossible\"?",
+  "gold": "2022",
+  "pred": "The evidence does not contain information about Melanie reading a book called \"nothing is impossible\". The evidence mentions Melanie reading Caroline's book during recovery and that Caroline loves \"Becoming Nicole\" by Amy Ellis Nutt, but no book titled \"nothing is impossible\" is referenced.",
+  "correct": false,
+  "age": 768.0,
+  "conv": "conv-26",
+  "category": 2
+ },
+ {
+  "policy": "regen",
+  "q": "What does John think about trying new classes at the yoga studio?",
+  "gold": "Trying new classes is a fun way to switch up the exercise routine.",
+  "pred": "Based on the evidence, John finds yoga fulfilling and goes to a yoga studio often, but there is no specific information about his thoughts on trying new classes at the yoga studio.",
+  "correct": false,
+  "age": 25.0,
+  "conv": "conv-41",
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What did Jon say about creating a special experience for customers?",
+  "gold": "It's the key to making them feel welcome and coming back",
+  "pred": "",
+  "correct": false,
+  "age": 534.0,
+  "conv": "conv-30",
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What advice does Gina give to Jon about running a successful business?",
+  "gold": "build relationships with customers, create a strong brand image, stay positive",
+  "pred": "",
+  "correct": false,
+  "age": 484.0,
+  "conv": "conv-30",
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "Would Melanie go on another roadtrip soon?",
+  "gold": "Likely no; since this one went badly",
+  "pred": "",
+  "correct": false,
+  "age": 668.0,
+  "conv": "conv-26",
+  "category": 3
+ },
+ {
+  "policy": "regen",
+  "q": "Would Caroline likely have Dr. Seuss books on her bookshelf?",
+  "gold": "Yes, since she collects classic children's books",
+  "pred": "",
+  "correct": false,
+  "age": 774.0,
+  "conv": "conv-26",
+  "category": 3
+ },
+ {
+  "policy": "regen",
+  "q": "Why did Jon decide to start his dance studio?",
+  "gold": "He lost his job and decided to start his own business to share his passion.",
+  "pred": "",
+  "correct": false,
+  "age": 546.0,
+  "conv": "conv-30",
+  "category": 4
+ }
+]

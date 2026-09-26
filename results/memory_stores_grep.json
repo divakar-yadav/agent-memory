@@ -1,0 +1,110 @@
+[
+ {
+  "condition": "regen-grep",
+  "q": "Would Caroline pursue writing as a career option?",
+  "gold": "LIkely no; though she likes reading, she wants to be a counselor",
+  "pred": "No - counseling for trans people.",
+  "correct": false,
+  "tokens": 1708,
+  "tool_calls": 17
+ },
+ {
+  "condition": "regen-grep",
+  "q": "When did Caroline apply to adoption agencies?",
+  "gold": "The week of 23 August 2023",
+  "pred": "The memory files show that Caroline passed adoption agency interviews on **Friday, October 20, 2023**, but do not contain the specific date when she applied to the agencies.",
+  "correct": false,
+  "tokens": 2338,
+  "tool_calls": 27
+ },
+ {
+  "condition": "regen-grep",
+  "q": "What symbols are important to Caroline?",
+  "gold": "Rainbow flag, transgender symbol",
+  "pred": "- Grandma's necklace from Sweden (love)\n- Blue\n- Flowers\n- Rainbow mural (trans courage, resilience)\n- Rainbow sidewalk (love, acceptance)\n- Painting of her trans journey",
+  "correct": false,
+  "tokens": 763,
+  "tool_calls": 7
+ },
+ {
+  "condition": "regen-grep",
+  "q": "What happened to Melanie's son on their road trip?",
+  "gold": "He got into an accident",
+  "pred": "Accident, but he was okay.",
+  "correct": true,
+  "tokens": 410,
+  "tool_calls": 3
+ },
+ {
+  "condition": "regen-grep",
+  "q": "What did Caroline find in her neighborhood during her walk?",
+  "gold": "a rainbow sidewalk",
+  "pred": "A rainbow sidewalk",
+  "correct": true,
+  "tokens": 1065,
+  "tool_calls": 10
+ },
+ {
+  "condition": "regen-grep",
+  "q": "Would Caroline still want to pursue counseling as a career if she hadn't received support growing up?",
+  "gold": "Likely no",
+  "pred": "No\u2014she explicitly said she wouldn't.",
+  "correct": false,
+  "tokens": 1404,
+  "tool_calls": 14
+ },
+ {
+  "condition": "regen-grep",
+  "q": "What book did Melanie read from Caroline's suggestion?",
+  "gold": "\"Becoming Nicole\"",
+  "pred": "Becoming Nicole by Nutt",
+  "correct": true,
+  "tokens": 1402,
+  "tool_calls": 14
+ },
+ {
+  "condition": "regen-grep",
+  "q": "What painting did Melanie show to Caroline on October 13, 2023?",
+  "gold": "A painting inspired by sunsets with a pink sky.",
+  "pred": "The memory files show that Melanie shared an \"abstract painting\" with Caroline (using \"peaceful\" colors/themes), and also did \"sunset-inspired\" paintings, but the exact date of October 13, 2023 is not documented in the available memory files. The information is truncated or compressed in the memory system.\n\n**abstract painting** (with peaceful colors/themes) or **sunset-inspired painting**",
+  "correct": false,
+  "tokens": 4454,
+  "tool_calls": 45
+ },
+ {
+  "condition": "regen-grep",
+  "q": "What did Melanie and her family see during their camping trip last year?",
+  "gold": "Perseid meteor shower",
+  "pred": "Perseid meteor shower",
+  "correct": true,
+  "tokens": 1016,
+  "tool_calls": 9
+ },
+ {
+  "condition": "regen-grep",
+  "q": "When did Melanie go to the pottery workshop?",
+  "gold": "The Friday before 15 July 2023",
+  "pred": "The memory files show that Melanie's kids went to a pottery workshop, but do not contain a specific date for when Melanie herself attended a pottery workshop. The available information only indicates it occurred during session 8, without specifying the actual date.\n\nNot found in memory",
+  "correct": false,
+  "tokens": 1378,
+  "tool_calls": 13
+ },
+ {
+  "condition": "regen-grep",
+  "q": "What would Caroline's political leaning likely be?",
+  "gold": "Liberal",
+  "pred": "Progressive / liberal",
+  "correct": true,
+  "tokens": 864,
+  "tool_calls": 7
+ },
+ {
+  "condition": "regen-grep",
+  "q": "How did Melanie feel about her family supporting her?",
+  "gold": "She appreciated them a lot",
+  "pred": "Grateful",
+  "correct": true,
+  "tokens": 547,
+  "tool_calls": 5
+ }
+]

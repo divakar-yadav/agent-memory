@@ -1,0 +1,122 @@
+[
+ {
+  "condition": "mem0",
+  "q": "Would Caroline pursue writing as a career option?",
+  "gold": "LIkely no; though she likes reading, she wants to be a counselor",
+  "pred": "No",
+  "correct": true,
+  "tokens": 726,
+  "retrieved": 20,
+  "category": 3
+ },
+ {
+  "condition": "mem0",
+  "q": "When did Caroline apply to adoption agencies?",
+  "gold": "The week of 23 August 2023",
+  "pred": "August 23, 2023",
+  "correct": true,
+  "tokens": 822,
+  "retrieved": 20,
+  "category": 2
+ },
+ {
+  "condition": "mem0",
+  "q": "What symbols are important to Caroline?",
+  "gold": "Rainbow flag, transgender symbol",
+  "pred": "Necklace (symbolizing love, faith, and strength), rainbow flag mural with eagle (symbolizing courage, freedom, pride, and resilience), sunflowers (symbolizing warmth and happiness), roses (symbolizing love and beauty)",
+  "correct": false,
+  "tokens": 702,
+  "retrieved": 20,
+  "category": 1
+ },
+ {
+  "condition": "mem0",
+  "q": "What happened to Melanie's son on their road trip?",
+  "gold": "He got into an accident",
+  "pred": "Car accident",
+  "correct": true,
+  "tokens": 768,
+  "retrieved": 20,
+  "category": 4
+ },
+ {
+  "condition": "mem0",
+  "q": "What did Caroline find in her neighborhood during her walk?",
+  "gold": "a rainbow sidewalk",
+  "pred": "A vibrant rainbow sidewalk created for Pride Month",
+  "correct": true,
+  "tokens": 786,
+  "retrieved": 20,
+  "category": 4
+ },
+ {
+  "condition": "mem0",
+  "q": "Would Caroline still want to pursue counseling as a career if she hadn't received support growing up?",
+  "gold": "Likely no",
+  "pred": "No definitive answer can be given, but the evidence strongly suggests No, as her motivation to pursue counseling stems directly from the support she received and wanting to pass that same support on to others.",
+  "correct": true,
+  "tokens": 791,
+  "retrieved": 20,
+  "category": 3
+ },
+ {
+  "condition": "mem0",
+  "q": "What book did Melanie read from Caroline's suggestion?",
+  "gold": "\"Becoming Nicole\"",
+  "pred": "The book Caroline recommended that Melanie has been reading is not specified in the evidence.",
+  "correct": false,
+  "tokens": 756,
+  "retrieved": 20,
+  "category": 1
+ },
+ {
+  "condition": "mem0",
+  "q": "What painting did Melanie show to Caroline on October 13, 2023?",
+  "gold": "A painting inspired by sunsets with a pink sky.",
+  "pred": "A sunset-inspired painting",
+  "correct": true,
+  "tokens": 631,
+  "retrieved": 20,
+  "category": 4
+ },
+ {
+  "condition": "mem0",
+  "q": "What did Melanie and her family see during their camping trip last year?",
+  "gold": "Perseid meteor shower",
+  "pred": "Amazing views from the mountaintop",
+  "correct": false,
+  "tokens": 825,
+  "retrieved": 20,
+  "category": 4
+ },
+ {
+  "condition": "mem0",
+  "q": "When did Melanie go to the pottery workshop?",
+  "gold": "The Friday before 15 July 2023",
+  "pred": "Friday, July 7, 2023 and Friday, July 14, 2023",
+  "correct": false,
+  "tokens": 777,
+  "retrieved": 20,
+  "category": 2
+ },
+ {
+  "condition": "mem0",
+  "q": "What would Caroline's political leaning likely be?",
+  "gold": "Liberal",
+  "pred": "Progressive/left-leaning",
+  "correct": true,
+  "tokens": 736,
+  "retrieved": 20,
+  "category": 3
+ },
+ {
+  "condition": "mem0",
+  "q": "How did Melanie feel about her family supporting her?",
+  "gold": "She appreciated them a lot",
+  "pred": "Loved and supported, giving her strength and motivation to keep going",
+  "correct": true,
+  "tokens": 694,
+  "retrieved": 20,
+  "category": 4
+ }
+]

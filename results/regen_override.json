@@ -1,0 +1,808 @@
+[
+ {
+  "conv": 0,
+  "q": 0,
+  "system": "REGEN",
+  "category": "open-domain",
+  "question": "Would Caroline pursue writing as a career option?",
+  "gold": "LIkely no; though she likes reading, she wants to be a counselor",
+  "pred": "No",
+  "correct": false,
+  "f1": 0.0,
+  "ev_recall": 1.0,
+  "turns": 3,
+  "materialised": 67,
+  "provenance": {
+   "recalled": 15,
+   "inferred(tier=1)": 10,
+   "inferred(tier=2)": 35,
+   "inferred(tier=3)": 7
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.963
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 1,
+  "system": "REGEN",
+  "category": "temporal",
+  "question": "When did Caroline apply to adoption agencies?",
+  "gold": "The week of 23 August 2023",
+  "pred": "August 2023",
+  "correct": false,
+  "f1": 0.5,
+  "ev_recall": 1.0,
+  "turns": 2,
+  "materialised": 40,
+  "provenance": {
+   "recalled": 13,
+   "inferred(tier=1)": 10,
+   "inferred(tier=2)": 17
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.965
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 2,
+  "system": "REGEN",
+  "category": "multi-hop",
+  "question": "What symbols are important to Caroline?",
+  "gold": "Rainbow flag, transgender symbol",
+  "pred": "Rainbow eagle mural, rainbow Pride sidewalk, abstract art representing freedom and authenticity",
+  "correct": false,
+  "f1": 0.125,
+  "ev_recall": 0.5,
+  "turns": 2,
+  "materialised": 40,
+  "provenance": {
+   "recalled": 14,
+   "inferred(tier=1)": 18,
+   "inferred(tier=2)": 8
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.964
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 3,
+  "system": "REGEN",
+  "category": "single-hop",
+  "question": "What happened to Melanie's son on their road trip?",
+  "gold": "He got into an accident",
+  "pred": "He got into an accident but was okay",
+  "correct": true,
+  "f1": 0.7692307692307693,
+  "ev_recall": 1.0,
+  "turns": 1,
+  "materialised": 20,
+  "provenance": {
+   "recalled": 18,
+   "inferred(tier=1)": 2
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.969
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 4,
+  "system": "REGEN",
+  "category": "single-hop",
+  "question": "What did Caroline find in her neighborhood during her walk?",
+  "gold": "a rainbow sidewalk",
+  "pred": "a vibrant rainbow sidewalk for Pride Month",
+  "correct": true,
+  "f1": 0.6,
+  "ev_recall": 1.0,
+  "turns": 2,
+  "materialised": 22,
+  "provenance": {
+   "recalled": 16,
+   "inferred(tier=1)": 5,
+   "inferred(tier=2)": 1
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.958
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 5,
+  "system": "REGEN",
+  "category": "open-domain",
+  "question": "Would Caroline still want to pursue counseling as a career if she hadn't received support growing up?",
+  "gold": "Likely no",
+  "pred": "No",
+  "correct": true,
+  "f1": 0.6666666666666666,
+  "ev_recall": 1.0,
+  "turns": 2,
+  "materialised": 52,
+  "provenance": {
+   "recalled": 22,
+   "inferred(tier=2)": 23,
+   "inferred(tier=3)": 3,
+   "inferred(tier=1)": 4
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.963
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 6,
+  "system": "REGEN",
+  "category": "multi-hop",
+  "question": "What book did Melanie read from Caroline's suggestion?",
+  "gold": "\"Becoming Nicole\"",
+  "pred": "The evidence does not specify the title of the book Melanie read from Caroline's suggestion.",
+  "correct": false,
+  "f1": 0.0,
+  "ev_recall": 0.5,
+  "turns": 2,
+  "materialised": 60,
+  "provenance": {
+   "recalled": 27,
+   "inferred(tier=1)": 22,
+   "inferred(tier=2)": 11
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.971
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 7,
+  "system": "REGEN",
+  "category": "single-hop",
+  "question": "What painting did Melanie show to Caroline on October 13, 2023?",
+  "gold": "A painting inspired by sunsets with a pink sky.",
+  "pred": "An abstract painting with peaceful blue streaks",
+  "correct": false,
+  "f1": 0.25,
+  "ev_recall": 1.0,
+  "turns": 2,
+  "materialised": 60,
+  "provenance": {
+   "recalled": 27,
+   "inferred(tier=1)": 15,
+   "inferred(tier=2)": 18
+  },
+  "debug": {
+   "D": 8,
+   "k_bar": 5.0,
+   "s_bar": 0.772
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 8,
+  "system": "REGEN",
+  "category": "single-hop",
+  "question": "What did Melanie and her family see during their camping trip last year?",
+  "gold": "Perseid meteor shower",
+  "pred": "Perseid meteor shower",
+  "correct": true,
+  "f1": 1.0,
+  "ev_recall": 1.0,
+  "turns": 2,
+  "materialised": 60,
+  "provenance": {
+   "recalled": 24,
+   "inferred(tier=1)": 10,
+   "inferred(tier=2)": 26
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.97
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 9,
+  "system": "REGEN",
+  "category": "temporal",
+  "question": "When did Melanie go to the pottery workshop?",
+  "gold": "The Friday before 15 July 2023",
+  "pred": "7 July 2023",
+  "correct": false,
+  "f1": 0.4444444444444444,
+  "ev_recall": 1.0,
+  "turns": 2,
+  "materialised": 38,
+  "provenance": {
+   "recalled": 18,
+   "inferred(tier=1)": 5,
+   "inferred(tier=2)": 13,
+   "inferred(tier=3)": 2
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.969
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 10,
+  "system": "REGEN",
+  "category": "open-domain",
+  "question": "What would Caroline's political leaning likely be?",
+  "gold": "Liberal",
+  "pred": "Progressive/liberal",
+  "correct": true,
+  "f1": 0.0,
+  "ev_recall": 0.0,
+  "turns": 1,
+  "materialised": 20,
+  "provenance": {
+   "recalled": 17,
+   "inferred(tier=1)": 3
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.958
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 11,
+  "system": "REGEN",
+  "category": "single-hop",
+  "question": "How did Melanie feel about her family supporting her?",
+  "gold": "She appreciated them a lot",
+  "pred": "Her family gives her strength, motivation, and support, and she appreciates them as her rock during tough times",
+  "correct": true,
+  "f1": 0.1739130434782609,
+  "ev_recall": 1.0,
+  "turns": 1,
+  "materialised": 20,
+  "provenance": {
+   "recalled": 20
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.971
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 12,
+  "system": "REGEN",
+  "category": "temporal",
+  "question": "When did Caroline have a picnic?",
+  "gold": "The week before 6 July 2023",
+  "pred": "week of 1 July 2023",
+  "correct": false,
+  "f1": 0.5454545454545454,
+  "ev_recall": 1.0,
+  "turns": 2,
+  "materialised": 36,
+  "provenance": {
+   "recalled": 19,
+   "inferred(tier=1)": 2,
+   "inferred(tier=2)": 15
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.965
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 13,
+  "system": "REGEN",
+  "category": "single-hop",
+  "question": "What kind of place does Caroline want to create for people?",
+  "gold": "a safe and inviting place for people to grow",
+  "pred": "A safe, loving home where kids can experience love and acceptance",
+  "correct": true,
+  "f1": 0.19999999999999998,
+  "ev_recall": 0.0,
+  "turns": 1,
+  "materialised": 20,
+  "provenance": {
+   "recalled": 18,
+   "inferred(tier=1)": 2
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.964
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 14,
+  "system": "REGEN",
+  "category": "multi-hop",
+  "question": "What books has Melanie read?",
+  "gold": "\"Nothing is Impossible\", \"Charlotte's Web\"",
+  "pred": "A book Caroline recommended (as of 13 October 2023)",
+  "correct": false,
+  "f1": 0.0,
+  "ev_recall": 0.5,
+  "turns": 2,
+  "materialised": 60,
+  "provenance": {
+   "recalled": 23,
+   "inferred(tier=1)": 16,
+   "inferred(tier=2)": 21
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.967
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 15,
+  "system": "REGEN",
+  "category": "single-hop",
+  "question": "What does Melanie say running has been great for?",
+  "gold": "Her mental health",
+  "pred": "Mental health",
+  "correct": true,
+  "f1": 0.8,
+  "ev_recall": 1.0,
+  "turns": 2,
+  "materialised": 48,
+  "provenance": {
+   "recalled": 21,
+   "inferred(tier=1)": 4,
+   "inferred(tier=2)": 19,
+   "inferred(tier=3)": 4
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.962
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 16,
+  "system": "REGEN",
+  "category": "single-hop",
+  "question": "Which  classical musicians does Melanie enjoy listening to?",
+  "gold": "Bach and Mozart",
+  "pred": "Bach, Mozart",
+  "correct": true,
+  "f1": 0.4,
+  "ev_recall": 1.0,
+  "turns": 2,
+  "materialised": 40,
+  "provenance": {
+   "recalled": 19,
+   "inferred(tier=1)": 14,
+   "inferred(tier=2)": 7
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.959
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 17,
+  "system": "REGEN",
+  "category": "temporal",
+  "question": "When did Melanie go to the park?",
+  "gold": "27 August 2023",
+  "pred": "27 August 2023",
+  "correct": true,
+  "f1": 1.0,
+  "ev_recall": 1.0,
+  "turns": 3,
+  "materialised": 80,
+  "provenance": {
+   "recalled": 23,
+   "inferred(tier=1)": 17,
+   "inferred(tier=2)": 40
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.973
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 18,
+  "system": "REGEN",
+  "category": "temporal",
+  "question": "When did Caroline go to a pride parade during the summer?",
+  "gold": "The week before 3 July 2023",
+  "pred": "Late June 2023",
+  "correct": false,
+  "f1": 0.2222222222222222,
+  "ev_recall": 1.0,
+  "turns": 2,
+  "materialised": 60,
+  "provenance": {
+   "recalled": 23,
+   "inferred(tier=1)": 14,
+   "inferred(tier=2)": 23
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.961
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 19,
+  "system": "REGEN",
+  "category": "single-hop",
+  "question": "What activity did Caroline used to do with her dad?",
+  "gold": "Horseback riding",
+  "pred": "Rode horses",
+  "correct": true,
+  "f1": 0.0,
+  "ev_recall": 1.0,
+  "turns": 2,
+  "materialised": 60,
+  "provenance": {
+   "recalled": 31,
+   "inferred(tier=1)": 5,
+   "inferred(tier=2)": 24
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.965
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 20,
+  "system": "REGEN",
+  "category": "single-hop",
+  "question": "Why are flowers important to Melanie?",
+  "gold": "They remind her to appreciate the small moments and were a part of her wedding decor",
+  "pred": "Based on the evidence, flowers symbolize growth and beauty to Melanie, and she used them as wedding decor.",
+  "correct": true,
+  "f1": 0.23529411764705882,
+  "ev_recall": 1.0,
+  "turns": 3,
+  "materialised": 80,
+  "provenance": {
+   "recalled": 20,
+   "inferred(tier=1)": 18,
+   "inferred(tier=2)": 42
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.965
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 21,
+  "system": "REGEN",
+  "category": "single-hop",
+  "question": "What kind of books does Caroline have in her library?",
+  "gold": "kids' books - classics, stories from different cultures, educational books",
+  "pred": "Kids' books (for future children)",
+  "correct": false,
+  "f1": 0.26666666666666666,
+  "ev_recall": 1.0,
+  "turns": 3,
+  "materialised": 67,
+  "provenance": {
+   "recalled": 30,
+   "inferred(tier=1)": 22,
+   "inferred(tier=2)": 13,
+   "inferred(tier=3)": 2
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.963
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 22,
+  "system": "REGEN",
+  "category": "single-hop",
+  "question": "What inspired Caroline's painting for the art show?",
+  "gold": "visiting an LGBTQ center and wanting to capture unity and strength",
+  "pred": "Beach sunset from 14-20 Aug 2023 visit",
+  "correct": false,
+  "f1": 0.0,
+  "ev_recall": 1.0,
+  "turns": 2,
+  "materialised": 60,
+  "provenance": {
+   "recalled": 20,
+   "inferred(tier=1)": 8,
+   "inferred(tier=2)": 32
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.964
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 23,
+  "system": "REGEN",
+  "category": "temporal",
+  "question": "When is Melanie planning on going camping?",
+  "gold": "June 2023",
+  "pred": "19 October 2023",
+  "correct": false,
+  "f1": 0.4,
+  "ev_recall": 0.0,
+  "turns": 1,
+  "materialised": 20,
+  "provenance": {
+   "recalled": 18,
+   "inferred(tier=1)": 2
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.97
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 24,
+  "system": "REGEN",
+  "category": "temporal",
+  "question": "When did Caroline encounter people on a hike and have a negative experience?",
+  "gold": "The week before 25 August 2023",
+  "pred": "14-20 August 2023",
+  "correct": true,
+  "f1": 0.4444444444444444,
+  "ev_recall": 1.0,
+  "turns": 2,
+  "materialised": 50,
+  "provenance": {
+   "recalled": 23,
+   "inferred(tier=1)": 3,
+   "inferred(tier=2)": 24
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.961
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 25,
+  "system": "REGEN",
+  "category": "temporal",
+  "question": "When did Melanie go to the museum?",
+  "gold": "5 July 2023",
+  "pred": "5 July 2023",
+  "correct": true,
+  "f1": 1.0,
+  "ev_recall": 1.0,
+  "turns": 3,
+  "materialised": 72,
+  "provenance": {
+   "recalled": 18,
+   "inferred(tier=1)": 18,
+   "inferred(tier=2)": 36
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.969
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 26,
+  "system": "REGEN",
+  "category": "single-hop",
+  "question": "What does Melanie think about Caroline's decision to adopt?",
+  "gold": "she thinks Caroline is doing something amazing and will be an awesome mom",
+  "pred": "Supportive",
+  "correct": false,
+  "f1": 0.0,
+  "ev_recall": 0.0,
+  "turns": 1,
+  "materialised": 20,
+  "provenance": {
+   "recalled": 20
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.972
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 27,
+  "system": "REGEN",
+  "category": "single-hop",
+  "question": "How did Melanie's son handle the accident?",
+  "gold": "He was scared but reassured by his family",
+  "pred": "He was okay",
+  "correct": false,
+  "f1": 0.36363636363636365,
+  "ev_recall": 1.0,
+  "turns": 1,
+  "materialised": 20,
+  "provenance": {
+   "recalled": 18,
+   "inferred(tier=1)": 2
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.966
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 28,
+  "system": "REGEN",
+  "category": "multi-hop",
+  "question": "What did Caroline research?",
+  "gold": "Adoption agencies",
+  "pred": "Adoption agencies and adoption process",
+  "correct": true,
+  "f1": 0.5714285714285715,
+  "ev_recall": 0.0,
+  "turns": 4,
+  "materialised": 100,
+  "provenance": {
+   "recalled": 25,
+   "inferred(tier=1)": 24,
+   "inferred(tier=2)": 51
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.961
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ },
+ {
+  "conv": 0,
+  "q": 29,
+  "system": "REGEN",
+  "category": "multi-hop",
+  "question": "What do Melanie's kids like?",
+  "gold": "dinosaurs, nature",
+  "pred": "Creative activities, camping, hiking, roasted marshmallows, campfire stories, pottery, dinosaur exhibits, playing at the park",
+  "correct": false,
+  "f1": 0.0,
+  "ev_recall": 1.0,
+  "turns": 2,
+  "materialised": 60,
+  "provenance": {
+   "recalled": 26,
+   "inferred(tier=1)": 6,
+   "inferred(tier=2)": 28
+  },
+  "debug": {
+   "D": 7,
+   "k_bar": 5.0,
+   "s_bar": 0.972
+  },
+  "tokens_per_q": 10877.566666666668,
+  "store_chars": 16576,
+  "working_set": 321
+ }
+]

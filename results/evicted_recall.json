@@ -1,0 +1,1202 @@
+[
+ {
+  "policy": "full",
+  "q": "When did Melanie paint a sunrise?",
+  "gold": "2022",
+  "pred": "2022",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 2
+ },
+ {
+  "policy": "full",
+  "q": "When did Jon host a dance competition?",
+  "gold": "May, 2023",
+  "pred": "May 2023",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 2
+ },
+ {
+  "policy": "full",
+  "q": "When did Caroline attend a pride parade in August?",
+  "gold": "The Friday before 14 August 2023",
+  "pred": "11 August 2023",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 2
+ },
+ {
+  "policy": "full",
+  "q": "When did Melanie's friend adopt a child?",
+  "gold": "2022",
+  "pred": "2022",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 10,
+  "category": 2
+ },
+ {
+  "policy": "full",
+  "q": "What book is Jon currently reading?",
+  "gold": "The Lean Startup",
+  "pred": "The Lean Startup",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 4
+ },
+ {
+  "policy": "full",
+  "q": "When did Caroline draw a self-portrait?",
+  "gold": "The week before 23 August 2023",
+  "pred": "Week of 14-20 August 2023",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 2
+ },
+ {
+  "policy": "full",
+  "q": "When was Jon in Rome?",
+  "gold": "June 2023",
+  "pred": "12 June 2023",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 2
+ },
+ {
+  "policy": "full",
+  "q": "When did Gina interview for a design internship?",
+  "gold": "10 May, 2023",
+  "pred": "10 May 2023",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 9,
+  "category": 2
+ },
+ {
+  "policy": "full",
+  "q": "Would Melanie be more interested in going to a national park or a theme park?",
+  "gold": "National park; she likes the outdoors",
+  "pred": "National park",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 3
+ },
+ {
+  "policy": "full",
+  "q": "What are Melanie's pets' names?",
+  "gold": "Oliver, Luna, Bailey",
+  "pred": "Luna, Oliver, and Bailey",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 18,
+  "category": 1
+ },
+ {
+  "policy": "full",
+  "q": "When did Melanie go to the park?",
+  "gold": "27 August 2023",
+  "pred": "27 August 2023",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 2
+ },
+ {
+  "policy": "full",
+  "q": "Which  classical musicians does Melanie enjoy listening to?",
+  "gold": "Bach and Mozart",
+  "pred": "Bach and Mozart",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 4
+ },
+ {
+  "policy": "full",
+  "q": "What instruments does Melanie play?",
+  "gold": "clarinet and violin",
+  "pred": "Clarinet and violin",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 16,
+  "category": 1
+ },
+ {
+  "policy": "full",
+  "q": "What did Gina make a limited edition line of?",
+  "gold": "Hoodies",
+  "pred": "clothing",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 4
+ },
+ {
+  "policy": "full",
+  "q": "Why are flowers important to Melanie?",
+  "gold": "They remind her to appreciate the small moments and were a part of her wedding decor",
+  "pred": "They represent growth, beauty, and appreciation of small moments, and they were an important part of her wedding decor.",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 10,
+  "category": 4
+ },
+ {
+  "policy": "full",
+  "q": "How does Gina describe the feeling that dance brings?",
+  "gold": "magical",
+  "pred": "Hard work, dedication, and joy",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 4
+ },
+ {
+  "policy": "full",
+  "q": "How did Melanie feel while watching the meteor shower?",
+  "gold": "in awe of the universe",
+  "pred": "Tiny and in awe of the universe",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 4
+ },
+ {
+  "policy": "full",
+  "q": "What did Caroline see at the council meeting for adoption?",
+  "gold": "many people wanting to create loving homes for children in need",
+  "pred": "An inspiring and emotional meeting",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 10,
+  "category": 4
+ },
+ {
+  "policy": "full",
+  "q": "What was Gina's favorite dancing memory?",
+  "gold": "Winning first place at a regionals dance competition",
+  "pred": "The evidence does not contain information about Gina's favorite dancing memory. Based on the evidence, the most specific memory mentioned is winning a trophy from a dance contest, which she described as a reminder of hard work, dedication, and joy.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 12,
+  "category": 4
+ },
+ {
+  "policy": "full",
+  "q": "When did Maria donate her car?",
+  "gold": "21 December 2022",
+  "pred": "21 December 2022",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 13,
+  "category": 2
+ },
+ {
+  "policy": "full",
+  "q": "What does Melanie do with her family on hikes?",
+  "gold": "Roast marshmallows, tell stories",
+  "pred": "Explore forests and nature",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 14,
+  "category": 1
+ },
+ {
+  "policy": "full",
+  "q": "What symbols are important to Caroline?",
+  "gold": "Rainbow flag, transgender symbol",
+  "pred": "Based on the evidence, the necklace from Caroline's grandma is an important symbol to Caroline, representing love, faith and strength and reminding her of her roots and family support.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 14,
+  "category": 1
+ },
+ {
+  "policy": "full",
+  "q": "Do Jon and Gina start businesses out of what they love?",
+  "gold": "Yes",
+  "pred": "Yes",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 19,
+  "category": 1
+ },
+ {
+  "policy": "full",
+  "q": "How did Melanie feel about her family after the accident?",
+  "gold": "They are important and mean the world to her",
+  "pred": "Grateful and appreciative that life is precious and that her family gives her strength, motivation, and support.",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 4
+ },
+ {
+  "policy": "full",
+  "q": "What kind of painting did Caroline share with Melanie on October 13, 2023?",
+  "gold": "An abstract painting with blue streaks on a wall.",
+  "pred": "Caroline did not share a painting with Melanie on October 13, 2023. Melanie shared an abstract painting with Caroline on that date.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 10,
+  "category": 4
+ },
+ {
+  "policy": "full",
+  "q": "What does Caroline's necklace symbolize?",
+  "gold": "love, faith, and strength",
+  "pred": "Love, faith and strength",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 4
+ },
+ {
+  "policy": "full",
+  "q": "What is the general sentiment about the upcoming grand opening?",
+  "gold": "excitement",
+  "pred": "Mutual excitement",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 4
+ },
+ {
+  "policy": "full",
+  "q": "What motivated Caroline to pursue counseling?",
+  "gold": "her own journey and the support she received, and how counseling improved her life",
+  "pred": "Her own past struggles with mental health and the helpful support she received",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 4
+ },
+ {
+  "policy": "full",
+  "q": "What setback did Melanie face in October 2023?",
+  "gold": "She got hurt and had to take a break from pottery.",
+  "pred": "An injury that required her to take a break from pottery",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 10,
+  "category": 4
+ },
+ {
+  "policy": "full",
+  "q": "What is Jon offering to the dancers at his dance studio?",
+  "gold": "One-on-one mentoring and training",
+  "pred": "Dance classes, workshops, and one-on-one mentoring",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 4
+ },
+ {
+  "policy": "full",
+  "q": "When did Melanie's family go on a roadtrip?",
+  "gold": "The weekend before 20 October 2023",
+  "pred": "The weekend before 20 October 2023",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 2
+ },
+ {
+  "policy": "full",
+  "q": "When did Jon and Gina decide to collaborate to create dance content?",
+  "gold": "21 July 2023",
+  "pred": "21 July 2023",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 2
+ },
+ {
+  "policy": "full",
+  "q": "Did Jon and Gina both participate in dance competitions?",
+  "gold": "Yes",
+  "pred": "Yes",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 33,
+  "category": 1
+ },
+ {
+  "policy": "full",
+  "q": "What workshop did Caroline attend recently?",
+  "gold": "LGBTQ+ counseling workshop",
+  "pred": "LGBTQ+ counseling workshop on 23 June 2023",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 4
+ },
+ {
+  "policy": "full",
+  "q": "What does Melanie say running has been great for?",
+  "gold": "Her mental health",
+  "pred": "her mental health and headspace",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 9,
+  "category": 4
+ },
+ {
+  "policy": "full",
+  "q": "When did Caroline and Melanie go to a pride fesetival together?",
+  "gold": "2022",
+  "pred": "2022",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 6,
+  "category": 2
+ },
+ {
+  "policy": "full",
+  "q": "How does Gina describe the studio that Jon has opened?",
+  "gold": "amazing",
+  "pred": "Based on the evidence, Gina complimented the appearance of his dance studio.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 4
+ },
+ {
+  "policy": "full",
+  "q": "What is Jon's favorite style of dance?",
+  "gold": "Contemporary",
+  "pred": "Contemporary",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 12,
+  "category": 4
+ },
+ {
+  "policy": "full",
+  "q": "When did Caroline join a new activist group?",
+  "gold": "The Tuesday before 20 July 2023",
+  "pred": "16 July 2023",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 2
+ },
+ {
+  "policy": "full",
+  "q": "What painting did Melanie show to Caroline on October 13, 2023?",
+  "gold": "A painting inspired by sunsets with a pink sky.",
+  "pred": "An abstract painting with peaceful blue streaks portraying tranquility and a serene vibe with vibrant colors",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 10,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "When did Melanie paint a sunrise?",
+  "gold": "2022",
+  "pred": "The evidence does not mention Melanie. Maria (not Melanie) is mentioned as creating paintings, but no specific painting of a sunrise is described in the evidence.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 2
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "When did Jon host a dance competition?",
+  "gold": "May, 2023",
+  "pred": "The evidence does not contain information about John hosting a dance competition.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 2
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "When did Caroline attend a pride parade in August?",
+  "gold": "The Friday before 14 August 2023",
+  "pred": "The evidence does not contain any information about Caroline or anyone attending a pride parade in August.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 2
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "When did Melanie's friend adopt a child?",
+  "gold": "2022",
+  "pred": "The evidence does not mention anyone named Melanie or any child adoption. The evidence only discusses Maria and John, with Maria adopting dogs (Shadow and Coco) and volunteering at shelters.\n\nNo adoption of a child is documented.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 10,
+  "category": 2
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "What book is Jon currently reading?",
+  "gold": "The Lean Startup",
+  "pred": "The evidence does not contain information about what book John is currently reading.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "When did Caroline draw a self-portrait?",
+  "gold": "The week before 23 August 2023",
+  "pred": "The evidence does not mention Caroline or any self-portrait. The evidence only discusses Maria's paintings inspired by her travels, particularly castles from London.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 2
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "When was Jon in Rome?",
+  "gold": "June 2023",
+  "pred": "The evidence does not contain any information about John (or Jon) being in Rome.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 2
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "When did Gina interview for a design internship?",
+  "gold": "10 May, 2023",
+  "pred": "The evidence does not contain any information about Gina or a design internship.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 9,
+  "category": 2
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "Would Melanie be more interested in going to a national park or a theme park?",
+  "gold": "National park; she likes the outdoors",
+  "pred": "Based on the evidence provided, there is no information about anyone named Melanie. The evidence only discusses John and Maria's outdoor activities and preferences.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 3
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "What are Melanie's pets' names?",
+  "gold": "Oliver, Luna, Bailey",
+  "pred": "The evidence does not mention anyone named Melanie or their pets.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 18,
+  "category": 1
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "When did Melanie go to the park?",
+  "gold": "27 August 2023",
+  "pred": "No evidence of Melanie visiting the park. The evidence mentions John and Maria's park visits, but no one named Melanie.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 2
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "Which  classical musicians does Melanie enjoy listening to?",
+  "gold": "Bach and Mozart",
+  "pred": "The evidence does not contain information about Melanie or any classical musicians she enjoys listening to. The evidence only discusses Maria and John.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "What instruments does Melanie play?",
+  "gold": "clarinet and violin",
+  "pred": "The evidence does not contain information about Melanie or what instruments she plays. The evidence only discusses Maria and John.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 16,
+  "category": 1
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "What did Gina make a limited edition line of?",
+  "gold": "Hoodies",
+  "pred": "The evidence does not contain any information about Gina or what she made a limited edition line of.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "Why are flowers important to Melanie?",
+  "gold": "They remind her to appreciate the small moments and were a part of her wedding decor",
+  "pred": "The evidence does not contain information about Melanie or why flowers are important to her. The evidence only discusses Maria's values, activities, and beliefs.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 10,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "How does Gina describe the feeling that dance brings?",
+  "gold": "magical",
+  "pred": "The evidence does not contain any information about Gina or how Gina describes the feeling that dance brings.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "How did Melanie feel while watching the meteor shower?",
+  "gold": "in awe of the universe",
+  "pred": "The evidence does not contain any information about Melanie or anyone watching a meteor shower.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "What did Caroline see at the council meeting for adoption?",
+  "gold": "many people wanting to create loving homes for children in need",
+  "pred": "The evidence does not mention Caroline or a council meeting for adoption.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 10,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "What was Gina's favorite dancing memory?",
+  "gold": "Winning first place at a regionals dance competition",
+  "pred": "The evidence does not contain any information about Gina or her favorite dancing memory.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 12,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "When did Maria donate her car?",
+  "gold": "21 December 2022",
+  "pred": "The evidence does not contain information about Maria donating her car. Maria contributed to a fire truck donation campaign, but there is no mention of her donating a car.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 13,
+  "category": 2
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "What does Melanie do with her family on hikes?",
+  "gold": "Roast marshmallows, tell stories",
+  "pred": "No evidence about Melanie in the provided information.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 14,
+  "category": 1
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "What symbols are important to Caroline?",
+  "gold": "Rainbow flag, transgender symbol",
+  "pred": "The evidence provided is about Maria and John, not Caroline. Based on the evidence, there is no information about Caroline or what symbols are important to her.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 14,
+  "category": 1
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "Do Jon and Gina start businesses out of what they love?",
+  "gold": "Yes",
+  "pred": "No inference can be made from the evidence. The evidence discusses John and Maria, not Jon and Gina.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 19,
+  "category": 1
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "How did Melanie feel about her family after the accident?",
+  "gold": "They are important and mean the world to her",
+  "pred": "Based on the evidence provided, there is no person named Melanie mentioned. The evidence discusses Maria, who was in a car accident on 2 July 2023. There is no information about how anyone felt about their family specifically after that accident.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "What kind of painting did Caroline share with Melanie on October 13, 2023?",
+  "gold": "An abstract painting with blue streaks on a wall.",
+  "pred": "The evidence does not contain information about Caroline sharing a painting with Melanie on October 13, 2023. The evidence only discusses Maria's paintings and activities.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 10,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "What does Caroline's necklace symbolize?",
+  "gold": "love, faith, and strength",
+  "pred": "Her faith",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "What is the general sentiment about the upcoming grand opening?",
+  "gold": "excitement",
+  "pred": "The evidence does not contain information about an upcoming grand opening or sentiment about one.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "What motivated Caroline to pursue counseling?",
+  "gold": "her own journey and the support she received, and how counseling improved her life",
+  "pred": "The evidence does not mention anyone named Caroline. The evidence only discusses Maria and John.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "What setback did Melanie face in October 2023?",
+  "gold": "She got hurt and had to take a break from pottery.",
+  "pred": "The evidence does not contain information about Melanie or any setback in October 2023. The evidence only discusses Maria's activities and experiences.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 10,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "What is Jon offering to the dancers at his dance studio?",
+  "gold": "One-on-one mentoring and training",
+  "pred": "The evidence does not mention Jon offering anything to dancers at a dance studio. The evidence is about John (not Jon) who attends a yoga studio, not a dance studio.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "When did Melanie's family go on a roadtrip?",
+  "gold": "The weekend before 20 October 2023",
+  "pred": "No evidence about Melanie in the provided information.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 2
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "When did Jon and Gina decide to collaborate to create dance content?",
+  "gold": "21 July 2023",
+  "pred": "The evidence does not contain information about Jon and Gina deciding to collaborate to create dance content. The evidence discusses John and Maria, not Jon and Gina.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 2
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "Did Jon and Gina both participate in dance competitions?",
+  "gold": "Yes",
+  "pred": "No evidence about Jon or Gina participating in dance competitions. The evidence is about John and Maria.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 33,
+  "category": 1
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "What workshop did Caroline attend recently?",
+  "gold": "LGBTQ+ counseling workshop",
+  "pred": "The evidence does not mention Caroline or any workshop she attended. The evidence only discusses activities of John and Maria.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "What does Melanie say running has been great for?",
+  "gold": "Her mental health",
+  "pred": "The evidence does not mention Melanie or what running has been great for. The evidence only discusses Maria and John's fitness activities and experiences.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 9,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "When did Caroline and Melanie go to a pride fesetival together?",
+  "gold": "2022",
+  "pred": "The evidence does not contain any information about Caroline and Melanie or a pride festival.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 6,
+  "category": 2
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "How does Gina describe the studio that Jon has opened?",
+  "gold": "amazing",
+  "pred": "The evidence does not contain any information about Gina or Jon opening a studio. The evidence is about John (not Jon) who attends a yoga studio, and there is no mention of anyone named Gina.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "What is Jon's favorite style of dance?",
+  "gold": "Contemporary",
+  "pred": "The evidence does not contain information about Jon's favorite style of dance. The closest reference is that John and his family attended a live music event where they danced, but no specific dance style preference is mentioned.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 12,
+  "category": 4
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "When did Caroline join a new activist group?",
+  "gold": "The Tuesday before 20 July 2023",
+  "pred": "The evidence does not mention Caroline. The evidence only discusses John and Maria's activities.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 2
+ },
+ {
+  "policy": "delete-oldest",
+  "q": "What painting did Melanie show to Caroline on October 13, 2023?",
+  "gold": "A painting inspired by sunsets with a pink sky.",
+  "pred": "I cannot determine this from the evidence. The evidence discusses Maria (not Melanie) and her interactions with John (not Caroline), and does not mention any painting shown on October 13, 2023.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 10,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "When did Melanie paint a sunrise?",
+  "gold": "2022",
+  "pred": "2022",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 2
+ },
+ {
+  "policy": "regen",
+  "q": "When did Jon host a dance competition?",
+  "gold": "May, 2023",
+  "pred": "May 2023",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 2
+ },
+ {
+  "policy": "regen",
+  "q": "When did Caroline attend a pride parade in August?",
+  "gold": "The Friday before 14 August 2023",
+  "pred": "11 August 2023",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 2
+ },
+ {
+  "policy": "regen",
+  "q": "When did Melanie's friend adopt a child?",
+  "gold": "2022",
+  "pred": "2022",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 10,
+  "category": 2
+ },
+ {
+  "policy": "regen",
+  "q": "What book is Jon currently reading?",
+  "gold": "The Lean Startup",
+  "pred": "The Lean Startup",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "When did Caroline draw a self-portrait?",
+  "gold": "The week before 23 August 2023",
+  "pred": "August 2023",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 2
+ },
+ {
+  "policy": "regen",
+  "q": "When was Jon in Rome?",
+  "gold": "June 2023",
+  "pred": "I cannot find evidence that Jon was in Rome. The evidence shows Jon visited Paris on 28 January 2023, but there is no mention of a trip to Rome.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 2
+ },
+ {
+  "policy": "regen",
+  "q": "When did Gina interview for a design internship?",
+  "gold": "10 May, 2023",
+  "pred": "10 May 2023",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 9,
+  "category": 2
+ },
+ {
+  "policy": "regen",
+  "q": "Would Melanie be more interested in going to a national park or a theme park?",
+  "gold": "National park; she likes the outdoors",
+  "pred": "national park",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 3
+ },
+ {
+  "policy": "regen",
+  "q": "What are Melanie's pets' names?",
+  "gold": "Oliver, Luna, Bailey",
+  "pred": "Luna, Oliver, and Bailey",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 18,
+  "category": 1
+ },
+ {
+  "policy": "regen",
+  "q": "When did Melanie go to the park?",
+  "gold": "27 August 2023",
+  "pred": "No specific date found, but family park outings occurred around June-July 2023 based on family activities evidence",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 2
+ },
+ {
+  "policy": "regen",
+  "q": "Which  classical musicians does Melanie enjoy listening to?",
+  "gold": "Bach and Mozart",
+  "pred": "The evidence does not contain specific information about which classical musicians Melanie enjoys listening to. The evidence only mentions \"Melanie musical preference\" and \"Caroline musical preference\" without providing details about the actual musicians.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What instruments does Melanie play?",
+  "gold": "clarinet and violin",
+  "pred": "Clarinet",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 16,
+  "category": 1
+ },
+ {
+  "policy": "regen",
+  "q": "What did Gina make a limited edition line of?",
+  "gold": "Hoodies",
+  "pred": "clothing/fashion pieces",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "Why are flowers important to Melanie?",
+  "gold": "They remind her to appreciate the small moments and were a part of her wedding decor",
+  "pred": "Flowers symbolize growth and beauty",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 10,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "How does Gina describe the feeling that dance brings?",
+  "gold": "magical",
+  "pred": "Freedom and self-expression",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "How did Melanie feel while watching the meteor shower?",
+  "gold": "in awe of the universe",
+  "pred": "awe-inspired and appreciative of life",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What did Caroline see at the council meeting for adoption?",
+  "gold": "many people wanting to create loving homes for children in need",
+  "pred": "The evidence does not specify what Caroline saw at the council meeting. The evidence only states that an \"Adoption council meeting\" occurred on \"7 July 2023\" and that Caroline was \"determined.\"",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 10,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What was Gina's favorite dancing memory?",
+  "gold": "Winning first place at a regionals dance competition",
+  "pred": "Gina's dance classes",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 12,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "When did Maria donate her car?",
+  "gold": "21 December 2022",
+  "pred": "21 December 2022",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 13,
+  "category": 2
+ },
+ {
+  "policy": "regen",
+  "q": "What does Melanie do with her family on hikes?",
+  "gold": "Roast marshmallows, tell stories",
+  "pred": "Hiked forest",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 14,
+  "category": 1
+ },
+ {
+  "policy": "regen",
+  "q": "What symbols are important to Caroline?",
+  "gold": "Rainbow flag, transgender symbol",
+  "pred": "Based on the evidence, symbols important to Caroline include:\n\n- Red/blue colors (in artwork about trans journey)\n- Stained glass (created for church showing trans journey)\n- Art generally (used during gender transition for exploration and healing)",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 14,
+  "category": 1
+ },
+ {
+  "policy": "regen",
+  "q": "Do Jon and Gina start businesses out of what they love?",
+  "gold": "Yes",
+  "pred": "Yes",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 19,
+  "category": 1
+ },
+ {
+  "policy": "regen",
+  "q": "How did Melanie feel about her family after the accident?",
+  "gold": "They are important and mean the world to her",
+  "pred": "Grateful for their resilience and support during a scary time",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What kind of painting did Caroline share with Melanie on October 13, 2023?",
+  "gold": "An abstract painting with blue streaks on a wall.",
+  "pred": "Abstract art exploring self-expression",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 10,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What does Caroline's necklace symbolize?",
+  "gold": "love, faith, and strength",
+  "pred": "love, faith, strength",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What is the general sentiment about the upcoming grand opening?",
+  "gold": "excitement",
+  "pred": "Excited and positive",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What motivated Caroline to pursue counseling?",
+  "gold": "her own journey and the support she received, and how counseling improved her life",
+  "pred": "Caroline's mental health struggles and the pride parade experience",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What setback did Melanie face in October 2023?",
+  "gold": "She got hurt and had to take a break from pottery.",
+  "pred": "Melanie's son was in an accident",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 10,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What is Jon offering to the dancers at his dance studio?",
+  "gold": "One-on-one mentoring and training",
+  "pred": "Mentoring",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 8,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "When did Melanie's family go on a roadtrip?",
+  "gold": "The weekend before 20 October 2023",
+  "pred": "The evidence does not mention Melanie's family going on a roadtrip. The only roadtrip mentioned is Maria's family road trip to Oregon when she was younger.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 2
+ },
+ {
+  "policy": "regen",
+  "q": "When did Jon and Gina decide to collaborate to create dance content?",
+  "gold": "21 July 2023",
+  "pred": "21 July 2023",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 2
+ },
+ {
+  "policy": "regen",
+  "q": "Did Jon and Gina both participate in dance competitions?",
+  "gold": "Yes",
+  "pred": "Yes",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 33,
+  "category": 1
+ },
+ {
+  "policy": "regen",
+  "q": "What workshop did Caroline attend recently?",
+  "gold": "LGBTQ+ counseling workshop",
+  "pred": "LGBTQ+ workshop on 23 June 2023",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What does Melanie say running has been great for?",
+  "gold": "Her mental health",
+  "pred": "mental health",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 9,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "When did Caroline and Melanie go to a pride fesetival together?",
+  "gold": "2022",
+  "pred": "Based on the evidence provided, there is no specific date mentioned for when Caroline and Melanie attended a pride festival together. The evidence mentions that a pride parade inspired LGBTQ advocacy at t+98d, but this does not explicitly state that Caroline and Melanie attended together or provide a specific date.",
+  "correct": false,
+  "tier": 2,
+  "redundancy": 6,
+  "category": 2
+ },
+ {
+  "policy": "regen",
+  "q": "How does Gina describe the studio that Jon has opened?",
+  "gold": "amazing",
+  "pred": "No such description in evidence. Jon was searching for and preparing a dance studio space, but evidence shows the studio was on \"tenuous grounds\" on 21 July 2023 and there's no evidence it successfully opened.",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 5,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "What is Jon's favorite style of dance?",
+  "gold": "Contemporary",
+  "pred": "contemporary dance",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 12,
+  "category": 4
+ },
+ {
+  "policy": "regen",
+  "q": "When did Caroline join a new activist group?",
+  "gold": "The Tuesday before 20 July 2023",
+  "pred": "16 July 2023",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 7,
+  "category": 2
+ },
+ {
+  "policy": "regen",
+  "q": "What painting did Melanie show to Caroline on October 13, 2023?",
+  "gold": "A painting inspired by sunsets with a pink sky.",
+  "pred": "sunset piece",
+  "correct": true,
+  "tier": 2,
+  "redundancy": 10,
+  "category": 4
+ }
+]

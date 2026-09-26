@@ -1,0 +1,2162 @@
+[
+ {
+  "condition": "closed-book",
+  "category": "open-domain",
+  "question": "Would Caroline pursue writing as a career option?",
+  "gold": "LIkely no; though she likes reading, she wants to be a counselor",
+  "pred": "No",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did Caroline apply to adoption agencies?",
+  "gold": "The week of 23 August 2023",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "multi-hop",
+  "question": "What symbols are important to Caroline?",
+  "gold": "Rainbow flag, transgender symbol",
+  "pred": "No symbols are specified.",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What happened to Melanie's son on their road trip?",
+  "gold": "He got into an accident",
+  "pred": "He got sick.",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What did Caroline find in her neighborhood during her walk?",
+  "gold": "a rainbow sidewalk",
+  "pred": "No evidence provided",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "open-domain",
+  "question": "Would Caroline still want to pursue counseling as a career if she hadn't received support growing up?",
+  "gold": "Likely no",
+  "pred": "Probably not.",
+  "correct": true
+ },
+ {
+  "condition": "closed-book",
+  "category": "multi-hop",
+  "question": "What book did Melanie read from Caroline's suggestion?",
+  "gold": "\"Becoming Nicole\"",
+  "pred": "Pride and Prejudice",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What painting did Melanie show to Caroline on October 13, 2023?",
+  "gold": "A painting inspired by sunsets with a pink sky.",
+  "pred": "The Mona Lisa",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What did Melanie and her family see during their camping trip last year?",
+  "gold": "Perseid meteor shower",
+  "pred": "No details provided",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did Melanie go to the pottery workshop?",
+  "gold": "The Friday before 15 July 2023",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "open-domain",
+  "question": "What would Caroline's political leaning likely be?",
+  "gold": "Liberal",
+  "pred": "Cannot be determined",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "How did Melanie feel about her family supporting her?",
+  "gold": "She appreciated them a lot",
+  "pred": "Grateful and supported",
+  "correct": true
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did Caroline have a picnic?",
+  "gold": "The week before 6 July 2023",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What kind of place does Caroline want to create for people?",
+  "gold": "a safe and inviting place for people to grow",
+  "pred": "A welcoming, inclusive space",
+  "correct": true
+ },
+ {
+  "condition": "closed-book",
+  "category": "multi-hop",
+  "question": "What books has Melanie read?",
+  "gold": "\"Nothing is Impossible\", \"Charlotte's Web\"",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What does Melanie say running has been great for?",
+  "gold": "Her mental health",
+  "pred": "Her mental health",
+  "correct": true
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "Which  classical musicians does Melanie enjoy listening to?",
+  "gold": "Bach and Mozart",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did Melanie go to the park?",
+  "gold": "27 August 2023",
+  "pred": "No evidence provided.",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did Caroline go to a pride parade during the summer?",
+  "gold": "The week before 3 July 2023",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What activity did Caroline used to do with her dad?",
+  "gold": "Horseback riding",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "Why are flowers important to Melanie?",
+  "gold": "They remind her to appreciate the small moments and were a part of her wedding decor",
+  "pred": "Because they bring her joy.",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What kind of books does Caroline have in her library?",
+  "gold": "kids' books - classics, stories from different cultures, educational books",
+  "pred": "Unknown",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What inspired Caroline's painting for the art show?",
+  "gold": "visiting an LGBTQ center and wanting to capture unity and strength",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When is Melanie planning on going camping?",
+  "gold": "June 2023",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did Caroline encounter people on a hike and have a negative experience?",
+  "gold": "The week before 25 August 2023",
+  "pred": "No date stated.",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did Melanie go to the museum?",
+  "gold": "5 July 2023",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What does Melanie think about Caroline's decision to adopt?",
+  "gold": "she thinks Caroline is doing something amazing and will be an awesome mom",
+  "pred": "No information available",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "How did Melanie's son handle the accident?",
+  "gold": "He was scared but reassured by his family",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "multi-hop",
+  "question": "What did Caroline research?",
+  "gold": "Adoption agencies",
+  "pred": "No information provided",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "multi-hop",
+  "question": "What do Melanie's kids like?",
+  "gold": "dinosaurs, nature",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "How does Gina describe the studio that Jon has opened?",
+  "gold": "amazing",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "Why did Gina combine her clothing business with dance?",
+  "gold": "she is passionate about dance and fashion",
+  "pred": "To create dancewear.",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did Gina team up with a local artist for some cool designs?",
+  "gold": "February, 2023",
+  "pred": "No date given",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "According to Gina, what makes Jon a perfect mentor and guide?",
+  "gold": "His positivity and determination",
+  "pred": "His experience, patience, and guidance",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What made Gina choose the furniture and decor for her store?",
+  "gold": "personal style and customer comfort",
+  "pred": "Her personal taste.",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What is the general sentiment about the upcoming grand opening?",
+  "gold": "excitement",
+  "pred": "Positive and enthusiastic",
+  "correct": true
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did Gina go to a dance class with a group of friends?",
+  "gold": "21 July 2023",
+  "pred": "No evidence available",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did Jon start to go to the gym?",
+  "gold": "March, 2023",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did Jon start expanding his studio's social media presence?",
+  "gold": "April, 2023",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "How does Gina stay confident in her business?",
+  "gold": "By reminding herself of her successes and progress, having a support system, and focusing on why she started",
+  "pred": "Believing in herself and her business",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "How does Jon use the clipboard with a notepad attached to it?",
+  "gold": "To set goals, track achievements, and find areas for improvement",
+  "pred": "To take notes.",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What kind of flooring is Jon looking for in his dance studio?",
+  "gold": "Marley flooring",
+  "pred": "Sprung hardwood flooring",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did Gina start being recognized by fashion editors?",
+  "gold": "July 2023",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What did Gina find for her clothing store on 1 February, 2023?",
+  "gold": "The perfect spot for her store",
+  "pred": "A new supplier",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "Where is Gina's fashion internship?",
+  "gold": "fashion department of an international company",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did Jon start reading \"The Lean Startup\"?",
+  "gold": "May, 2023",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What does Gina say to Jon about the grand opening?",
+  "gold": "Let's live it up and make some great memories",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did Gina launch an ad campaign for her store?",
+  "gold": "29 January, 2023",
+  "pred": "Unknown",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What plans does Jon have after receiving advice at the networking event?",
+  "gold": "Sprucing up his business plan, tweaking his pitch to investors, and working on an online platform.",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When was Jon in Paris?",
+  "gold": "28 January 2023",
+  "pred": "Not stated.",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What did Gina receive from a dance contest?",
+  "gold": "a trophy",
+  "pred": "A prize",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "Why did Jon shut down his bank account?",
+  "gold": "for his business",
+  "pred": "No reason provided",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "multi-hop",
+  "question": "How did Gina promote her clothes store?",
+  "gold": "worked with an artist to make unique fashion pieces, made limited-edition sweatshirts, got some new offers and promotions for online store, developed a video presentation showing how to style her pieces",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "multi-hop",
+  "question": "Which events has Jon participated in to promote his business venture?",
+  "gold": "fair, networking events, dance competition",
+  "pred": "No events specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did Jon receive mentorship to promote his venture?",
+  "gold": "15 June, 2023",
+  "pred": "No date given.",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What offer does Gina make to Jon regarding social media?",
+  "gold": "Helping with making content and managing his social media accounts.",
+  "pred": "To manage Jon\u2019s social media.",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When Jon is planning to open his dance studio?",
+  "gold": "20 June, 2023",
+  "pred": "Not specified.",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "How is Gina's store doing?",
+  "gold": "The store is doing great.",
+  "pred": "No information available.",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did Gina interview for a design internship?",
+  "gold": "10 May, 2023",
+  "pred": "Cannot be determined.",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What book is Jon currently reading?",
+  "gold": "The Lean Startup",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did John have a party with veterans?",
+  "gold": "The Friday before 20 May 2023",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "How did the extra funding help the school shown in the photo shared by John?",
+  "gold": "Enabled needed repairs and renovations, making the learning environment safer and more modern for students.",
+  "pred": "Improved the school\u2019s facilities.",
+  "correct": true
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did Maria take up community work with her church friends?",
+  "gold": "August 4, 2023",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "Who inspired Maria to start volunteering?",
+  "gold": "Her aunt",
+  "pred": "Her mother.",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What kind of online group did John join?",
+  "gold": "service-focused online group",
+  "pred": "No evidence provided",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "open-domain",
+  "question": "Would John be considered a patriotic person?",
+  "gold": "Yes",
+  "pred": "No",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did Maria go hiking with her church friends?",
+  "gold": "The weekend before 22 July 2023",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What happened to John's job in August 2023?",
+  "gold": "John lost his job at the mechanical engineering company.",
+  "pred": "No information provided.",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What did Maria plan to do later on the evening of 7 July, 2023?",
+  "gold": "have dinner with friends from the gym",
+  "pred": "No plan specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "multi-hop",
+  "question": "What events is Maria planning for the homeless shelter funraiser?",
+  "gold": "Chili cook-off, ring-toss tournament",
+  "pred": "No events specified.",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What did Maria say it was like being at the waterfall in Oregon?",
+  "gold": "Like being in a fairy tale",
+  "pred": "Like being in a fairy tale.",
+  "correct": true
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What yoga activity has Maria been trying to improve her strength and endurance?",
+  "gold": "kundalini yoga",
+  "pred": "Yoga practice",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "multi-hop",
+  "question": "What areas of the U.S. has John been to or is planning to go to?",
+  "gold": "Pacific northwest, east coast",
+  "pred": "Cannot be determined",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What did John do the week before August 3, 2023 involving his kids?",
+  "gold": "Had a meaningful experience at a military memorial",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What did John and the veterans do during the small party?",
+  "gold": "share stories and make connections",
+  "pred": "They talked and drank together.",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What does Maria say she feels when doing upside-down yoga poses?",
+  "gold": "Free and light",
+  "pred": "Dizzy",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What is the name of Maria's puppy she got two weeks before August 11, 2023?",
+  "gold": "Coco",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "multi-hop",
+  "question": "What are Maria's dogs' names?",
+  "gold": "Coco, Shadow",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "multi-hop",
+  "question": "What outdoor activities has John done with his colleagues?",
+  "gold": "Hiking, mountaineering",
+  "pred": "No information available",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "open-domain",
+  "question": "Would John be open to moving to another country?",
+  "gold": "No, he has goals specifically in the U.S. like joining the military and running for office.",
+  "pred": "No",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "open-domain",
+  "question": "What attributes describe John?",
+  "gold": "Selfless, family-oriented, passionate, rational",
+  "pred": "None specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What event is Maria getting ready for at the shelter on May 25, 2023?",
+  "gold": "fundraiser",
+  "pred": "The adoption event",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "How does John describe the support he received during his journey to becoming assistant manager?",
+  "gold": "having support at home and his own grit",
+  "pred": "Invaluable support from colleagues and mentors",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "multi-hop",
+  "question": "Where has Maria made friends?",
+  "gold": "homeless shelter, gym, church",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What did John take away from visiting the veteran's hospital?",
+  "gold": "appreciation for giving back",
+  "pred": "A deeper appreciation for veterans\u2019 sacrifices.",
+  "correct": true
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did John take a road trip to the Pacific Northwest?",
+  "gold": "2022",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "single-hop",
+  "question": "What topic has John been blogging about recently?",
+  "gold": "politics and the government",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "temporal",
+  "question": "When did Maria get Coco?",
+  "gold": "Two weeks before 11 August 2023",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "multi-hop",
+  "question": "What type of volunteering have John and Maria both done?",
+  "gold": "Volunteering at a homeless shelter",
+  "pred": "Unknown",
+  "correct": false
+ },
+ {
+  "condition": "closed-book",
+  "category": "multi-hop",
+  "question": "What damages have happened to John's car?",
+  "gold": "Broken windshield, Car broke down",
+  "pred": "No evidence provided.",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "open-domain",
+  "question": "Would Caroline pursue writing as a career option?",
+  "gold": "LIkely no; though she likes reading, she wants to be a counselor",
+  "pred": "No",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did Caroline apply to adoption agencies?",
+  "gold": "The week of 23 August 2023",
+  "pred": "No date given.",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "multi-hop",
+  "question": "What symbols are important to Caroline?",
+  "gold": "Rainbow flag, transgender symbol",
+  "pred": "A cross necklace",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What happened to Melanie's son on their road trip?",
+  "gold": "He got into an accident",
+  "pred": "Not mentioned",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What did Caroline find in her neighborhood during her walk?",
+  "gold": "a rainbow sidewalk",
+  "pred": "Peace",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "open-domain",
+  "question": "Would Caroline still want to pursue counseling as a career if she hadn't received support growing up?",
+  "gold": "Likely no",
+  "pred": "No",
+  "correct": true
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "multi-hop",
+  "question": "What book did Melanie read from Caroline's suggestion?",
+  "gold": "\"Becoming Nicole\"",
+  "pred": "No book is specified.",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What painting did Melanie show to Caroline on October 13, 2023?",
+  "gold": "A painting inspired by sunsets with a pink sky.",
+  "pred": "A painting celebrating London\u2019s history and beauty",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What did Melanie and her family see during their camping trip last year?",
+  "gold": "Perseid meteor shower",
+  "pred": "Peaceful natural scenery",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did Melanie go to the pottery workshop?",
+  "gold": "The Friday before 15 July 2023",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "open-domain",
+  "question": "What would Caroline's political leaning likely be?",
+  "gold": "Liberal",
+  "pred": "Progressive (left-leaning)",
+  "correct": true
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "How did Melanie feel about her family supporting her?",
+  "gold": "She appreciated them a lot",
+  "pred": "Supported and encouraged",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did Caroline have a picnic?",
+  "gold": "The week before 6 July 2023",
+  "pred": "t+212d",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What kind of place does Caroline want to create for people?",
+  "gold": "a safe and inviting place for people to grow",
+  "pred": "A supportive, welcoming community",
+  "correct": true
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "multi-hop",
+  "question": "What books has Melanie read?",
+  "gold": "\"Nothing is Impossible\", \"Charlotte's Web\"",
+  "pred": "No books are mentioned.",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What does Melanie say running has been great for?",
+  "gold": "Her mental health",
+  "pred": "Mental health",
+  "correct": true
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "Which  classical musicians does Melanie enjoy listening to?",
+  "gold": "Bach and Mozart",
+  "pred": "No specific classical musicians mentioned",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did Melanie go to the park?",
+  "gold": "27 August 2023",
+  "pred": "A few times a week",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did Caroline go to a pride parade during the summer?",
+  "gold": "The week before 3 July 2023",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What activity did Caroline used to do with her dad?",
+  "gold": "Horseback riding",
+  "pred": "Go on walks",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "Why are flowers important to Melanie?",
+  "gold": "They remind her to appreciate the small moments and were a part of her wedding decor",
+  "pred": "Appreciating life\u2019s small moments",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What kind of books does Caroline have in her library?",
+  "gold": "kids' books - classics, stories from different cultures, educational books",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What inspired Caroline's painting for the art show?",
+  "gold": "visiting an LGBTQ center and wanting to capture unity and strength",
+  "pred": "A trip to London, especially its castles and architecture.",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When is Melanie planning on going camping?",
+  "gold": "June 2023",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did Caroline encounter people on a hike and have a negative experience?",
+  "gold": "The week before 25 August 2023",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did Melanie go to the museum?",
+  "gold": "5 July 2023",
+  "pred": "Unknown",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What does Melanie think about Caroline's decision to adopt?",
+  "gold": "she thinks Caroline is doing something amazing and will be an awesome mom",
+  "pred": "She supports Caroline\u2019s decision.",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "How did Melanie's son handle the accident?",
+  "gold": "He was scared but reassured by his family",
+  "pred": "Stayed calm, asked for assistance, and safely made it home.",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "multi-hop",
+  "question": "What did Caroline research?",
+  "gold": "Adoption agencies",
+  "pred": "Policies to promote better education and infrastructure",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "multi-hop",
+  "question": "What do Melanie's kids like?",
+  "gold": "dinosaurs, nature",
+  "pred": "Outdoor outings, board games, and movie nights",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "How does Gina describe the studio that Jon has opened?",
+  "gold": "amazing",
+  "pred": "A chill yoga studio with excellent instructors",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "Why did Gina combine her clothing business with dance?",
+  "gold": "she is passionate about dance and fashion",
+  "pred": "No reason stated",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did Gina team up with a local artist for some cool designs?",
+  "gold": "February, 2023",
+  "pred": "t+212d",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "According to Gina, what makes Jon a perfect mentor and guide?",
+  "gold": "His positivity and determination",
+  "pred": "His dedication to helping others and improving education",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What made Gina choose the furniture and decor for her store?",
+  "gold": "personal style and customer comfort",
+  "pred": "London\u2019s castles and architecture",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What is the general sentiment about the upcoming grand opening?",
+  "gold": "excitement",
+  "pred": "Positive and excited",
+  "correct": true
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did Gina go to a dance class with a group of friends?",
+  "gold": "21 July 2023",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did Jon start to go to the gym?",
+  "gold": "March, 2023",
+  "pred": "t+111d",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did Jon start expanding his studio's social media presence?",
+  "gold": "April, 2023",
+  "pred": "t+122d",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "How does Gina stay confident in her business?",
+  "gold": "By reminding herself of her successes and progress, having a support system, and focusing on why she started",
+  "pred": "Support from loved ones and self-belief",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "How does Jon use the clipboard with a notepad attached to it?",
+  "gold": "To set goals, track achievements, and find areas for improvement",
+  "pred": "To take notes on local politics and community ideas.",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What kind of flooring is Jon looking for in his dance studio?",
+  "gold": "Marley flooring",
+  "pred": "Sprung flooring",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did Gina start being recognized by fashion editors?",
+  "gold": "July 2023",
+  "pred": "Not stated in the evidence",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What did Gina find for her clothing store on 1 February, 2023?",
+  "gold": "The perfect spot for her store",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "Where is Gina's fashion internship?",
+  "gold": "fashion department of an international company",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did Jon start reading \"The Lean Startup\"?",
+  "gold": "May, 2023",
+  "pred": "Not stated in the evidence",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What does Gina say to Jon about the grand opening?",
+  "gold": "Let's live it up and make some great memories",
+  "pred": "Not provided",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did Gina launch an ad campaign for her store?",
+  "gold": "29 January, 2023",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What plans does Jon have after receiving advice at the networking event?",
+  "gold": "Sprucing up his business plan, tweaking his pitch to investors, and working on an online platform.",
+  "pred": "Consult local leaders and organizations for support and ideas.",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When was Jon in Paris?",
+  "gold": "28 January 2023",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What did Gina receive from a dance contest?",
+  "gold": "a trophy",
+  "pred": "A trophy",
+  "correct": true
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "Why did Jon shut down his bank account?",
+  "gold": "for his business",
+  "pred": "No reason is given.",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "multi-hop",
+  "question": "How did Gina promote her clothes store?",
+  "gold": "worked with an artist to make unique fashion pieces, made limited-edition sweatshirts, got some new offers and promotions for online store, developed a video presentation showing how to style her pieces",
+  "pred": "Community events and networking",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "multi-hop",
+  "question": "Which events has Jon participated in to promote his business venture?",
+  "gold": "fair, networking events, dance competition",
+  "pred": "Community fundraisers and charity runs",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did Jon receive mentorship to promote his venture?",
+  "gold": "15 June, 2023",
+  "pred": "t+0d",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What offer does Gina make to Jon regarding social media?",
+  "gold": "Helping with making content and managing his social media accounts.",
+  "pred": "To promote his fundraiser on social media",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When Jon is planning to open his dance studio?",
+  "gold": "20 June, 2023",
+  "pred": "No dance studio opening is mentioned.",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "How is Gina's store doing?",
+  "gold": "The store is doing great.",
+  "pred": "No information provided",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did Gina interview for a design internship?",
+  "gold": "10 May, 2023",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What book is Jon currently reading?",
+  "gold": "The Lean Startup",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did John have a party with veterans?",
+  "gold": "The Friday before 20 May 2023",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "How did the extra funding help the school shown in the photo shared by John?",
+  "gold": "Enabled needed repairs and renovations, making the learning environment safer and more modern for students.",
+  "pred": "No evidence provided",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did Maria take up community work with her church friends?",
+  "gold": "August 4, 2023",
+  "pred": "Not specified",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "Who inspired Maria to start volunteering?",
+  "gold": "Her aunt",
+  "pred": "Caroline's own positive experiences with counseling and support groups",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What kind of online group did John join?",
+  "gold": "service-focused online group",
+  "pred": "Connected LGBTQ Activists group",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "open-domain",
+  "question": "Would John be considered a patriotic person?",
+  "gold": "Yes",
+  "pred": "No",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did Maria go hiking with her church friends?",
+  "gold": "The weekend before 22 July 2023",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What happened to John's job in August 2023?",
+  "gold": "John lost his job at the mechanical engineering company.",
+  "pred": "Not mentioned",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What did Maria plan to do later on the evening of 7 July, 2023?",
+  "gold": "have dinner with friends from the gym",
+  "pred": "Go swimming with her children",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "multi-hop",
+  "question": "What events is Maria planning for the homeless shelter funraiser?",
+  "gold": "Chili cook-off, ring-toss tournament",
+  "pred": "No events specified",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What did Maria say it was like being at the waterfall in Oregon?",
+  "gold": "Like being in a fairy tale",
+  "pred": "Peaceful and refreshing",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What yoga activity has Maria been trying to improve her strength and endurance?",
+  "gold": "kundalini yoga",
+  "pred": "Running longer distances",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "multi-hop",
+  "question": "What areas of the U.S. has John been to or is planning to go to?",
+  "gold": "Pacific northwest, east coast",
+  "pred": "Grand Canyon",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What did John do the week before August 3, 2023 involving his kids?",
+  "gold": "Had a meaningful experience at a military memorial",
+  "pred": "Took his kids camping in the mountains.",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What did John and the veterans do during the small party?",
+  "gold": "share stories and make connections",
+  "pred": "Celebrated together",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What does Maria say she feels when doing upside-down yoga poses?",
+  "gold": "Free and light",
+  "pred": "Relaxed and refreshed",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What is the name of Maria's puppy she got two weeks before August 11, 2023?",
+  "gold": "Coco",
+  "pred": "Luna",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "multi-hop",
+  "question": "What are Maria's dogs' names?",
+  "gold": "Coco, Shadow",
+  "pred": "Luna and Oliver",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "multi-hop",
+  "question": "What outdoor activities has John done with his colleagues?",
+  "gold": "Hiking, mountaineering",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "open-domain",
+  "question": "Would John be open to moving to another country?",
+  "gold": "No, he has goals specifically in the U.S. like joining the military and running for office.",
+  "pred": "No",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "open-domain",
+  "question": "What attributes describe John?",
+  "gold": "Selfless, family-oriented, passionate, rational",
+  "pred": "No attributes provided",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What event is Maria getting ready for at the shelter on May 25, 2023?",
+  "gold": "fundraiser",
+  "pred": "A volunteer event",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "How does John describe the support he received during his journey to becoming assistant manager?",
+  "gold": "having support at home and his own grit",
+  "pred": "Support and encouragement from friends, family, and mentors",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "multi-hop",
+  "question": "Where has Maria made friends?",
+  "gold": "homeless shelter, gym, church",
+  "pred": "Her home country",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What did John take away from visiting the veteran's hospital?",
+  "gold": "appreciation for giving back",
+  "pred": "A deeper appreciation for veterans\u2019 sacrifices.",
+  "correct": true
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did John take a road trip to the Pacific Northwest?",
+  "gold": "2022",
+  "pred": "t+165d",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "single-hop",
+  "question": "What topic has John been blogging about recently?",
+  "gold": "politics and the government",
+  "pred": "Gender identity and LGBTQ inclusion",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "temporal",
+  "question": "When did Maria get Coco?",
+  "gold": "Two weeks before 11 August 2023",
+  "pred": "Not stated",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "multi-hop",
+  "question": "What type of volunteering have John and Maria both done?",
+  "gold": "Volunteering at a homeless shelter",
+  "pred": "Volunteering",
+  "correct": false
+ },
+ {
+  "condition": "wrong-memory",
+  "category": "multi-hop",
+  "question": "What damages have happened to John's car?",
+  "gold": "Broken windshield, Car broke down",
+  "pred": "No damages specified",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "open-domain",
+  "question": "Would Caroline pursue writing as a career option?",
+  "gold": "LIkely no; though she likes reading, she wants to be a counselor",
+  "pred": "No",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did Caroline apply to adoption agencies?",
+  "gold": "The week of 23 August 2023",
+  "pred": "[t+107d]",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "multi-hop",
+  "question": "What symbols are important to Caroline?",
+  "gold": "Rainbow flag, transgender symbol",
+  "pred": "Necklace, rainbow flag mural, and eagle",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What happened to Melanie's son on their road trip?",
+  "gold": "He got into an accident",
+  "pred": "He was in an accident but was unharmed.",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What did Caroline find in her neighborhood during her walk?",
+  "gold": "a rainbow sidewalk",
+  "pred": "A vibrant rainbow sidewalk",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "open-domain",
+  "question": "Would Caroline still want to pursue counseling as a career if she hadn't received support growing up?",
+  "gold": "Likely no",
+  "pred": "No",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "multi-hop",
+  "question": "What book did Melanie read from Caroline's suggestion?",
+  "gold": "\"Becoming Nicole\"",
+  "pred": "Caroline\u2019s recommended book",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What painting did Melanie show to Caroline on October 13, 2023?",
+  "gold": "A painting inspired by sunsets with a pink sky.",
+  "pred": "A sunset-inspired painting and an abstract painting",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What did Melanie and her family see during their camping trip last year?",
+  "gold": "Perseid meteor shower",
+  "pred": "The Perseid meteor shower",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did Melanie go to the pottery workshop?",
+  "gold": "The Friday before 15 July 2023",
+  "pred": "The previous Friday",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "open-domain",
+  "question": "What would Caroline's political leaning likely be?",
+  "gold": "Liberal",
+  "pred": "Progressive/liberal",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "How did Melanie feel about her family supporting her?",
+  "gold": "She appreciated them a lot",
+  "pred": "Grateful and appreciative",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did Caroline have a picnic?",
+  "gold": "The week before 6 July 2023",
+  "pred": "t+59d",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What kind of place does Caroline want to create for people?",
+  "gold": "a safe and inviting place for people to grow",
+  "pred": "Safe and welcoming spaces for personal growth",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "multi-hop",
+  "question": "What books has Melanie read?",
+  "gold": "\"Nothing is Impossible\", \"Charlotte's Web\"",
+  "pred": "Charlotte\u2019s Web",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What does Melanie say running has been great for?",
+  "gold": "Her mental health",
+  "pred": "Her mental health",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "Which  classical musicians does Melanie enjoy listening to?",
+  "gold": "Bach and Mozart",
+  "pred": "Bach and Mozart",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did Melanie go to the park?",
+  "gold": "27 August 2023",
+  "pred": "t+112d",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did Caroline go to a pride parade during the summer?",
+  "gold": "The week before 3 July 2023",
+  "pred": "Last year",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What activity did Caroline used to do with her dad?",
+  "gold": "Horseback riding",
+  "pred": "Horseback riding",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "Why are flowers important to Melanie?",
+  "gold": "They remind her to appreciate the small moments and were a part of her wedding decor",
+  "pred": "Flowers represent joy, growth, beauty, and appreciating small moments.",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What kind of books does Caroline have in her library?",
+  "gold": "kids' books - classics, stories from different cultures, educational books",
+  "pred": "Classic, multicultural, and educational books",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What inspired Caroline's painting for the art show?",
+  "gold": "visiting an LGBTQ center and wanting to capture unity and strength",
+  "pred": "A visit to an LGBTQ center, reflecting the community\u2019s unity and strength",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When is Melanie planning on going camping?",
+  "gold": "June 2023",
+  "pred": "Next month",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did Caroline encounter people on a hike and have a negative experience?",
+  "gold": "The week before 25 August 2023",
+  "pred": "t+101d",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did Melanie go to the museum?",
+  "gold": "5 July 2023",
+  "pred": "The previous day",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What does Melanie think about Caroline's decision to adopt?",
+  "gold": "she thinks Caroline is doing something amazing and will be an awesome mom",
+  "pred": "Supportive and encouraging",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "How did Melanie's son handle the accident?",
+  "gold": "He was scared but reassured by his family",
+  "pred": "He recovered safely.",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "multi-hop",
+  "question": "What did Caroline research?",
+  "gold": "Adoption agencies",
+  "pred": "Her plans",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "multi-hop",
+  "question": "What do Melanie's kids like?",
+  "gold": "dinosaurs, nature",
+  "pred": "Dinosaur exhibits, learning about animal bones, beach trips, and outdoor activities.",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "How does Gina describe the studio that Jon has opened?",
+  "gold": "amazing",
+  "pred": "A destination for self-expression",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "Why did Gina combine her clothing business with dance?",
+  "gold": "she is passionate about dance and fashion",
+  "pred": "To express her creativity and add dance-inspired items to her store.",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did Gina team up with a local artist for some cool designs?",
+  "gold": "February, 2023",
+  "pred": "t+19d",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "According to Gina, what makes Jon a perfect mentor and guide?",
+  "gold": "His positivity and determination",
+  "pred": "His mentoring, training, and guidance help dancers reach their goals and shine.",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What made Gina choose the furniture and decor for her store?",
+  "gold": "personal style and customer comfort",
+  "pred": "Her personal style and making customers feel cozy.",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What is the general sentiment about the upcoming grand opening?",
+  "gold": "excitement",
+  "pred": "Excited and supportive",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did Gina go to a dance class with a group of friends?",
+  "gold": "21 July 2023",
+  "pred": "The previous Friday",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did Jon start to go to the gym?",
+  "gold": "March, 2023",
+  "pred": "[t+55d]",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did Jon start expanding his studio's social media presence?",
+  "gold": "April, 2023",
+  "pred": "t+73d",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "How does Gina stay confident in her business?",
+  "gold": "By reminding herself of her successes and progress, having a support system, and focusing on why she started",
+  "pred": "Remembering her successes and progress, relying on support, and reconnecting with her love for the work.",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "How does Jon use the clipboard with a notepad attached to it?",
+  "gold": "To set goals, track achievements, and find areas for improvement",
+  "pred": "To write down his plans and goals.",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What kind of flooring is Jon looking for in his dance studio?",
+  "gold": "Marley flooring",
+  "pred": "Marley flooring",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did Gina start being recognized by fashion editors?",
+  "gold": "July 2023",
+  "pred": "t+170d",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What did Gina find for her clothing store on 1 February, 2023?",
+  "gold": "The perfect spot for her store",
+  "pred": "A new fashion piece",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "Where is Gina's fashion internship?",
+  "gold": "fashion department of an international company",
+  "pred": "Fashion department of an international company",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did Jon start reading \"The Lean Startup\"?",
+  "gold": "May, 2023",
+  "pred": "t+127d",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What does Gina say to Jon about the grand opening?",
+  "gold": "Let's live it up and make some great memories",
+  "pred": "She plans to attend the dance studio\u2019s grand opening with Jon.",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did Gina launch an ad campaign for her store?",
+  "gold": "29 January, 2023",
+  "pred": "t+9d",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What plans does Jon have after receiving advice at the networking event?",
+  "gold": "Sprucing up his business plan, tweaking his pitch to investors, and working on an online platform.",
+  "pred": "Improve his business plan, revise his investor pitch, and build an online platform for the dance studio.",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When was Jon in Paris?",
+  "gold": "28 January 2023",
+  "pred": "28 January 2023",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What did Gina receive from a dance contest?",
+  "gold": "a trophy",
+  "pred": "A trophy",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "Why did Jon shut down his bank account?",
+  "gold": "for his business",
+  "pred": "To help his business grow.",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "multi-hop",
+  "question": "How did Gina promote her clothes store?",
+  "gold": "worked with an artist to make unique fashion pieces, made limited-edition sweatshirts, got some new offers and promotions for online store, developed a video presentation showing how to style her pieces",
+  "pred": "Advertising campaigns, offers and promotions, and collaborations with fashion bloggers and influencers",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "multi-hop",
+  "question": "Which events has Jon participated in to promote his business venture?",
+  "gold": "fair, networking events, dance competition",
+  "pred": "A fair, workshops, classes, and competitions",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did Jon receive mentorship to promote his venture?",
+  "gold": "15 June, 2023",
+  "pred": "t+147d",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What offer does Gina make to Jon regarding social media?",
+  "gold": "Helping with making content and managing his social media accounts.",
+  "pred": "Help create content and manage Jon\u2019s dance studio\u2019s social media accounts",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When Jon is planning to open his dance studio?",
+  "gold": "20 June, 2023",
+  "pred": "t+9d",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "How is Gina's store doing?",
+  "gold": "The store is doing great.",
+  "pred": "Doing great.",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did Gina interview for a design internship?",
+  "gold": "10 May, 2023",
+  "pred": "t+111d",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What book is Jon currently reading?",
+  "gold": "The Lean Startup",
+  "pred": "The Lean Startup",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did John have a party with veterans?",
+  "gold": "The Friday before 20 May 2023",
+  "pred": "t+154d",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "How did the extra funding help the school shown in the photo shared by John?",
+  "gold": "Enabled needed repairs and renovations, making the learning environment safer and more modern for students.",
+  "pred": "Necessary repairs and renovations made the learning environment safer and more modern.",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did Maria take up community work with her church friends?",
+  "gold": "August 4, 2023",
+  "pred": "t+231d",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "Who inspired Maria to start volunteering?",
+  "gold": "Her aunt",
+  "pred": "Her aunt",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What kind of online group did John join?",
+  "gold": "service-focused online group",
+  "pred": "Service-focused online group",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "open-domain",
+  "question": "Would John be considered a patriotic person?",
+  "gold": "Yes",
+  "pred": "Yes",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did Maria go hiking with her church friends?",
+  "gold": "The weekend before 22 July 2023",
+  "pred": "Last weekend",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What happened to John's job in August 2023?",
+  "gold": "John lost his job at the mechanical engineering company.",
+  "pred": "He lost his job at a struggling mechanical engineering company.",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What did Maria plan to do later on the evening of 7 July, 2023?",
+  "gold": "have dinner with friends from the gym",
+  "pred": "Bake cakes",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "multi-hop",
+  "question": "What events is Maria planning for the homeless shelter funraiser?",
+  "gold": "Chili cook-off, ring-toss tournament",
+  "pred": "A ring-toss tournament fundraiser",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What did Maria say it was like being at the waterfall in Oregon?",
+  "gold": "Like being in a fairy tale",
+  "pred": "Being in a fairy tale",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What yoga activity has Maria been trying to improve her strength and endurance?",
+  "gold": "kundalini yoga",
+  "pred": "Kundalini yoga",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "multi-hop",
+  "question": "What areas of the U.S. has John been to or is planning to go to?",
+  "gold": "Pacific northwest, east coast",
+  "pred": "East Coast and Pacific Northwest coast",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What did John do the week before August 3, 2023 involving his kids?",
+  "gold": "Had a meaningful experience at a military memorial",
+  "pred": "Took his children to a military memorial.",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What did John and the veterans do during the small party?",
+  "gold": "share stories and make connections",
+  "pred": "Shared stories, formed connections, and built camaraderie",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What does Maria say she feels when doing upside-down yoga poses?",
+  "gold": "Free and light",
+  "pred": "Free and light",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What is the name of Maria's puppy she got two weeks before August 11, 2023?",
+  "gold": "Coco",
+  "pred": "Coco",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "multi-hop",
+  "question": "What are Maria's dogs' names?",
+  "gold": "Coco, Shadow",
+  "pred": "Coco and Shadow",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "multi-hop",
+  "question": "What outdoor activities has John done with his colleagues?",
+  "gold": "Hiking, mountaineering",
+  "pred": "Community volunteering and firefighting",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "open-domain",
+  "question": "Would John be open to moving to another country?",
+  "gold": "No, he has goals specifically in the U.S. like joining the military and running for office.",
+  "pred": "No",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "open-domain",
+  "question": "What attributes describe John?",
+  "gold": "Selfless, family-oriented, passionate, rational",
+  "pred": "Family-oriented, community-minded, service-oriented, civic-minded, compassionate, supportive, education-focused, mechanically skilled, technology-minded, resilient",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What event is Maria getting ready for at the shelter on May 25, 2023?",
+  "gold": "fundraiser",
+  "pred": "A ring-toss tournament fundraiser",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "How does John describe the support he received during his journey to becoming assistant manager?",
+  "gold": "having support at home and his own grit",
+  "pred": "Support from family and loved ones, personal grit, self-belief, and encouragement.",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "multi-hop",
+  "question": "Where has Maria made friends?",
+  "gold": "homeless shelter, gym, church",
+  "pred": "Church, gym, and homeless shelter",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What did John take away from visiting the veteran's hospital?",
+  "gold": "appreciation for giving back",
+  "pred": "Renewed appreciation for veterans, military service, resilience, and giving back",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did John take a road trip to the Pacific Northwest?",
+  "gold": "2022",
+  "pred": "t+114d",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "single-hop",
+  "question": "What topic has John been blogging about recently?",
+  "gold": "politics and the government",
+  "pred": "Politics and government",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "temporal",
+  "question": "When did Maria get Coco?",
+  "gold": "Two weeks before 11 August 2023",
+  "pred": "Two weeks before the conversation",
+  "correct": false
+ },
+ {
+  "condition": "real-memory",
+  "category": "multi-hop",
+  "question": "What type of volunteering have John and Maria both done?",
+  "gold": "Volunteering at a homeless shelter",
+  "pred": "Homeless shelter volunteering",
+  "correct": true
+ },
+ {
+  "condition": "real-memory",
+  "category": "multi-hop",
+  "question": "What damages have happened to John's car?",
+  "gold": "Broken windshield, Car broke down",
+  "pred": "It broke down.",
+  "correct": false
+ }
+]

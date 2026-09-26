@@ -1,0 +1,1858 @@
+[
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "When did Caroline and Melanie go to a pride fesetival together?",
+  "gold": "2022",
+  "pred": "2022",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "What happened to Melanie's son on their road trip?",
+  "gold": "He got into an accident",
+  "pred": "He got into an accident.",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "How often does Melanie go to the beach with her kids?",
+  "gold": "once or twice a year",
+  "pred": "Once or twice a year",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "What do Melanie's family give her?",
+  "gold": "Strength and motivation",
+  "pred": "Strength, motivation, and support",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "When did Jon host a dance competition?",
+  "gold": "May, 2023",
+  "pred": "May 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "When did Gina open her online clothing store?",
+  "gold": "16 March, 2023",
+  "pred": "16 March 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "When did Jon and Gina decide to collaborate to create dance content?",
+  "gold": "21 July 2023",
+  "pred": "21 July 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "When did Caroline go to the LGBTQ conference?",
+  "gold": "10 July 2023",
+  "pred": "10 July 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "Would Caroline pursue writing as a career option?",
+  "gold": "LIkely no; though she likes reading, she wants to be a counselor",
+  "pred": "No",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "How is Gina's store doing?",
+  "gold": "The store is doing great.",
+  "pred": "Great",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "What offer does Gina make to Jon regarding social media?",
+  "gold": "Helping with making content and managing his social media accounts.",
+  "pred": "To help Jon with creating content and managing his social media accounts for the dance studio",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "What did John receive a certificate for?",
+  "gold": "completion of a university degree",
+  "pred": "The evidence does not contain information about John receiving a certificate for anything specific. The evidence mentions he graduated with his degree on 26 March 2023, but does not mention any certificate.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "What does Melanie think about Caroline's decision to adopt?",
+  "gold": "she thinks Caroline is doing something amazing and will be an awesome mom",
+  "pred": "Melanie supports Caroline's adoption goals and thinks it is awesome and kind. She believes Caroline has a caring heart and will be an awesome mom who can provide the kids with all the love and stability they need.",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "What does Melanie say running has been great for?",
+  "gold": "Her mental health",
+  "pred": "her mental health and headspace",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "What inspired Caroline's painting for the art show?",
+  "gold": "visiting an LGBTQ center and wanting to capture unity and strength",
+  "pred": "A visit to an LGBTQ center",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "What areas is John particularly interested in for policymaking?",
+  "gold": "education and infrastructure",
+  "pred": "Education and infrastructure improvement",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "When did Caroline go to the LGBTQ support group?",
+  "gold": "7 May 2023",
+  "pred": "7 May 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "When did Melanie paint a sunrise?",
+  "gold": "2022",
+  "pred": "2022",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "When did Jon start to go to the gym?",
+  "gold": "March, 2023",
+  "pred": "Week of 6 March 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "What did Melanie do after the road trip to relax?",
+  "gold": "Went on a nature walk or hike",
+  "pred": "Went on a camping trip",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "When did Melanie's family go on a roadtrip?",
+  "gold": "The weekend before 20 October 2023",
+  "pred": "The weekend before 20 October 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "How many children does Melanie have?",
+  "gold": "3",
+  "pred": "At least 3",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "What did Jon and Gina compare their entrepreneurial journeys to?",
+  "gold": "dancing together and supporting each other",
+  "pred": "The evidence does not contain information about Jon and Gina comparing their entrepreneurial journeys to anything specific.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "When did Gina start being recognized by fashion editors?",
+  "gold": "July 2023",
+  "pred": "Early July 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "full",
+  "q": "What type of individuals does the adoption agency Caroline is considering support?",
+  "gold": "LGBTQ+ individuals",
+  "pred": "LGBTQ+ folks",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "When did Caroline and Melanie go to a pride fesetival together?",
+  "gold": "2022",
+  "pred": "The evidence does not mention Caroline and Melanie or any pride festival. The evidence only discusses Maria and John's activities.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "What happened to Melanie's son on their road trip?",
+  "gold": "He got into an accident",
+  "pred": "The evidence does not contain information about Melanie or her son. The evidence mentions Maria going on a road trip to Oregon with her family, but no incident involving Melanie's son is described.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "How often does Melanie go to the beach with her kids?",
+  "gold": "once or twice a year",
+  "pred": "The evidence does not contain information about Melanie. The evidence mentions John going to the beach with his kids and sharing beach photos with his family, but does not specify frequency.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "What do Melanie's family give her?",
+  "gold": "Strength and motivation",
+  "pred": "The evidence does not mention Melanie. The evidence is about Maria and her family.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "When did Jon host a dance competition?",
+  "gold": "May, 2023",
+  "pred": "The evidence does not contain information about John hosting a dance competition.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "When did Gina open her online clothing store?",
+  "gold": "16 March, 2023",
+  "pred": "The evidence does not contain any information about Gina or an online clothing store.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "When did Jon and Gina decide to collaborate to create dance content?",
+  "gold": "21 July 2023",
+  "pred": "The evidence does not contain information about Jon and Gina deciding to collaborate to create dance content. The evidence discusses John and Maria, not Jon and Gina.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "When did Caroline go to the LGBTQ conference?",
+  "gold": "10 July 2023",
+  "pred": "The evidence does not mention Caroline or an LGBTQ conference.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "Would Caroline pursue writing as a career option?",
+  "gold": "LIkely no; though she likes reading, she wants to be a counselor",
+  "pred": "The evidence does not contain information about Caroline or her career interests. All evidence relates to John and Maria.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "How is Gina's store doing?",
+  "gold": "The store is doing great.",
+  "pred": "The evidence does not mention anyone named Gina or Gina's store.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "What offer does Gina make to Jon regarding social media?",
+  "gold": "Helping with making content and managing his social media accounts.",
+  "pred": "The evidence does not contain information about Gina or Jon. The evidence only discusses interactions between John and Maria.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "What did John receive a certificate for?",
+  "gold": "completion of a university degree",
+  "pred": "The evidence does not mention John receiving a certificate. The evidence mentions a trophy commemorating his promotion to assistant manager, but no certificate is specified.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "What does Melanie think about Caroline's decision to adopt?",
+  "gold": "she thinks Caroline is doing something amazing and will be an awesome mom",
+  "pred": "The evidence does not contain information about Melanie or Caroline.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "What does Melanie say running has been great for?",
+  "gold": "Her mental health",
+  "pred": "The evidence does not contain any information about Melanie or what she says about running. The evidence only mentions Maria and John's fitness activities and interests.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "What inspired Caroline's painting for the art show?",
+  "gold": "visiting an LGBTQ center and wanting to capture unity and strength",
+  "pred": "The evidence does not contain information about Caroline or her painting for an art show.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "What areas is John particularly interested in for policymaking?",
+  "gold": "education and infrastructure",
+  "pred": "Education and infrastructure",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "When did Caroline go to the LGBTQ support group?",
+  "gold": "7 May 2023",
+  "pred": "The evidence does not mention Caroline or any LGBTQ support group.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "When did Melanie paint a sunrise?",
+  "gold": "2022",
+  "pred": "The evidence does not contain information about Melanie painting a sunrise. The evidence discusses Maria and John, but no person named Melanie is mentioned.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "When did Jon start to go to the gym?",
+  "gold": "March, 2023",
+  "pred": "Based on the evidence, John goes to a yoga studio regularly (not a gym), and there is no specific start date mentioned for when he began attending. The evidence only indicates he was regularly attending as of 22 July 2023.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "What did Melanie do after the road trip to relax?",
+  "gold": "Went on a nature walk or hike",
+  "pred": "Based on the evidence, there is no person named Melanie mentioned. The person who went on a road trip to Oregon is Maria. After that trip, Maria found the waterfall and bridge surroundings calming and beautiful, and she finds peace through alone time with favorite music and practicing aerial yoga.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "When did Melanie's family go on a roadtrip?",
+  "gold": "The weekend before 20 October 2023",
+  "pred": "No evidence about Melanie in the provided information.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "How many children does Melanie have?",
+  "gold": "3",
+  "pred": "No evidence that Melanie has any children or that Melanie exists in the evidence.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "What did Jon and Gina compare their entrepreneurial journeys to?",
+  "gold": "dancing together and supporting each other",
+  "pred": "Based on the evidence provided, there is no mention of Jon and Gina or their entrepreneurial journeys. The evidence only discusses John and Maria, who are friends supporting each other in various endeavors including career development, community service, and personal growth.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "When did Gina start being recognized by fashion editors?",
+  "gold": "July 2023",
+  "pred": "The evidence does not contain any information about Gina or recognition by fashion editors.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-oldest",
+  "q": "What type of individuals does the adoption agency Caroline is considering support?",
+  "gold": "LGBTQ+ individuals",
+  "pred": "The evidence does not contain information about Caroline or an adoption agency. The evidence discusses John considering adopting a rescue dog and Maria's volunteer work at shelters, but no mention of Caroline or an adoption agency supporting any type of individuals.\n\nBased on the available evidence: No information available.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "When did Caroline and Melanie go to a pride fesetival together?",
+  "gold": "2022",
+  "pred": "The evidence does not indicate that Caroline and Melanie went to a pride festival together. Caroline attended a June 2023 pride event with her mentee, not with Melanie.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "What happened to Melanie's son on their road trip?",
+  "gold": "He got into an accident",
+  "pred": "The evidence does not mention anything happening to Melanie's son on the road trip. The evidence only states that Melanie's family enjoyed visiting the Grand Canyon during their road trip on the weekend before 20 October 2023.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "How often does Melanie go to the beach with her kids?",
+  "gold": "once or twice a year",
+  "pred": "The evidence does not specify how often Melanie goes to the beach with her kids. The only beach-related activity mentioned is swimming with her kids on 8 May 2023.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "What do Melanie's family give her?",
+  "gold": "Strength and motivation",
+  "pred": "Support",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "When did Jon host a dance competition?",
+  "gold": "May, 2023",
+  "pred": "No evidence that Jon hosted a dance competition.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "When did Gina open her online clothing store?",
+  "gold": "16 March, 2023",
+  "pred": "The week of 14 July 2023",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "When did Jon and Gina decide to collaborate to create dance content?",
+  "gold": "21 July 2023",
+  "pred": "The evidence does not contain information about Jon and Gina deciding to collaborate to create dance content together.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "When did Caroline go to the LGBTQ conference?",
+  "gold": "10 July 2023",
+  "pred": "Based on the evidence provided, there is no mention of Caroline attending an LGBTQ conference. The evidence mentions she attended a June 2023 pride event and gave a talk on 9 June 2023, but no LGBTQ conference is referenced.\n\n9 June 2023 (if referring to her talk where she shared her personal journey)",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "Would Caroline pursue writing as a career option?",
+  "gold": "LIkely no; though she likes reading, she wants to be a counselor",
+  "pred": "No strong evidence, but infer No.\n\nThe evidence shows Caroline's creative outlets are piano, art/painting, and self-portraiture for self-expression. Her career focus appears to be advocacy work, mentorship, and helping others through sharing her story verbally rather than through writing.",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "How is Gina's store doing?",
+  "gold": "The store is doing great.",
+  "pred": "Having ups and downs but being an amazing ride",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "What offer does Gina make to Jon regarding social media?",
+  "gold": "Helping with making content and managing his social media accounts.",
+  "pred": "The evidence does not contain information about Gina making an offer to Jon regarding social media. The evidence shows that Gina gave Jon advice about posting dance videos on social media, which Jon followed, but no specific offer is mentioned.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "What did John receive a certificate for?",
+  "gold": "completion of a university degree",
+  "pred": "Fire-fighting training",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "What does Melanie think about Caroline's decision to adopt?",
+  "gold": "she thinks Caroline is doing something amazing and will be an awesome mom",
+  "pred": "The evidence does not show Melanie's explicit opinion about Caroline's decision to adopt. However, from the adoption research evidence [t+17d], Melanie expressed that Caroline's dream to give a loving home to kids who need it is \"awesome and kind.\"",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "What does Melanie say running has been great for?",
+  "gold": "Her mental health",
+  "pred": "The evidence does not contain information about Melanie saying what running has been great for. The only running-related evidence mentions her participating in a charity race for mental health on 20 May 2023, but doesn't include a statement from her about what running has been great for.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "What inspired Caroline's painting for the art show?",
+  "gold": "visiting an LGBTQ center and wanting to capture unity and strength",
+  "pred": "Her journey as a trans woman and breaking rigid thinking about the binary gender system",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "What areas is John particularly interested in for policymaking?",
+  "gold": "education and infrastructure",
+  "pred": "education and infrastructure",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "When did Caroline go to the LGBTQ support group?",
+  "gold": "7 May 2023",
+  "pred": "The evidence does not mention Caroline attending an LGBTQ support group. The closest related event is that she found an accepting and supportive transgender community (by 25 August 2023).",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "When did Melanie paint a sunrise?",
+  "gold": "2022",
+  "pred": "2022",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "When did Jon start to go to the gym?",
+  "gold": "March, 2023",
+  "pred": "No evidence that Jon goes to the gym",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "What did Melanie do after the road trip to relax?",
+  "gold": "Went on a nature walk or hike",
+  "pred": "Reading a book Caroline recommended and painting",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "When did Melanie's family go on a roadtrip?",
+  "gold": "The weekend before 20 October 2023",
+  "pred": "The weekend before 20 October 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "How many children does Melanie have?",
+  "gold": "3",
+  "pred": "At least 2",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "What did Jon and Gina compare their entrepreneurial journeys to?",
+  "gold": "dancing together and supporting each other",
+  "pred": "Based on the evidence provided, there is no explicit comparison that Jon and Gina made about their entrepreneurial journeys to any specific thing. The closest reference is Gina describing running her business as \"an amazing ride\" with \"ups and downs,\" but this is not a comparison made jointly with Jon.\n\nAn amazing ride",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "When did Gina start being recognized by fashion editors?",
+  "gold": "July 2023",
+  "pred": "The evidence does not contain information about when Gina started being recognized by fashion editors.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "delete-redundant",
+  "q": "What type of individuals does the adoption agency Caroline is considering support?",
+  "gold": "LGBTQ+ individuals",
+  "pred": "Kids who need a loving home",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "When did Caroline and Melanie go to a pride fesetival together?",
+  "gold": "2022",
+  "pred": "t+68d",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "What happened to Melanie's son on their road trip?",
+  "gold": "He got into an accident",
+  "pred": "car accident",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "How often does Melanie go to the beach with her kids?",
+  "gold": "once or twice a year",
+  "pred": "The evidence does not specify the frequency of beach visits with her kids.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "What do Melanie's family give her?",
+  "gold": "Strength and motivation",
+  "pred": "Support",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "When did Jon host a dance competition?",
+  "gold": "May, 2023",
+  "pred": "Based on the evidence provided, there is no specific date or reference to Jon hosting a dance competition. The evidence mentions competition preparation and competition achievements related to Jon's dance career, but does not indicate that he hosted a competition.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "When did Gina open her online clothing store?",
+  "gold": "16 March, 2023",
+  "pred": "t+296d",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "When did Jon and Gina decide to collaborate to create dance content?",
+  "gold": "21 July 2023",
+  "pred": "t+469d",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "When did Caroline go to the LGBTQ conference?",
+  "gold": "10 July 2023",
+  "pred": "t+56d",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "Would Caroline pursue writing as a career option?",
+  "gold": "LIkely no; though she likes reading, she wants to be a counselor",
+  "pred": "Yes",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "How is Gina's store doing?",
+  "gold": "The store is doing great.",
+  "pred": "Based on the evidence, the business has progressed through multiple stages from launch (t+296d) through ongoing development (t+469d), with completed creative projects (t+439d) and continued business activities (t+431d).",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "What offer does Gina make to Jon regarding social media?",
+  "gold": "Helping with making content and managing his social media accounts.",
+  "pred": "To help with social media marketing for Jon's dance studio",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "What did John receive a certificate for?",
+  "gold": "completion of a university degree",
+  "pred": "community service",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "What does Melanie think about Caroline's decision to adopt?",
+  "gold": "she thinks Caroline is doing something amazing and will be an awesome mom",
+  "pred": "Based on the evidence, Melanie is supportive of Caroline's adoption journey. The evidence shows:\n\n1. Melanie provided adoption inspiration and adoption guidance to Caroline (t+158d)\n2. There is a relationship with Melanie documented throughout the adoption process\n3. The relationship included adoption support discussions\n\nSupportive",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "What does Melanie say running has been great for?",
+  "gold": "Her mental health",
+  "pred": "mental health",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "What inspired Caroline's painting for the art show?",
+  "gold": "visiting an LGBTQ center and wanting to capture unity and strength",
+  "pred": "LGBTQ advocacy / social justice themes",
+  "correct": true
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "What areas is John particularly interested in for policymaking?",
+  "gold": "education and infrastructure",
+  "pred": "Healthcare and education",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "When did Caroline go to the LGBTQ support group?",
+  "gold": "7 May 2023",
+  "pred": "t+0d",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "When did Melanie paint a sunrise?",
+  "gold": "2022",
+  "pred": "No evidence of Melanie painting a sunrise.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "When did Jon start to go to the gym?",
+  "gold": "March, 2023",
+  "pred": "t+772d",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "What did Melanie do after the road trip to relax?",
+  "gold": "Went on a nature walk or hike",
+  "pred": "hiking and camping with family",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "When did Melanie's family go on a roadtrip?",
+  "gold": "The weekend before 20 October 2023",
+  "pred": "t+165d",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "How many children does Melanie have?",
+  "gold": "3",
+  "pred": "2",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "What did Jon and Gina compare their entrepreneurial journeys to?",
+  "gold": "dancing together and supporting each other",
+  "pred": "Based on the evidence provided, I cannot find a specific comparison that Jon and Gina made about their entrepreneurial journeys to something else. The evidence shows they discussed various aspects of their entrepreneurial journeys including mentorship, challenges, progress, and mutual support, but does not contain information about what metaphor or comparison they used to describe these journeys.\n\nNo specific comparison found in the evidence.",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "When did Gina start being recognized by fashion editors?",
+  "gold": "July 2023",
+  "pred": "t+457d",
+  "correct": false
+ },
+ {
+  "budget": 0.25,
+  "policy": "regen",
+  "q": "What type of individuals does the adoption agency Caroline is considering support?",
+  "gold": "LGBTQ+ individuals",
+  "pred": "Single parents",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "When did Jon start to go to the gym?",
+  "gold": "March, 2023",
+  "pred": "Week of 6 March 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "When did Caroline go to the LGBTQ support group?",
+  "gold": "7 May 2023",
+  "pred": "7 May 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "Why did Gina combine her clothing business with dance?",
+  "gold": "she is passionate about dance and fashion",
+  "pred": "She is passionate about both, which lets her show her creativity and share her love with others, plus she can add dance-inspired items to her store.",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "When did Gina interview for a design internship?",
+  "gold": "10 May, 2023",
+  "pred": "10 May 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "When did Caroline join a new activist group?",
+  "gold": "The Tuesday before 20 July 2023",
+  "pred": "16 July 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "When did Caroline join a mentorship program?",
+  "gold": "The weekend before 17 July 2023",
+  "pred": "Weekend of 8 July 2023",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "Would Melanie be more interested in going to a national park or a theme park?",
+  "gold": "National park; she likes the outdoors",
+  "pred": "National park",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "How often does Melanie go to the beach with her kids?",
+  "gold": "once or twice a year",
+  "pred": "Once or twice a year",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "Why did Jon shut down his bank account?",
+  "gold": "for his business",
+  "pred": "The business was not succeeding and he needed to handle changes related to his failed business venture.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "How is Gina's store doing?",
+  "gold": "The store is doing great.",
+  "pred": "Great",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "When did Melanie go camping in July?",
+  "gold": "two weekends before 17 July 2023",
+  "pred": "weekend of 1 July 2023",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "What fields would Caroline be likely to pursue in her educaton?",
+  "gold": "Psychology, counseling certification",
+  "pred": "Counseling or mental health",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "What did Jon and Gina compare their entrepreneurial journeys to?",
+  "gold": "dancing together and supporting each other",
+  "pred": "The evidence does not contain information about Jon and Gina comparing their entrepreneurial journeys to anything specific.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "What is Caroline's identity?",
+  "gold": "Transgender woman",
+  "pred": "Trans woman",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "When did Jon host a dance competition?",
+  "gold": "May, 2023",
+  "pred": "May 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "What did Melanie and her family see during their camping trip last year?",
+  "gold": "Perseid meteor shower",
+  "pred": "The Grand Canyon",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "When did Gina go to a dance class with a group of friends?",
+  "gold": "21 July 2023",
+  "pred": "20 July 2023",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "When did Melanie make a plate in pottery class?",
+  "gold": "24 August 2023",
+  "pred": "24 August 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "According to Gina, what makes Jon a perfect mentor and guide?",
+  "gold": "His positivity and determination",
+  "pred": "The evidence does not contain information about Gina saying Jon is a mentor or guide to her. The relationship described is the opposite - Gina provides mentorship and support to Jon.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "When did Gina open her online clothing store?",
+  "gold": "16 March, 2023",
+  "pred": "16 March 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "When did Jon start expanding his studio's social media presence?",
+  "gold": "April, 2023",
+  "pred": "3 April 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "When did Caroline and Melanie go to a pride fesetival together?",
+  "gold": "2022",
+  "pred": "2022",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "When did Melanie paint a sunrise?",
+  "gold": "2022",
+  "pred": "2022",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "Why did Melanie choose to use colors and patterns in her pottery project?",
+  "gold": "She wanted to catch the eye and make people smile.",
+  "pred": "To catch the eye and make people smile",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "full",
+  "q": "How did Melanie feel while watching the meteor shower?",
+  "gold": "in awe of the universe",
+  "pred": "Tiny and in awe of the universe",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "When did Jon start to go to the gym?",
+  "gold": "March, 2023",
+  "pred": "April 2023",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "When did Caroline go to the LGBTQ support group?",
+  "gold": "7 May 2023",
+  "pred": "The evidence does not contain any information about Caroline or an LGBTQ support group.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "Why did Gina combine her clothing business with dance?",
+  "gold": "she is passionate about dance and fashion",
+  "pred": "The evidence does not contain information about Gina or a clothing business combined with dance.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "When did Gina interview for a design internship?",
+  "gold": "10 May, 2023",
+  "pred": "The evidence does not contain any information about Gina or a design internship.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "When did Caroline join a new activist group?",
+  "gold": "The Tuesday before 20 July 2023",
+  "pred": "The evidence does not mention Caroline. The evidence only discusses John and Maria's activities.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "When did Caroline join a mentorship program?",
+  "gold": "The weekend before 17 July 2023",
+  "pred": "The evidence does not mention Caroline joining a mentorship program. The evidence only discusses John volunteering as a mentor and Maria's various volunteer activities.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "Would Melanie be more interested in going to a national park or a theme park?",
+  "gold": "National park; she likes the outdoors",
+  "pred": "Based on the evidence provided, there is no information about anyone named Melanie. The evidence only discusses John and Maria's outdoor activities and preferences.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "How often does Melanie go to the beach with her kids?",
+  "gold": "once or twice a year",
+  "pred": "No evidence that Melanie exists or goes to the beach with kids.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "Why did Jon shut down his bank account?",
+  "gold": "for his business",
+  "pred": "The evidence does not contain information about Jon shutting down a bank account. The evidence discusses John (not Jon) losing his job when his mechanical engineering company went under on or before 5 August 2023.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "How is Gina's store doing?",
+  "gold": "The store is doing great.",
+  "pred": "The evidence does not contain any information about Gina or Gina's store.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "When did Melanie go camping in July?",
+  "gold": "two weekends before 17 July 2023",
+  "pred": "Maria had a picnic on approximately 8 July 2023.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "What fields would Caroline be likely to pursue in her educaton?",
+  "gold": "Psychology, counseling certification",
+  "pred": "The evidence does not contain any information about Caroline. All the evidence refers to John and Maria only.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "What did Jon and Gina compare their entrepreneurial journeys to?",
+  "gold": "dancing together and supporting each other",
+  "pred": "Based on the evidence provided, there is no mention of \"Jon and Gina\" or their entrepreneurial journeys. The evidence only contains information about John and Maria and their conversations and activities.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "What is Caroline's identity?",
+  "gold": "Transgender woman",
+  "pred": "Based on the evidence provided, there is no mention of anyone named Caroline. The evidence only discusses Maria and John.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "When did Jon host a dance competition?",
+  "gold": "May, 2023",
+  "pred": "The evidence does not contain information about John hosting a dance competition.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "What did Melanie and her family see during their camping trip last year?",
+  "gold": "Perseid meteor shower",
+  "pred": "The evidence does not contain information about Melanie or her camping trip. Based on the evidence provided, there is no person named Melanie mentioned.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "When did Gina go to a dance class with a group of friends?",
+  "gold": "21 July 2023",
+  "pred": "The evidence does not contain information about Gina going to a dance class with friends. The evidence discusses Maria and John's activities, but does not mention anyone named Gina.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "When did Melanie make a plate in pottery class?",
+  "gold": "24 August 2023",
+  "pred": "The evidence does not mention Melanie or anyone making a plate in pottery class.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "According to Gina, what makes Jon a perfect mentor and guide?",
+  "gold": "His positivity and determination",
+  "pred": "The evidence does not mention anyone named Gina, and the person discussed is John (not Jon). Based on the evidence provided, no answer can be given about Gina's perspective on what makes Jon a perfect mentor and guide.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "When did Gina open her online clothing store?",
+  "gold": "16 March, 2023",
+  "pred": "The evidence does not contain any information about Gina or an online clothing store.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "When did Jon start expanding his studio's social media presence?",
+  "gold": "April, 2023",
+  "pred": "The evidence does not contain information about Jon expanding his studio's social media presence. The evidence mentions John (not Jon) and references a yoga studio he attends as a client, not one he owns.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "When did Caroline and Melanie go to a pride fesetival together?",
+  "gold": "2022",
+  "pred": "The evidence does not contain any information about Caroline and Melanie or a pride festival.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "When did Melanie paint a sunrise?",
+  "gold": "2022",
+  "pred": "The evidence does not mention Melanie. Maria (not Melanie) is mentioned as creating paintings, but no specific painting of a sunrise is described in the evidence.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "Why did Melanie choose to use colors and patterns in her pottery project?",
+  "gold": "She wanted to catch the eye and make people smile.",
+  "pred": "The evidence does not contain information about Melanie or her pottery project. The evidence is about Maria.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-oldest",
+  "q": "How did Melanie feel while watching the meteor shower?",
+  "gold": "in awe of the universe",
+  "pred": "The evidence does not contain any information about Melanie or anyone watching a meteor shower.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "When did Jon start to go to the gym?",
+  "gold": "March, 2023",
+  "pred": "The evidence does not indicate that Jon started going to the gym. The gym membership evidence refers to Maria, not Jon.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "When did Caroline go to the LGBTQ support group?",
+  "gold": "7 May 2023",
+  "pred": "8 May 2023",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "Why did Gina combine her clothing business with dance?",
+  "gold": "she is passionate about dance and fashion",
+  "pred": "The evidence does not directly state why Gina combined her clothing business with dance. However, based on the evidence: she values expressiveness and creativity in both contemporary dance and her limited edition clothing lines, and her design is inspired by the grit it takes to stand out and face challenges.",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "When did Gina interview for a design internship?",
+  "gold": "10 May, 2023",
+  "pred": "The evidence does not contain information about Gina interviewing for a design internship.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "When did Caroline join a new activist group?",
+  "gold": "The Tuesday before 20 July 2023",
+  "pred": "Based on the evidence provided, there is no mention of Caroline joining a new activist group.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "When did Caroline join a mentorship program?",
+  "gold": "The weekend before 17 July 2023",
+  "pred": "The evidence does not specify when Caroline joined a mentorship program, but she was already actively mentoring by June 2023 when she attended an LGBT pride event with her mentee.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "Would Melanie be more interested in going to a national park or a theme park?",
+  "gold": "National park; she likes the outdoors",
+  "pred": "National park",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "How often does Melanie go to the beach with her kids?",
+  "gold": "once or twice a year",
+  "pred": "The evidence does not contain information about how often Melanie goes to the beach with her kids.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "Why did Jon shut down his bank account?",
+  "gold": "for his business",
+  "pred": "Jon left his banking job to pursue dancing and start his own dance studio business, not that he shut down a bank account.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "How is Gina's store doing?",
+  "gold": "The store is doing great.",
+  "pred": "Based on the evidence, Gina's store is doing well with ups and downs but has been experiencing growth and success, including expanding through a wholesaler, getting noticed by fashion editors, and building a new website.",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "When did Melanie go camping in July?",
+  "gold": "two weekends before 17 July 2023",
+  "pred": "Based on the evidence, there is no specific date mentioned for Melanie going camping in July. The camping trip in the forest with her family occurred at [t+68d], which would be around mid-July 2023 (68 days after May 8, 2023 = approximately July 15, 2023).\n\nApproximately July 15, 2023",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "What fields would Caroline be likely to pursue in her educaton?",
+  "gold": "Psychology, counseling certification",
+  "pred": "Based on the evidence, Caroline would likely pursue:\n\nArt, social work, education, psychology, or child development/advocacy",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "What did Jon and Gina compare their entrepreneurial journeys to?",
+  "gold": "dancing together and supporting each other",
+  "pred": "The evidence does not contain a specific comparison that Jon and Gina made about their entrepreneurial journeys. The closest relevant information is Gina describing her business as \"an amazing ride\" with \"ups and downs.\"",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "What is Caroline's identity?",
+  "gold": "Transgender woman",
+  "pred": "Trans woman",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "When did Jon host a dance competition?",
+  "gold": "May, 2023",
+  "pred": "The evidence does not contain information about Jon hosting a dance competition.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "What did Melanie and her family see during their camping trip last year?",
+  "gold": "Perseid meteor shower",
+  "pred": "Grand Canyon",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "When did Gina go to a dance class with a group of friends?",
+  "gold": "21 July 2023",
+  "pred": "The evidence does not state that Gina went to a dance class with a group of friends. Jon took dance lessons with friends when he was younger.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "When did Melanie make a plate in pottery class?",
+  "gold": "24 August 2023",
+  "pred": "The evidence does not contain information about Melanie making a plate in pottery class.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "According to Gina, what makes Jon a perfect mentor and guide?",
+  "gold": "His positivity and determination",
+  "pred": "Jon creates a supportive and encouraging environment for dancers",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "When did Gina open her online clothing store?",
+  "gold": "16 March, 2023",
+  "pred": "The evidence does not contain information about when Gina opened her online clothing store. The earliest business milestone mentioned is 1 February 2023 when a wholesaler agreed to let her expand, and the week of 14 July 2023 when she built a new website for orders.\n\nBased on the evidence, before 1 February 2023 (when she was already expanding).",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "When did Jon start expanding his studio's social media presence?",
+  "gold": "April, 2023",
+  "pred": "16 June 2023",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "When did Caroline and Melanie go to a pride fesetival together?",
+  "gold": "2022",
+  "pred": "Based on the evidence, Caroline and Melanie did not go to a pride festival together. Caroline attended a June 2023 pride event with her transgender teen mentee.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "When did Melanie paint a sunrise?",
+  "gold": "2022",
+  "pred": "2022",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "Why did Melanie choose to use colors and patterns in her pottery project?",
+  "gold": "She wanted to catch the eye and make people smile.",
+  "pred": "The evidence does not contain information about Melanie doing a pottery project. However, based on the evidence, Melanie is drawn to blue colors because they calm her, and she paints with calming themes like sunsets. Caroline is the one who expressed openness to trying pottery.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "delete-redundant",
+  "q": "How did Melanie feel while watching the meteor shower?",
+  "gold": "in awe of the universe",
+  "pred": "The evidence does not contain any information about Melanie watching a meteor shower.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "When did Jon start to go to the gym?",
+  "gold": "March, 2023",
+  "pred": "I cannot determine when Jon started going to the gym from the evidence. The evidence mentions Maria joined a gym the week before 16 June 2023, and references to \"Jon\" or \"John\" fitness activities (including kickboxing, family boot camps starting April 2023, and fitness interests), but does not specify when he started attending a gym.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "When did Caroline go to the LGBTQ support group?",
+  "gold": "7 May 2023",
+  "pred": "7 May 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "Why did Gina combine her clothing business with dance?",
+  "gold": "she is passionate about dance and fashion",
+  "pred": "Dance is her passion and she wanted to blend it with fashion",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "When did Gina interview for a design internship?",
+  "gold": "10 May, 2023",
+  "pred": "10 May 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "When did Caroline join a new activist group?",
+  "gold": "The Tuesday before 20 July 2023",
+  "pred": "16 July 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "When did Caroline join a mentorship program?",
+  "gold": "The weekend before 17 July 2023",
+  "pred": "June 2023",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "Would Melanie be more interested in going to a national park or a theme park?",
+  "gold": "National park; she likes the outdoors",
+  "pred": "national park",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "How often does Melanie go to the beach with her kids?",
+  "gold": "once or twice a year",
+  "pred": "Based on the evidence, Melanie's family camps at the beach together, but the specific frequency is not stated in the evidence provided.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "Why did Jon shut down his bank account?",
+  "gold": "for his business",
+  "pred": "For business",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "How is Gina's store doing?",
+  "gold": "The store is doing great.",
+  "pred": "Growing well with increasing sales and customer growth",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "When did Melanie go camping in July?",
+  "gold": "two weekends before 17 July 2023",
+  "pred": "8 July 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "What fields would Caroline be likely to pursue in her educaton?",
+  "gold": "Psychology, counseling certification",
+  "pred": "counseling or mental health",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "What did Jon and Gina compare their entrepreneurial journeys to?",
+  "gold": "dancing together and supporting each other",
+  "pred": "Based on the evidence provided, I cannot find a specific comparison that Jon and Gina made regarding their entrepreneurial journeys. The evidence shows they both experienced job loss, started businesses (Jon with a dance studio, Gina with an online clothing store), faced challenges, and supported each other, but no specific metaphor or comparison they used to describe their journeys is mentioned.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "What is Caroline's identity?",
+  "gold": "Transgender woman",
+  "pred": "Based on the evidence, Caroline's identity includes being:\n\n- A person in a relationship with Melanie\n- Someone with heritage (specific details in conv-26:D4)\n- A professional (specific profession in conv-26:D11)\n- An advocate (advocacy work in conv-26:D3)\n- Someone exploring careers and continuing education\n- A person who values family planning\n- Someone with personal values centered around specific principles (conv-26:D10, D11, D13, D14)\n- An individual with hobbies and interests\n- Someone who turned a specific age milestone (conv-26:D4)",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "When did Jon host a dance competition?",
+  "gold": "May, 2023",
+  "pred": "May 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "What did Melanie and her family see during their camping trip last year?",
+  "gold": "Perseid meteor shower",
+  "pred": "Perseid meteor shower",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "When did Gina go to a dance class with a group of friends?",
+  "gold": "21 July 2023",
+  "pred": "9 April 2023",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "When did Melanie make a plate in pottery class?",
+  "gold": "24 August 2023",
+  "pred": "24 Aug 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "According to Gina, what makes Jon a perfect mentor and guide?",
+  "gold": "His positivity and determination",
+  "pred": "Jon's love of dance and teaching philosophy",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "When did Gina open her online clothing store?",
+  "gold": "16 March, 2023",
+  "pred": "16 March 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "When did Jon start expanding his studio's social media presence?",
+  "gold": "April, 2023",
+  "pred": "May 2023",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "When did Caroline and Melanie go to a pride fesetival together?",
+  "gold": "2022",
+  "pred": "The evidence does not contain information about Caroline and Melanie attending a pride festival together.",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "When did Melanie paint a sunrise?",
+  "gold": "2022",
+  "pred": "2022",
+  "correct": true
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "Why did Melanie choose to use colors and patterns in her pottery project?",
+  "gold": "She wanted to catch the eye and make people smile.",
+  "pred": "To express feelings creatively",
+  "correct": false
+ },
+ {
+  "budget": 0.35,
+  "policy": "regen",
+  "q": "How did Melanie feel while watching the meteor shower?",
+  "gold": "in awe of the universe",
+  "pred": "awe-inspired and appreciative of life",
+  "correct": true
+ },
+ {
+  "budget": 0.5,
+  "policy": "full",
+  "q": "When did Jon start expanding his studio's social media presence?",
+  "gold": "April, 2023",
+  "pred": "3 April 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.5,
+  "policy": "full",
+  "q": "What fields would Caroline be likely to pursue in her educaton?",
+  "gold": "Psychology, counseling certification",
+  "pred": "Counseling or mental health",
+  "correct": true
+ },
+ {
+  "budget": 0.5,
+  "policy": "full",
+  "q": "When did Jon host a dance competition?",
+  "gold": "May, 2023",
+  "pred": "May 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.5,
+  "policy": "full",
+  "q": "When did Jon start to go to the gym?",
+  "gold": "March, 2023",
+  "pred": "Week of 6 March 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.5,
+  "policy": "full",
+  "q": "When did Melanie paint a sunrise?",
+  "gold": "2022",
+  "pred": "2022",
+  "correct": true
+ },
+ {
+  "budget": 0.5,
+  "policy": "full",
+  "q": "When did Gina open her online clothing store?",
+  "gold": "16 March, 2023",
+  "pred": "16 March 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.5,
+  "policy": "full",
+  "q": "Why did Gina combine her clothing business with dance?",
+  "gold": "she is passionate about dance and fashion",
+  "pred": "She is passionate about both, which lets her show her creativity and share her love with others, plus she can add dance-inspired items to her store.",
+  "correct": true
+ },
+ {
+  "budget": 0.5,
+  "policy": "full",
+  "q": "How is Gina's store doing?",
+  "gold": "The store is doing great.",
+  "pred": "Great",
+  "correct": true
+ },
+ {
+  "budget": 0.5,
+  "policy": "delete-oldest",
+  "q": "When did Jon start expanding his studio's social media presence?",
+  "gold": "April, 2023",
+  "pred": "21 July 2023",
+  "correct": false
+ },
+ {
+  "budget": 0.5,
+  "policy": "delete-oldest",
+  "q": "What fields would Caroline be likely to pursue in her educaton?",
+  "gold": "Psychology, counseling certification",
+  "pred": "The evidence does not mention Caroline. Based on the evidence provided, only John and Maria are discussed.",
+  "correct": false
+ },
+ {
+  "budget": 0.5,
+  "policy": "delete-oldest",
+  "q": "When did Jon host a dance competition?",
+  "gold": "May, 2023",
+  "pred": "The evidence does not indicate that Jon hosted a dance competition.",
+  "correct": false
+ },
+ {
+  "budget": 0.5,
+  "policy": "delete-oldest",
+  "q": "When did Jon start to go to the gym?",
+  "gold": "March, 2023",
+  "pred": "The evidence does not indicate that Jon started going to the gym. The evidence shows Jon is working on opening a dance studio, rehearsing, and managing his business plans, but does not mention Jon attending a gym.",
+  "correct": false
+ },
+ {
+  "budget": 0.5,
+  "policy": "delete-oldest",
+  "q": "When did Melanie paint a sunrise?",
+  "gold": "2022",
+  "pred": "The evidence does not mention anyone named Melanie. The evidence discusses Maria's paintings and photography, but does not mention Maria or anyone else painting a sunrise.",
+  "correct": false
+ },
+ {
+  "budget": 0.5,
+  "policy": "delete-oldest",
+  "q": "When did Gina open her online clothing store?",
+  "gold": "16 March, 2023",
+  "pred": "Week of 14 July 2023",
+  "correct": false
+ },
+ {
+  "budget": 0.5,
+  "policy": "delete-oldest",
+  "q": "Why did Gina combine her clothing business with dance?",
+  "gold": "she is passionate about dance and fashion",
+  "pred": "The evidence does not indicate that Gina combined her clothing business with dance. She runs a clothing store separately and helps Jon with his dance studio's marketing and social media.",
+  "correct": false
+ },
+ {
+  "budget": 0.5,
+  "policy": "delete-oldest",
+  "q": "How is Gina's store doing?",
+  "gold": "The store is doing great.",
+  "pred": "The store is doing well - Gina was noticed by fashion editors in early July 2023, built a new customer order website in mid-July 2023, and successfully created a limited edition clothing line in June 2023.",
+  "correct": false
+ },
+ {
+  "budget": 0.5,
+  "policy": "delete-redundant",
+  "q": "When did Jon start expanding his studio's social media presence?",
+  "gold": "April, 2023",
+  "pred": "16 June 2023",
+  "correct": false
+ },
+ {
+  "budget": 0.5,
+  "policy": "delete-redundant",
+  "q": "What fields would Caroline be likely to pursue in her educaton?",
+  "gold": "Psychology, counseling certification",
+  "pred": "Art, education, social work, LGBTQ+ studies, child development, or psychology",
+  "correct": true
+ },
+ {
+  "budget": 0.5,
+  "policy": "delete-redundant",
+  "q": "When did Jon host a dance competition?",
+  "gold": "May, 2023",
+  "pred": "The evidence does not indicate that Jon hosted a dance competition. Jon's dance crew won first place in a local competition in 2022, but there is no mention of Jon hosting one.",
+  "correct": false
+ },
+ {
+  "budget": 0.5,
+  "policy": "delete-redundant",
+  "q": "When did Jon start to go to the gym?",
+  "gold": "March, 2023",
+  "pred": "The evidence does not contain information about Jon going to the gym.",
+  "correct": false
+ },
+ {
+  "budget": 0.5,
+  "policy": "delete-redundant",
+  "q": "When did Melanie paint a sunrise?",
+  "gold": "2022",
+  "pred": "2022",
+  "correct": true
+ },
+ {
+  "budget": 0.5,
+  "policy": "delete-redundant",
+  "q": "When did Gina open her online clothing store?",
+  "gold": "16 March, 2023",
+  "pred": "Before t+382d (before the announcement date)",
+  "correct": false
+ },
+ {
+  "budget": 0.5,
+  "policy": "delete-redundant",
+  "q": "Why did Gina combine her clothing business with dance?",
+  "gold": "she is passionate about dance and fashion",
+  "pred": "To show off her style and creativity, and because dance is expressive and graceful like her fashion aesthetic.",
+  "correct": true
+ },
+ {
+  "budget": 0.5,
+  "policy": "delete-redundant",
+  "q": "How is Gina's store doing?",
+  "gold": "The store is doing great.",
+  "pred": "Growing customer base, got noticed by fashion editors, experiencing ups and downs",
+  "correct": true
+ },
+ {
+  "budget": 0.5,
+  "policy": "regen",
+  "q": "When did Jon start expanding his studio's social media presence?",
+  "gold": "April, 2023",
+  "pred": "3 April 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.5,
+  "policy": "regen",
+  "q": "What fields would Caroline be likely to pursue in her educaton?",
+  "gold": "Psychology, counseling certification",
+  "pred": "counseling or mental health",
+  "correct": true
+ },
+ {
+  "budget": 0.5,
+  "policy": "regen",
+  "q": "When did Jon host a dance competition?",
+  "gold": "May, 2023",
+  "pred": "The evidence does not indicate that Jon hosted a dance competition. The evidence shows Jon was preparing for and participating in a dance competition in March 2023, but not hosting one.",
+  "correct": false
+ },
+ {
+  "budget": 0.5,
+  "policy": "regen",
+  "q": "When did Jon start to go to the gym?",
+  "gold": "March, 2023",
+  "pred": "Week beginning 6 March 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.5,
+  "policy": "regen",
+  "q": "When did Melanie paint a sunrise?",
+  "gold": "2022",
+  "pred": "2022",
+  "correct": true
+ },
+ {
+  "budget": 0.5,
+  "policy": "regen",
+  "q": "When did Gina open her online clothing store?",
+  "gold": "16 March, 2023",
+  "pred": "16 March 2023",
+  "correct": true
+ },
+ {
+  "budget": 0.5,
+  "policy": "regen",
+  "q": "Why did Gina combine her clothing business with dance?",
+  "gold": "she is passionate about dance and fashion",
+  "pred": "To combine her passion for dance and fashion",
+  "correct": true
+ },
+ {
+  "budget": 0.5,
+  "policy": "regen",
+  "q": "How is Gina's store doing?",
+  "gold": "The store is doing great.",
+  "pred": "Well - customers love the new offers and promotions, she is seeing more sales",
+  "correct": true
+ }
+]
