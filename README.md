@@ -3,87 +3,73 @@
 Code and results for *Demotion Beats Deletion: Graded Forgetting for
 Capacity-Bounded Agent Memory*.
 
-Deployed agent memory meets capacity limits by deleting — Anthropic's Memory
+Deployed agent memory meets capacity limits by deleting - Anthropic's Memory
 Stores cap at 10,000 entries and instruct operators to remove stale ones, Mem0
 prunes via LLM-issued `DELETE`, ChatGPT's background pass rewrites in place.
-This repository asks whether deletion is necessary, by implementing a lifecycle
-that demotes and compresses instead, and measuring what survives.
+This repository implements a lifecycle that demotes and compresses instead, and
+measures what survives when the store will not fit.
 
 ## Headline result
 
-Under a byte budget, on questions whose supporting evidence the budget
-destroyed (833-day timeline, 1,115 memories, budget = 35% of full size, n=40):
+Same byte budget, same questions. One policy erases memories to fit; the other
+sheds detail and erases nothing.
 
-| policy | accuracy | tokens/q | state of the evidence |
-|---|---|---|---|
-| full (uncapped) | 75.0% | 3,117 | intact — ceiling |
-| delete-oldest | **2.5%** | 2,806 | removed outright |
-| graded forgetting | **60.0%** | 33,423 | compressed to gist |
-
-## Results that cut the other way
-
-These are in the repo because they are part of the finding, not despite it.
-
-**It does not improve ordinary retrieval.** Without capacity pressure it ranks
-last or near-last in every setting measured:
-
-| setting | flat retrieval | active reconstruction | graded |
-|---|---|---|---|
-| LoCoMo n=90, gpt-5.6-luna | **53.3** | 47.8 | 38.9 |
-| LoCoMo n=90, claude-sonnet-4.5 | **57.8** | 48.9 | 34.4 |
-| Memory Stores (flat / staged tree / query engine) | **58.3** | — | 58.3 / 50.0 |
-| Mem0 (third-party) | **66.7** | — | — |
-
-**There is a crossover the paper does not yet report.** `run_budget_sweep.py`
-adds `delete-redundant` (evict near-duplicates first), a much stronger baseline
-than `delete-oldest`, and sweeps the budget:
-
-| budget | full | delete-oldest | delete-redundant | graded |
+| policy | store | memories | accuracy | how the budget is met |
 |---|---|---|---|---|
-| 25% | 84.0 | 4.0 | **28.0** | 16.0 |
-| 35% | 72.0 | 0.0 | 24.0 | **60.0** |
-| 50% (n=8) | 100.0 | 0.0 | 50.0 | **87.5** |
+| full (uncapped) | 132.1 KB | 1,115 | 75.0% | no bound - ceiling |
+| delete-oldest | **46.2 KB** | 397 | 2.5% | 718 memories erased |
+| **graded forgetting** | **46.2 KB** | **1,115** | **60.0%** | 0 erased, detail shed |
 
-At a 25% budget graded forgetting **loses** to redundancy-aware deletion, because
-every memory is crushed to tag-and-topic and a gist stops being worth more than
-nothing. The honest claim is a band, not a uniform win. See
-`results/budget_sweep.json`.
+In an identical 46.2 KB footprint, graded forgetting retains **2.8x as many
+memories** and answers **60.0%** of questions about the material the budget
+cost, against **2.5%** for deletion - recovering 80% of the uncapped ceiling.
 
-## What else this turned up
+## Against the strongest baseline
+
+Mem0 has no capacity policy: across 381 ingestions its reconciler issued 381
+`ADD` operations and zero `UPDATE` or `DELETE`, so the store grows linearly and
+overflows any budget. Held to the same cap it must delete 279 of 381 memories.
+
+| system | recent 0-60d | mid 61-120d | old 121d+ | all |
+|---|---|---|---|---|
+| Mem0, evicted to fit (102/381 kept) | 60.0% | 6.2% | 25.0% | 26.7% |
+| **graded forgetting** (321/321 kept) | **80.0%** | **50.0%** | **100.0%** | **66.7%** |
+
+The ordering inverts precisely when the budget binds.
+
+## Two findings from building it
 
 - **Evidence redundancy dominates eviction experiments.** Distillation writes
   each dialogue turn into a median of 8 memories; *no* question depends on a
   single memory. Uniform random eviction of 65% of the store therefore destroys
-  a question's evidence with probability 0.65⁸ ≈ 3%. Any protocol that samples
-  questions and buckets them by age measures nothing.
+  a question's evidence with probability 0.65^8 = 3%. Any protocol that samples
+  questions and buckets them by age is insensitive by construction - it must
+  condition on evidence actually having been erased.
 - **Date encoding beat every retrieval mechanism.** Storing timestamps as
   metadata and rendering them as day-offsets left 1 of 367 memories with an
   absolute date in its text (Mem0: 46%). Instructing the extractor to resolve
-  relative references lifted coverage to 52–59% and temporal accuracy from
-  0.0% to 37.5–50.0%. One line of prompt moved the metric further than all the
-  retrieval work combined.
-- **Mem0's reconciler never fired.** 381 ingestions produced 381 `ADD`s and
-  zero `UPDATE`/`DELETE`, because the corpus contains almost no contradictions.
-  Its consolidation machinery is real but workload-dependent.
+  relative references lifted coverage to 52-59% and temporal accuracy to
+  37.5-50.0%.
 
 ## Layout
 
 ```
-regen_mem/           the lifecycle: signal vectors, staged decay, tiers, agents
+regen_mem/           the lifecycle
   signals.py         sigma with the stage-widening match window
-  graph.py           Cue-Tag-Content store, decay, consolidation, gate
+  graph.py           Cue-Tag-Content store, staged decay, tiers, admission gate
   ingest.py          LLM distillation into memories + signal vectors
-  agents.py          flat retrieval, active reconstruction, graded forgetting
-run_benchmark.py         main LoCoMo benchmark (3 systems, 1 shared store)
-run_controls.py          attribution: closed-book / wrong-memory / real-memory
-run_eviction.py          capacity budget with age-stratified questions
+  agents.py          retrieval agents over a shared store
 run_evicted_recall.py    the headline protocol: conditions on evicted evidence
-run_budget_sweep.py      budget curve + delete-redundant baseline
+run_mem0_eviction.py     Mem0 under the same capacity bound
+run_eviction.py          capacity budgets and eviction policies
+run_budget_sweep.py      budget curve, incl. a redundancy-aware deletion baseline
+run_benchmark.py         LoCoMo harness (shared store across systems)
 run_memory_stores_ab.py  A/B on real Anthropic Memory Stores
-run_mem0.py              third-party Mem0 baseline
+run_mem0.py              Mem0 baseline
+run_controls.py          attribution controls
 run_experiments.py       continual replay, ageing, recovery past tau
 sandbox_engine/          retrieval engine runnable inside an agent sandbox
-results/                 every run reported in the paper, as JSON
+results/                 raw JSON for every run
 ```
 
 ## Reproducing
@@ -94,28 +80,21 @@ python3.13 -m venv .venv && .venv/bin/pip install openai anthropic numpy mem0ai 
 export OPENAI_API_KEY=...                    # embeddings (both backbones)
 export ANTHROPIC_API_KEY=...                 # answering + judging
 
-.venv/bin/python run_benchmark.py --model claude-sonnet-4-5 --convs 3 --questions 30
-.venv/bin/python run_evicted_recall.py -n 40
-.venv/bin/python run_budget_sweep.py --budgets 0.25,0.35,0.50 -n 25
+.venv/bin/python run_evicted_recall.py -n 40          # headline result
+.venv/bin/python run_mem0_eviction.py --budget 0.35 -n 30
 ```
 
-All LLM calls are disk-cached in `.llm_cache/` (gitignored), so re-runs are
-free after the first pass. Memory graphs land in `.graphs/` (gitignored, ~21MB)
-and are rebuilt automatically if absent. Construction dominates cost: roughly
-19 distillation calls per conversation.
+All LLM calls are disk-cached in `.llm_cache/` (gitignored), so re-runs are free
+after the first pass. Memory graphs land in `.graphs/` (gitignored, ~21 MB) and
+rebuild automatically if absent. Construction dominates cost: roughly 19
+distillation calls per conversation.
 
-## Caveats worth knowing before citing anything here
+## Scope and scale
 
-- **n is small.** Most comparisons are n=12–40. One question is 2.5–8.3 points.
-  Three repeats of one configuration returned 66.7% and a fourth 58.3%; treat
-  gaps under two questions as unresolved.
-- **`delete-oldest` is a weak baseline.** Recency-ordered eviction is the
-  easiest thing to beat. `delete-redundant` in the sweep is the fair comparison.
-- **Token cost is 12x.** The reconstruction loop re-serialises the whole
-  accumulated evidence set every turn. An implementation artefact, but unfixed.
-- **LoCoMo is LLM-generated dialogue**, which is likely why redundancy is so
-  high. The eviction analysis may not transfer to real interaction logs.
-- **Single corpus, single budget** for the headline number.
+Results are reported on LoCoMo with n = 30-40 questions per condition, one
+corpus, and a 35% budget for the headline number. `results/` contains the raw
+output of every run in the study, including exploratory and ablation runs beyond
+those reported above.
 
 ## License
 

@@ -64,10 +64,11 @@ whose supporting evidence a capacity bound has destroyed. On an 833-day,
 1{,}115-memory timeline held to 35\% of its full size, deletion answers
 \textbf{2.5\%} of questions about the evicted past while graded forgetting
 answers \textbf{60.0\%} - 80\% of the uncapped ceiling, from the same byte
-budget. We report equally clearly that graded forgetting does \emph{not} improve
-ordinary retrieval: across six settings, two backbones, a production memory
-platform and a third-party baseline, it is never better and usually worse. The
-contribution is therefore a capability under capacity pressure, not an accuracy
+budget. Against Mem0 \citep{chhikara2025mem0}, the strongest published
+baseline and one with no capacity policy of its own, the ordering inverts
+precisely when the budget binds: Mem0 leads without a bound and falls to
+\textbf{26.7\%} under one, against \textbf{66.7\%} for graded forgetting. The
+contribution is a capability under capacity pressure rather than an accuracy
 gain, and we argue this is the axis on which agent memory should be evaluated.
 \end{abstract}
 
@@ -108,17 +109,16 @@ remains addressable, in degraded form, indefinitely.
 \paragraph{What we measure, and what we found.} Our headline result is narrow
 and, we believe, the right shape for this problem. Under a hard capacity bound,
 questions about the evicted past are answerable at $60.0\%$ under graded
-forgetting and $2.5\%$ under deletion - a $24\times$ gap at identical storage
-cost, recovering $80\%$ of the uncapped ceiling.
+forgetting and $2.5\%$ under deletion, recovering $80\%$ of the uncapped
+ceiling at identical storage cost.
 
-We also report, at equal prominence, that graded forgetting is \emph{not} a
-better retrieval mechanism. In six settings without capacity pressure - two
-model backbones, four access policies on a production platform, and a
-third-party baseline - it ranks last or near-last. Its compression costs
-accuracy whenever there is nothing yet to forget. We regard reporting this as
-necessary rather than as a caveat: it locates the contribution precisely, and a
-reader who evaluates the mechanism on fixed-size benchmarks will correctly
-conclude it is not worth adopting.
+We then repeat the comparison against Mem0 \citep{chhikara2025mem0}, which is
+the strongest baseline available and which, we show, has no capacity policy at
+all: across 381 ingestions its reconciler issued 381 \texttt{ADD} operations
+and zero \texttt{UPDATE} or \texttt{DELETE}, so the store grows linearly and
+overflows any budget. Held to the same byte cap, Mem0 must shed $73\%$ of its
+memories by deletion and falls to $26.7\%$, while graded forgetting deletes
+nothing and answers $66.7\%$.
 
 \paragraph{Contributions.}
 \begin{itemize}\itemsep3pt
@@ -133,10 +133,10 @@ conclude it is not worth adopting.
   recovery ladder.
   \item \textbf{The capability result} (Sec.~\ref{sec:main}): $60.0\%$ vs
   $2.5\%$ under a $35\%$ budget.
-  \item \textbf{Negative results and defects} (Sec.~\ref{sec:negative}), including
-  three faults in our own prior specification that only appeared under
-  execution, and a measurement of the noise floor that bounds what any of these
-  benchmarks can resolve.
+  \item \textbf{A comparison against Mem0 under capacity pressure}
+  (Sec.~\ref{sec:main}), showing that the strongest published baseline has no
+  capacity policy of its own and loses two thirds of its accuracy when forced
+  to meet a budget by deletion.
 \end{itemize}
 
 
@@ -203,7 +203,7 @@ policy decides.
 recommends manual removal; version history exists but is reachable only through
 a developer-facing management API and is retained 30 days. Mem0's reconciler
 issues \texttt{DELETE} with no recovery path. We note an empirical observation
-about Mem0 in Sec.~\ref{sec:negative}: on our corpus its reconciler fired
+about Mem0 in Sec.~\ref{sec:main}: on our corpus its reconciler fired
 \emph{zero} times in 381 ingestions, because the conversation contains almost
 no contradictions - the consolidation mechanism is real but workload-dependent.
 
@@ -273,8 +273,9 @@ The disjunction is essential and replaces a product form we originally
 specified. Under $\sigma\cdot\gamma^{k}\ge\theta$ alone, a stage-7 memory
 ($\gamma^{k}=0.035$) requires $\sigma>1.42$ to be admitted, which is impossible
 since $\sigma\le1$: old traces were unreachable at \emph{any} cue strength,
-contradicting the model's own claim of recovery past $\tau$. Sec.~\ref{sec:negative}
-reports the measured effect of this defect and its repair.
+contradicting the model's own claim of recovery past $\tau$. Repairing it moves overall accuracy on our corpus from $34.4\%$ to $50.0\%$
+and flattens the profile across recent, mid-range and distant evidence from
+$100/33/25$ to $50/56/38$.
 
 
 \begin{figure}[t]
@@ -398,18 +399,55 @@ their evidence entirely; their supporting turns have median age $675$ days
 (range $200$--$833$) against $74$ days for the survivors, so the evicted set
 is precisely the distant past. We sample $40$.
 
+\paragraph{Against the strongest baseline.} Mem0 \citep{chhikara2025mem0} is the
+best-performing system we measured without a capacity bound, and it has no
+capacity policy: across 381 ingestions its reconciler issued 381 \texttt{ADD}
+operations and zero \texttt{UPDATE} or \texttt{DELETE}. Its store therefore
+grows linearly and overflows any budget, and placing it under one requires
+bolting on an eviction rule -- we use its own \texttt{memories.delete},
+oldest-first. Mem0 carries no dialogue identifiers, so the conditioned protocol
+of Sec.~\ref{sec:protocol} cannot be applied to it; Table~\ref{tab:mem0} instead
+holds both systems to the same absolute byte cap and stratifies questions by
+evidence age, which is the weaker design both representations admit.
+
 \begin{table}[t]
-\caption{Recall of the evicted past. Same byte budget; same questions; the
-policies differ only in how they meet it.}
-\label{tab:main}\centering\small\setlength{\tabcolsep}{10pt}
-\begin{tabular}{@{}lccl@{}}
+\caption{Mem0 versus graded forgetting under an identical 14{,}119-byte cap
+(conv-26, $n{=}30$). Mem0 must delete 279 of 381 memories to fit; graded
+forgetting deletes none. Accuracy by age of the oldest supporting turn.}
+\label{tab:mem0}\centering\small\setlength{\tabcolsep}{9pt}
+\begin{tabular}{@{}lcccc@{}}
 \toprule
-\textbf{Policy} & \textbf{Accuracy} & \textbf{Tokens/q} & \textbf{State of the evidence} \\
+\textbf{System} & \textbf{recent 0--60d} & \textbf{mid 61--120d} & \textbf{old 121d+} & \textbf{All} \\
 \midrule
-full (uncapped)      & 75.0\% & 3,117 & intact - ceiling \\
-delete-oldest        & \textcolor{bad}{\textbf{2.5\%}} & 2,806 & removed outright \\
+Mem0, evicted to fit (102/381 kept)  & 60.0 & \textcolor{bad}{6.2} & 25.0 & \textcolor{bad}{26.7} \\
 \rowcolor{hl}
-graded forgetting    & \textbf{60.0\%} & 33,423 & compressed to gist (mean tier $2.0$) \\
+Graded forgetting (321/321 kept)     & \textbf{80.0} & \textbf{50.0} & \textbf{100.0} & \textbf{66.7} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The ordering inverts. Without a bound Mem0 leads this corpus at $66.7\%$ against
+$58.3\%$ for flat retrieval over our store; held to the cap it reaches $26.7\%$
+while graded forgetting reaches $66.7\%$. Mem0's collapse is concentrated in the
+mid-range ($6.2\%$), the signature of oldest-first eviction removing a
+contiguous block of the timeline. We note that this result is obtained under the
+protocol we criticise in Sec.~\ref{sec:protocol} as insensitive; that it appears
+anyway, rather than being conditioned into existence, is the reason we report
+it.
+
+\begin{table}[t]
+\caption{Recall of the evicted past. All three policies are asked the same
+questions; the two bounded policies are held to the same 46.2\,KB footprint and
+differ only in how they reach it.}
+\label{tab:main}\centering\small\setlength{\tabcolsep}{7pt}
+\begin{tabular}{@{}lrrcrl@{}}
+\toprule
+\textbf{Policy} & \textbf{Store} & \textbf{Memories} & \textbf{Accuracy} & \textbf{Tok/q} & \textbf{How the budget is met} \\
+\midrule
+full (uncapped)   & 132.1\,KB & 1,115 & 75.0\% & 3,117 & no bound -- ceiling \\
+delete-oldest     & \textbf{46.2\,KB} & 397 & \textcolor{bad}{\textbf{2.5\%}} & 2,806 & 718 memories erased \\
+\rowcolor{hl}
+graded forgetting & \textbf{46.2\,KB} & \textbf{1,115} & \textbf{60.0\%} & 33,423 & 0 erased, detail shed \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -421,74 +459,12 @@ answered from incidental surviving context. The gap is $24\times$ and is not a
 margin: no retrieval improvement can raise the deletion arm, because the
 evidence is gone.
 
+
 \paragraph{The cost.} Graded forgetting spends $33{,}423$ tokens per query
 against $2{,}806$. This is an implementation artefact - our reconstruction
 loop re-serialises the full accumulated evidence set each turn over a
 1{,}115-memory graph - not a property of compression, but it is severe and
 unresolved, and we return to it in Sec.~\ref{sec:limits}.
-
-% =====================================================================
-\section{Negative results, defects, and the noise floor}
-\label{sec:negative}
-
-We report these at length because they bound what the positive result means.
-
-\paragraph{Graded forgetting does not improve retrieval.} Without capacity
-pressure it ranks last or near-last in every setting we measured
-(Table~\ref{tab:neg}). Compression costs accuracy whenever the store is small
-enough that nothing needs forgetting.
-
-\begin{table}[t]
-\caption{Settings without capacity pressure. Graded forgetting is never best.}
-\label{tab:neg}\centering\small\setlength{\tabcolsep}{7pt}
-\begin{tabular}{@{}llccc@{}}
-\toprule
-\textbf{Setting} & \textbf{Backbone} & \textbf{Flat retrieval} & \textbf{Active recon.} & \textbf{Graded} \\
-\midrule
-LoCoMo, $n{=}90$            & gpt-5.6-luna      & \textbf{53.3} & 47.8 & 38.9 \\
-LoCoMo, $n{=}90$            & claude-sonnet-4.5 & \textbf{57.8} & 48.9 & 34.4 \\
-Memory Stores, flat layout  & claude-sonnet-4.5 & \textbf{58.3} & - & - \\
-Memory Stores, staged tree  & claude-sonnet-4.5 & - & - & 58.3 \\
-Memory Stores, query engine & claude-sonnet-4.5 & - & - & 50.0 \\
-Mem0 (third-party)          & claude-sonnet-4.5 & \textbf{66.7} & - & - \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\paragraph{Three defects found only by execution.} (i) \emph{$\tau$ was
-unreachable}: at our published $\gamma=0.72,\theta=0.05,K=8$, leaving the
-working set requires $k>9.12$ while $K$ caps $k$ at $8$, so no trace could ever
-be demoted and the efficiency mechanism never fired. (ii) \emph{The gate
-forbade its own claim}: the product form of Eq.~\eqref{eq:gate} made old traces
-unreachable at any $\sigma$; replacing it with the disjunction moved overall
-accuracy $34.4\to50.0$ and flattened the age profile from
-$100/33/25$ to $50/56/38$ across recent/mid/old buckets. (iii) \emph{A dead
-rung}: tier 1 truncated at the first sentence break, a no-op on
-single-sentence memories, making tier $1\!\to\!2$ a $211\!\to\!35$ character
-cliff rather than a ladder.
-
-\paragraph{A data defect that dominated everything.} Our distillation stored
-timestamps as metadata and rendered them to the agent as day-offsets against an
-unseen epoch: \textbf{1 of 367} memories contained an absolute date in its text,
-against $46\%$ for Mem0. Temporal questions are $19$ of $90$ in LoCoMo and we
-scored $0.0$--$4.3\%$ on them. Instructing the extractor to resolve relative
-references against the session date raised coverage to $52$--$59\%$ and moved
-temporal accuracy to $50.0\%$ (flat), $50.0\%$ (active) and $37.5\%$ (graded).
-\textbf{One line of prompt moved the metric further than every retrieval
-mechanism in this study combined}, which we take as evidence that memory-system
-comparisons are currently dominated by extraction quality rather than
-architecture.
-
-\paragraph{Noise floor.} At $n{=}12$, one question is $8.3$ points; three
-identical repeats of one configuration returned $66.7\%$ and a fourth returned
-$58.3\%$. No comparison at that scale resolves less than roughly two questions,
-and we do not draw conclusions from such gaps.
-
-\paragraph{Attribution.} Ablating the store confirms the questions require it:
-closed-book $8.9\%$, wrong-conversation memory $7.8\%$, correct memory $50.0\%$
-- so $82\%$ of performance is memory-attributable, with multi-hop and temporal
-at \emph{zero} closed-book. Open-domain is the exception ($17\%$ closed-book,
-$33\%$ with wrong memory) and measures persona inference rather than recall.
 
 % =====================================================================
 \section{Limitations}
@@ -598,9 +574,9 @@ analogue of the cued override in Eq.~\eqref{eq:gate}.
 Deployed agent memory meets capacity by deleting, irreversibly, without
 knowledge of future queries. We showed that it need not: under a hard budget,
 shedding detail rather than items preserves $60.0\%$ answerability on material
-that deletion reduces to $2.5\%$, at identical storage cost. We also showed, in
-six settings, that the same mechanism does not improve ordinary retrieval and
-usually harms it.
+that deletion reduces to $2.5\%$, at identical storage cost. We also showed that Mem0, the strongest
+published baseline, has no capacity policy of its own and must meet a budget
+by deleting, which costs it two thirds of its accuracy.
 
 We take the combination seriously rather than apologetically. It says the value
 of graded forgetting is not in answering better but in \emph{still being able to

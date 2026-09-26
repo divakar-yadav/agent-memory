@@ -1,0 +1,482 @@
+[
+ {
+  "system": "mem0 (evicted)",
+  "q": "Would Caroline pursue writing as a career option?",
+  "gold": "LIkely no; though she likes reading, she wants to be a counselor",
+  "pred": "Unable to determine from evidence provided.",
+  "correct": false,
+  "age": 102
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "When did Caroline apply to adoption agencies?",
+  "gold": "The week of 23 August 2023",
+  "pred": "Mid-to-late August 2023",
+  "correct": true,
+  "age": 60
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "What symbols are important to Caroline?",
+  "gold": "Rainbow flag, transgender symbol",
+  "pred": "Rainbow flag mural with an eagle",
+  "correct": false,
+  "age": 117
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "What happened to Melanie's son on their road trip?",
+  "gold": "He got into an accident",
+  "pred": "Car accident",
+  "correct": true,
+  "age": 2
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "What did Caroline find in her neighborhood during her walk?",
+  "gold": "a rainbow sidewalk",
+  "pred": "someone drawing on the ground",
+  "correct": false,
+  "age": 58
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "Would Caroline still want to pursue counseling as a career if she hadn't received support growing up?",
+  "gold": "Likely no",
+  "pred": "No",
+  "correct": true,
+  "age": 135
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "What book did Melanie read from Caroline's suggestion?",
+  "gold": "\"Becoming Nicole\"",
+  "pred": "The book Caroline recommended (specific title not stated in evidence)",
+  "correct": false,
+  "age": 102
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "What painting did Melanie show to Caroline on October 13, 2023?",
+  "gold": "A painting inspired by sunsets with a pink sky.",
+  "pred": "Based on the evidence, the most likely answer is the sunset-inspired piece, as it was painted around early October 2023, which aligns with the October 13, 2023 date in question.",
+  "correct": false,
+  "age": 9
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "What did Melanie and her family see during their camping trip last year?",
+  "gold": "Perseid meteor shower",
+  "pred": "The evidence does not specify what they saw during the camping trip. Based on the evidence, they hiked, explored, roasted marshmallows, and shared stories around the campfire.",
+  "correct": false,
+  "age": 94
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "When did Melanie go to the pottery workshop?",
+  "gold": "The Friday before 15 July 2023",
+  "pred": "August 24, 2023",
+  "correct": false,
+  "age": 99
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "What would Caroline's political leaning likely be?",
+  "gold": "Liberal",
+  "pred": "Progressive/liberal",
+  "correct": true,
+  "age": 66
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "How did Melanie feel about her family supporting her?",
+  "gold": "She appreciated them a lot",
+  "pred": "They give her strength and motivation to keep going.",
+  "correct": true,
+  "age": 2
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "When did Caroline have a picnic?",
+  "gold": "The week before 6 July 2023",
+  "pred": "No evidence indicates Caroline had a picnic.",
+  "correct": false,
+  "age": 108
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "What kind of place does Caroline want to create for people?",
+  "gold": "a safe and inviting place for people to grow",
+  "pred": "A safe and loving home",
+  "correct": false,
+  "age": 117
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "What books has Melanie read?",
+  "gold": "\"Nothing is Impossible\", \"Charlotte's Web\"",
+  "pred": "A book Caroline recommended",
+  "correct": false,
+  "age": 108
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "What does Melanie say running has been great for?",
+  "gold": "Her mental health",
+  "pred": "Based on the evidence provided, there is no information about what Melanie says running has been great for. The evidence only mentions her family giving her strength and her children's resilience, but does not mention running.\n\nHowever, since I must give my best inference and cannot answer \"unknown,\" my inference would be: her mental health or coping with difficulties.",
+  "correct": false,
+  "age": 102
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "Which  classical musicians does Melanie enjoy listening to?",
+  "gold": "Bach and Mozart",
+  "pred": "The evidence does not mention any classical musicians that Melanie enjoys. The only musicians mentioned are Summer Sounds (a pop band) and Matt Patterson.",
+  "correct": false,
+  "age": 55
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "When did Melanie go to the park?",
+  "gold": "27 August 2023",
+  "pred": "August 27, 2023",
+  "correct": true,
+  "age": 55
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "When did Caroline go to a pride parade during the summer?",
+  "gold": "The week before 3 July 2023",
+  "pred": "August 11, 2023",
+  "correct": false,
+  "age": 111
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "What activity did Caroline used to do with her dad?",
+  "gold": "Horseback riding",
+  "pred": "Horseback riding",
+  "correct": true,
+  "age": 60
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "Why are flowers important to Melanie?",
+  "gold": "They remind her to appreciate the small moments and were a part of her wedding decor",
+  "pred": "The evidence does not mention flowers being important to Melanie. Based on the evidence, Melanie's interests focus on painting animals and creating pottery with vibrant colors and patterns.",
+  "correct": false,
+  "age": 99
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "What kind of books does Caroline have in her library?",
+  "gold": "kids' books - classics, stories from different cultures, educational books",
+  "pred": "The evidence does not specify what books Caroline has in her library.",
+  "correct": false,
+  "age": 108
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "What inspired Caroline's painting for the art show?",
+  "gold": "visiting an LGBTQ center and wanting to capture unity and strength",
+  "pred": "Transgender poetry reading",
+  "correct": false,
+  "age": 97
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "When is Melanie planning on going camping?",
+  "gold": "June 2023",
+  "pred": "October 19, 2023",
+  "correct": false,
+  "age": 150
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "When did Caroline encounter people on a hike and have a negative experience?",
+  "gold": "The week before 25 August 2023",
+  "pred": "August 17, 2023 or shortly before",
+  "correct": true,
+  "age": 58
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "When did Melanie go to the museum?",
+  "gold": "5 July 2023",
+  "pred": "No evidence of a museum visit.",
+  "correct": false,
+  "age": 108
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "What does Melanie think about Caroline's decision to adopt?",
+  "gold": "she thinks Caroline is doing something amazing and will be an awesome mom",
+  "pred": "The evidence does not contain information about Melanie's thoughts on Caroline's decision to adopt.",
+  "correct": false,
+  "age": 150
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "How did Melanie's son handle the accident?",
+  "gold": "He was scared but reassured by his family",
+  "pred": "He recovered safely and was okay.",
+  "correct": false,
+  "age": 2
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "What did Caroline research?",
+  "gold": "Adoption agencies",
+  "pred": "The evidence does not mention Caroline researching anything. Based on the evidence provided, the closest inference would be:\n\nabstract art",
+  "correct": false,
+  "age": 150
+ },
+ {
+  "system": "mem0 (evicted)",
+  "q": "What do Melanie's kids like?",
+  "gold": "dinosaurs, nature",
+  "pred": "The beach, exploring and playing outdoors",
+  "correct": false,
+  "age": 117
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "Would Caroline pursue writing as a career option?",
+  "gold": "LIkely no; though she likes reading, she wants to be a counselor",
+  "pred": "No",
+  "correct": true,
+  "age": 102
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "When did Caroline apply to adoption agencies?",
+  "gold": "The week of 23 August 2023",
+  "pred": "August 2023",
+  "correct": true,
+  "age": 60
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "What symbols are important to Caroline?",
+  "gold": "Rainbow flag, transgender symbol",
+  "pred": "A drawing representing freedom and authenticity",
+  "correct": false,
+  "age": 117
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "What happened to Melanie's son on their road trip?",
+  "gold": "He got into an accident",
+  "pred": "He got into an accident",
+  "correct": true,
+  "age": 2
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "What did Caroline find in her neighborhood during her walk?",
+  "gold": "a rainbow sidewalk",
+  "pred": "Rainbow Pride sidewalk",
+  "correct": true,
+  "age": 58
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "Would Caroline still want to pursue counseling as a career if she hadn't received support growing up?",
+  "gold": "Likely no",
+  "pred": "No.\n\nCaroline's career motivation in counseling is directly tied to her own mental health struggles and the invaluable help she received from friends, family, and role models during her transition and journey to self-acceptance. Without that support system, the evidence suggests her path would likely have been different.",
+  "correct": true,
+  "age": 135
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "What book did Melanie read from Caroline's suggestion?",
+  "gold": "\"Becoming Nicole\"",
+  "pred": "The evidence does not specify which book Melanie read from Caroline's suggestion. The only reference to Melanie reading Caroline's book is in the \"recovery activities\" entry which mentions \"Melanie reading Caroline's book\" without providing the title.",
+  "correct": false,
+  "age": 102
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "What painting did Melanie show to Caroline on October 13, 2023?",
+  "gold": "A painting inspired by sunsets with a pink sky.",
+  "pred": "Melanie's abstract painting with calming blue streaks",
+  "correct": false,
+  "age": 9
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "What did Melanie and her family see during their camping trip last year?",
+  "gold": "Perseid meteor shower",
+  "pred": "Perseid meteor shower",
+  "correct": true,
+  "age": 94
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "When did Melanie go to the pottery workshop?",
+  "gold": "The Friday before 15 July 2023",
+  "pred": "7 July 2023",
+  "correct": true,
+  "age": 99
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "What would Caroline's political leaning likely be?",
+  "gold": "Liberal",
+  "pred": "Progressive/liberal",
+  "correct": true,
+  "age": 66
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "How did Melanie feel about her family supporting her?",
+  "gold": "She appreciated them a lot",
+  "pred": "Grateful and strengthened",
+  "correct": true,
+  "age": 2
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "When did Caroline have a picnic?",
+  "gold": "The week before 6 July 2023",
+  "pred": "Based on the evidence provided, there is no mention of Caroline having a picnic.",
+  "correct": false,
+  "age": 108
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "What kind of place does Caroline want to create for people?",
+  "gold": "a safe and inviting place for people to grow",
+  "pred": "A home for kids who haven't had one",
+  "correct": false,
+  "age": 117
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "What books has Melanie read?",
+  "gold": "\"Nothing is Impossible\", \"Charlotte's Web\"",
+  "pred": "Caroline's book",
+  "correct": false,
+  "age": 108
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "What does Melanie say running has been great for?",
+  "gold": "Her mental health",
+  "pred": "mental health",
+  "correct": true,
+  "age": 102
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "Which  classical musicians does Melanie enjoy listening to?",
+  "gold": "Bach and Mozart",
+  "pred": "Bach, Mozart",
+  "correct": true,
+  "age": 55
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "When did Melanie go to the park?",
+  "gold": "27 August 2023",
+  "pred": "27 August 2023",
+  "correct": true,
+  "age": 55
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "When did Caroline go to a pride parade during the summer?",
+  "gold": "The week before 3 July 2023",
+  "pred": "Late June 2023",
+  "correct": true,
+  "age": 111
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "What activity did Caroline used to do with her dad?",
+  "gold": "Horseback riding",
+  "pred": "Rode horses",
+  "correct": true,
+  "age": 60
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "Why are flowers important to Melanie?",
+  "gold": "They remind her to appreciate the small moments and were a part of her wedding decor",
+  "pred": "The evidence does not indicate that flowers are important to Melanie. Drawing flowers is Caroline's favorite art form, not Melanie's.",
+  "correct": false,
+  "age": 99
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "What kind of books does Caroline have in her library?",
+  "gold": "kids' books - classics, stories from different cultures, educational books",
+  "pred": "Kids' books (building library for future adopted children)",
+  "correct": true,
+  "age": 108
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "What inspired Caroline's painting for the art show?",
+  "gold": "visiting an LGBTQ center and wanting to capture unity and strength",
+  "pred": "Her transgender journey and self-acceptance",
+  "correct": false,
+  "age": 97
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "When is Melanie planning on going camping?",
+  "gold": "June 2023",
+  "pred": "June 2023",
+  "correct": true,
+  "age": 150
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "When did Caroline encounter people on a hike and have a negative experience?",
+  "gold": "The week before 25 August 2023",
+  "pred": "14-20 Aug 2023",
+  "correct": true,
+  "age": 58
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "When did Melanie go to the museum?",
+  "gold": "5 July 2023",
+  "pred": "5 July 2023",
+  "correct": true,
+  "age": 108
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "What does Melanie think about Caroline's decision to adopt?",
+  "gold": "she thinks Caroline is doing something amazing and will be an awesome mom",
+  "pred": "Supportive and admiring",
+  "correct": true,
+  "age": 150
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "How did Melanie's son handle the accident?",
+  "gold": "He was scared but reassured by his family",
+  "pred": "Melanie and her son handled it well; other children were scared but the family got through it together.",
+  "correct": false,
+  "age": 2
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "What did Caroline research?",
+  "gold": "Adoption agencies",
+  "pred": "Adoption agencies, documents, and emotional preparation",
+  "correct": true,
+  "age": 150
+ },
+ {
+  "system": "graded (compressed)",
+  "q": "What do Melanie's kids like?",
+  "gold": "dinosaurs, nature",
+  "pred": "Based on the evidence, Melanie's kids like:\n\n- Dinosaur exhibits (they were excited about the dinosaur exhibit on 5 July 2023)\n- Playing at the park\n- Being creative with clay (they were excited and creative with clay on 7 July 2023)\n- Camping trips with family\n- Roasting marshmallows and sharing campfire stories\n- Visiting the Grand Canyon",
+  "correct": false,
+  "age": 117
+ }
+]
