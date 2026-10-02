@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python
 """Mem0 as a third-party baseline on the same LoCoMo questions.
 
@@ -16,6 +17,9 @@ Fairness notes:
 Usage:  python run_mem0.py --ingest --run -n 12
 """
 from __future__ import annotations
+
+import sys as _sys, pathlib as _pl
+_sys.path.insert(0, str(_pl.Path(__file__).resolve().parent.parent))
 
 import argparse
 import json
@@ -52,7 +56,6 @@ PREDICTION: {pred}
 
 USER_ID = "locomo_conv26"
 
-
 def _patch_anthropic_temperature():
     """mem0's Anthropic provider passes `temperature`, which anthropic>=1.7
     removed from messages.create (adaptive-thinking models reject it). Strip
@@ -66,7 +69,6 @@ def _patch_anthropic_temperature():
         kw.pop("top_p", None)
         return orig(self, *a, **kw)
     anthropic.resources.messages.Messages.create = create
-
 
 def make_memory():
     _patch_anthropic_temperature()
@@ -82,11 +84,9 @@ def make_memory():
                                     "path": str(STORE)}},
     })
 
-
 def load_sample():
     return next(s for s in json.loads((ROOT / "data" / "locomo10.json").read_text())
                 if s["sample_id"] == "conv-26")
-
 
 def ingest(args):
     import re
@@ -108,7 +108,6 @@ def ingest(args):
     total = len(m.get_all(filters={"user_id": USER_ID}, top_k=5000).get("results", []))
     print(f"\nmem0 extracted {total} memories from {len(keys)} sessions "
           f"in {time.time()-t0:.0f}s")
-
 
 def run(args):
     from regen_mem.llm import _parse_json
@@ -154,7 +153,6 @@ def run(args):
         print(f"  {i+1}/{len(qa)} acc={ok/(i+1):.0%} retrieved={len(mems)} tok={tok}",
               flush=True)
     print(f"\nmem0  acc={100*ok/len(qa):5.1f}%  tok/q={toks//len(qa):,}")
-
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()

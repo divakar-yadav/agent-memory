@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python
 """Cued recall of EVICTED evidence — the capability test.
 
@@ -22,6 +23,9 @@ Usage:  python run_evicted_recall.py -n 40
 """
 from __future__ import annotations
 
+import sys as _sys, pathlib as _pl
+_sys.path.insert(0, str(_pl.Path(__file__).resolve().parent.parent))
+
 import argparse, copy, json, random, time
 from datetime import datetime
 from pathlib import Path
@@ -35,7 +39,6 @@ from run_eviction import build_timeline, apply_policy, store_bytes, JUDGE
 
 ROOT = Path(__file__).resolve().parent
 RESULTS = ROOT / "results"; RESULTS.mkdir(exist_ok=True)
-
 
 def main(a):
     llm = LLM(a.model)
@@ -122,7 +125,6 @@ def main(a):
                 "regen": "evidence compressed to gist"}[policy]
         print(f"  {policy:14s} {100*sum(r['correct'] for r in rs)/len(rs):5.1f}%   {note}")
     print("=" * 58)
-
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()

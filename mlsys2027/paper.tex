@@ -1,0 +1,220 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  MLSys 2027 submission -- 2 column, <=10 pages excl. references
+%  Compile: pdflatex paper && bibtex paper && pdflatex paper && pdflatex paper
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{article}
+\usepackage{mlsys2025}                 % anonymous by default; \usepackage[accepted]{mlsys2025} for camera-ready
+
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+\usetikzlibrary{arrows.meta,positioning}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{hyperref}
+\usepackage{url}
+
+\definecolor{hl}{RGB}{232,238,250}
+\definecolor{bad}{RGB}{168,62,42}
+\definecolor{keep}{RGB}{38,70,142}
+
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+
+\mlsystitlerunning{Learned Decompression for Capacity-Bounded Agent Memory}
+
+\begin{document}
+
+\twocolumn[
+\mlsystitle{Cue-Conditioned Reconstruction: Learned Decompression for
+Capacity-Bounded Agent Memory}
+
+\begin{mlsysauthorlist}
+\mlsysauthor{Anonymous}{anon}
+\end{mlsysauthorlist}
+\mlsysaffiliation{anon}{Anonymous Institution}
+\mlsyscorrespondingauthor{Anonymous}{anon@example.com}
+\mlsyskeywords{agent memory, lossy compression, side information, calibration}
+
+\vskip 0.3in
+
+\begin{abstract}
+An agent that must hold its memory within a fixed budget has to destroy
+information, and the question is which representation of the survivors best
+supports later recall. Current systems compress heuristically -- truncate,
+summarise, or delete -- with no model of what a query will need. We formulate
+memory compaction as \emph{lossy source coding with side information at the
+decoder}: the encoder compacts a trace without knowing the future query, while
+the decoder sees contextual cues the encoder did not. This is the Wyner-Ziv
+setting, and it implies a compaction rule that differs sharply from
+summarisation: discard preferentially what the cues will make recoverable, and
+spend bits on what they will not.
+
+We instantiate this as a trained encoder-decoder pair over an agent memory
+store, with a decoder that emits a calibrated confidence and abstains rather
+than reconstruct when the cues are insufficient. Training requires no
+annotation: every compaction produces a (compacted trace, cues, original)
+triple automatically, so the compressor generates its own supervision.
+
+We first measure the ceiling. On a 1{,}115-memory corpus compacted to gist, the
+answer to a question survives compaction for $46\%$ of questions, is absent but
+latent in neighbouring memories for $7\%$, and is unrecoverable for $48\%$. A
+learned decoder can therefore address at most the middle band, and any system
+that produces fluent output on the remaining $48\%$ is confabulating by
+construction. We argue this decomposition, not reconstruction accuracy, is the
+correct way to evaluate learned memory decompression, and we report abstention
+quality as the primary metric.
+\end{abstract}
+]
+\printAffiliationsAndNotice{}
+
+% =====================================================================
+\section{Introduction}
+\label{sec:intro}
+
+% MOTIVATION
+% - persistent agents exceed any fixed budget; capacity is the binding constraint
+% - current compaction is heuristic: truncate / summarise / delete
+% - none of it models what a future query will need
+% - the ICLR companion work shows demotion beats deletion, but uses a
+%   hand-written tier ladder; this paper asks what the ladder should be
+
+\subsection{Contributions}
+% (i)   Wyner-Ziv formulation of memory compaction
+% (ii)  self-supervised training scheme with zero annotation cost
+% (iii) the 46/7/48 recoverability decomposition as an evaluation protocol
+% (iv)  a calibrated decoder whose headline metric is abstention, not fluency
+
+% =====================================================================
+\section{Memory compaction as Wyner-Ziv coding}
+\label{sec:theory}
+
+% Setup: trace X, compacted \hat{X}_\ell, cues Y available only at decode time.
+% Encoder does not see Y. Decoder sees (\hat{X}_\ell, Y).
+% R_{WZ}(D) <= R_{X|Y}(D): side information at the decoder alone nearly
+% matches having it at both ends.
+%
+% The design consequence, which is the point of this section:
+%   argmin over what-to-drop is NOT "least important" but "most predictable
+%   from Y". A summariser optimises the wrong objective.
+%
+% Worked example from the corpus:
+%   full: "Caroline attended an LGBTQ support group on 7 May 2023 and found
+%          the transgender stories inspiring"
+%   a summariser drops the date (long, looks incidental)
+%   a Wyner-Ziv encoder keeps the date (unpredictable from cues) and drops
+%   "found the stories inspiring" (predictable from topic + tag)
+
+% =====================================================================
+\section{The recoverability ceiling}
+\label{sec:ceiling}
+
+% This section must come BEFORE the method. It bounds what any decoder can do
+% and it is the paper's most defensible contribution.
+
+\begin{table}[t]
+\caption{Where the answer goes when a memory is compacted to gist. Measured on
+147 evidence-annotated questions over a 1{,}115-memory store.}
+\label{tab:ceiling}
+\centering\small
+\begin{tabular}{@{}lrl@{}}
+\toprule
+\textbf{After compaction} & \textbf{Share} & \textbf{Implication} \\
+\midrule
+answer survives in the gist        & 46\% & decoder not needed \\
+\rowcolor{hl}
+lost, but latent in neighbours     & \phantom{0}7\% & \textbf{addressable} \\
+unrecoverable                      & 48\% & \textcolor{bad}{must abstain} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Method for obtaining the table (must be exact and reproducible):
+%   - gold answer tokens vs tokens present in gist / neighbour gists
+%   - threshold 0.5 token overlap
+%   - report sensitivity to that threshold in the appendix
+%
+% Consequence stated plainly: a decoder trained to always produce output will
+% confabulate on 48% of queries. Abstention is not a safety add-on, it is the
+% primary capability.
+
+% =====================================================================
+\section{Method}
+\label{sec:method}
+
+\subsection{Encoder: what to discard}
+% E_\ell : X -> \hat{X}_\ell, rate-constrained, trained against decoder loss
+% rather than a summarisation objective.
+
+\subsection{Decoder: reconstruct or abstain}
+% D : (\hat{X}_\ell, Y) -> (\tilde{X}, c)
+% small instruction-tuned base (1-3B); cues = extracted cue set + k neighbour
+% gists + encoding timestamp + topic.
+
+\subsection{Escalation}
+% retrieve at tier 0 -> widen to tier \ell -> decode -> abstain if c < tau.
+% This is a cascade; the abstention threshold is the deployment knob.
+
+\subsection{Objective}
+\begin{equation}
+\mathcal{L} = \mathcal{L}_{\text{recon}}
+            + \lambda_1 \mathcal{L}_{\text{cal}}
+            + \lambda_2 \mathcal{L}_{\text{abstain}}
+            + \lambda_3 \mathcal{L}_{\text{rate}}
+\label{eq:loss}
+\end{equation}
+% L_abstain is asymmetric: a confident wrong reconstruction costs >> an
+% abstention. Report the ratio as a hyperparameter and sweep it.
+
+% =====================================================================
+\section{Training data}
+\label{sec:data}
+
+% The compressor generates its own supervision:
+%   for each trace X and tier \ell:  (\hat{X}_\ell, Y, X)
+% no annotation, scales with any conversational corpus.
+%
+% Cue sampling is the design choice that matters: VARY cue strength during
+% training so the model learns the map from cue sufficiency to confidence,
+% rather than assuming rich context.
+%
+% Corpora: LoCoMo, LongMemEval, MSC, plus non-dialogue sources
+% (commit histories, issue threads) to test transfer.
+
+% =====================================================================
+\section{Evaluation protocol}
+\label{sec:eval}
+
+% Deliberately NOT reconstruction BLEU -- it rewards fluent confabulation.
+%   1. faithful recovery rate on the addressable 7% band
+%   2. confabulation rate on the unrecoverable 48%  <- primary safety metric
+%   3. calibration (ECE) between c and correctness
+%   4. end-to-end recall under a capacity bound, vs the heuristic tier ladder
+%   5. systems metrics: decode latency, tokens/query, memory footprint
+%      (MLSys audience cares about these as first-class results)
+
+% =====================================================================
+\section{Related work}
+\label{sec:related}
+
+% - agent memory systems and their compaction policies
+% - Wyner-Ziv / distributed source coding
+% - learned compression (neural codecs), semantic compression
+% - calibration and selective prediction / abstention
+% - retrieval-augmented generation and its hallucination literature
+
+% =====================================================================
+\section{Conclusion}
+\label{sec:conclusion}
+
+\bibliography{paper}
+\bibliographystyle{mlsys2025}
+
+\end{document}

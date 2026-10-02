@@ -41,3 +41,10 @@ regenerative_memory.pdf
 
 # --- superseded style file ---
 iclr2026_conference.sty
+
+# --- MLSys training artifacts ---
+mlsys2027/model/ckpt/
+mlsys2027/data_gen/pairs.jsonl
+*.pt
+*.safetensors
+wandb/

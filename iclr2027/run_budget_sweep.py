@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python
 """Budget sweep for recall-after-eviction, plus a stronger deletion baseline.
 
@@ -18,6 +19,9 @@ Usage:  python run_budget_sweep.py --budgets 0.25,0.35,0.50,0.65 -n 25
 """
 from __future__ import annotations
 
+import sys as _sys, pathlib as _pl
+_sys.path.insert(0, str(_pl.Path(__file__).resolve().parent.parent))
+
 import argparse, copy, json, random
 from datetime import datetime
 from pathlib import Path
@@ -32,7 +36,6 @@ from run_eviction import build_timeline, apply_policy, store_bytes, JUDGE
 
 ROOT = Path(__file__).resolve().parent
 RESULTS = ROOT / "results"; RESULTS.mkdir(exist_ok=True)
-
 
 def delete_redundant(g: MemoryGraph, budget: int, llm: LLM) -> dict:
     """Evict the most-duplicated memories first.
@@ -58,7 +61,6 @@ def delete_redundant(g: MemoryGraph, budget: int, llm: LLM) -> dict:
         for k in list(idx):
             idx[k] = {c for c in idx[k] if c in g.contents}
     return {"kept": len(g.contents), "deleted": dropped, "bytes": store_bytes(g)}
-
 
 def main(a):
     llm = LLM(a.model); ac = anthropic.Anthropic(); P = Params()
@@ -145,7 +147,6 @@ def main(a):
             cells += f"{100*sum(r['correct'] for r in rs)/len(rs):11.1f}%" if rs else f"{'-':>12s}"
         print(f"{frac:7.0%}{cells}")
     print("=" * 74)
-
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()

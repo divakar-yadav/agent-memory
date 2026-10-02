@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python
 """LoCoMo benchmark runner for REGEN vs. baselines.
 
@@ -9,6 +10,9 @@ Usage:
 All LLM calls are disk-cached, so re-running is free after the first pass.
 """
 from __future__ import annotations
+
+import sys as _sys, pathlib as _pl
+_sys.path.insert(0, str(_pl.Path(__file__).resolve().parent.parent))
 
 import argparse
 import json
@@ -45,7 +49,6 @@ PREDICTION: {pred}
 {{"correct": true|false}}
 """
 
-
 def judge(llm: LLM, q: str, gold: str, pred: str) -> bool:
     if not pred.strip():
         return False
@@ -56,7 +59,6 @@ def judge(llm: LLM, q: str, gold: str, pred: str) -> bool:
         return bool(d.get("correct"))
     except Exception:  # noqa: BLE001
         return False
-
 
 def f1(pred: str, gold: str) -> float:
     pt, gt = pred.lower().split(), gold.lower().split()
@@ -69,13 +71,11 @@ def f1(pred: str, gold: str) -> float:
     p, r = n / len(pt), n / len(gt)
     return 2 * p * r / (p + r) if p + r else 0.0
 
-
 def evidence_recall(pred_ids: list[str], gold_ids: list[str]) -> float:
     if not gold_ids:
         return float("nan")
     got = set(pred_ids)
     return sum(1 for g in gold_ids if g in got) / len(gold_ids)
-
 
 def get_graph(sample: dict, llm: LLM, params: Params, sessions: int | None) -> tuple[MemoryGraph, datetime]:
     sid = sample.get("sample_id", "s")
@@ -92,7 +92,6 @@ def get_graph(sample: dict, llm: LLM, params: Params, sessions: int | None) -> t
     print(f"    built {len(g.contents)} nodes in {time.time()-t0:.0f}s")
     g.save(cf)
     return g, epoch
-
 
 def run(args) -> None:
     random.seed(0)
@@ -177,7 +176,6 @@ def run(args) -> None:
     summarise(rows)
     print(f"\nwrote {out}")
 
-
 def summarise(rows: list[dict]) -> None:
     import statistics as st
     systems = sorted({r["system"] for r in rows}, key=lambda s: (s != "RAG", s))
@@ -197,7 +195,6 @@ def summarise(rows: list[dict]) -> None:
         tok = st.mean([r.get("tokens_per_q", 0) for r in rs])
         print(f"{s:26s} " + " ".join(cells) + f" {allacc:7.1f}% {tok:9,.0f}")
     print("=" * 78)
-
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()

@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python
 """Recall-after-eviction: what survives when the store will not fit.
 
@@ -23,6 +24,9 @@ Usage:
 """
 from __future__ import annotations
 
+import sys as _sys, pathlib as _pl
+_sys.path.insert(0, str(_pl.Path(__file__).resolve().parent.parent))
+
 import argparse, json, random, re, time
 from pathlib import Path
 
@@ -47,7 +51,6 @@ GOLD: {gold}
 PREDICTION: {pred}
 
 {{"correct": true|false}}"""
-
 
 # ---------------------------------------------------------------- timeline
 def build_timeline(params: Params):
@@ -95,11 +98,9 @@ def build_timeline(params: Params):
         q["_age"] = now - q["_t"]
     return g, qa_all, now
 
-
 # ---------------------------------------------------------------- policies
 def store_bytes(g: MemoryGraph) -> int:
     return sum(len(c.visible_text()) for c in g.contents.values())
-
 
 def apply_policy(g: MemoryGraph, policy: str, budget: int, now: float) -> dict:
     """Bring the store under `budget` bytes. Returns what it cost."""
@@ -137,7 +138,6 @@ def apply_policy(g: MemoryGraph, policy: str, budget: int, now: float) -> dict:
         for k in list(idx):
             idx[k] = {c for c in idx[k] if c in g.contents}
     return {"kept": len(g.contents), "deleted": dropped, "bytes": store_bytes(g)}
-
 
 # ---------------------------------------------------------------- run
 def main(a):
@@ -206,7 +206,6 @@ def main(a):
         line += f"{100*sum(r['correct'] for r in rs)/len(rs):8.1f}%"
         print(line)
     print("=" * 64)
-
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()

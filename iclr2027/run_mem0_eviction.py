@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python
 """Mem0 under a capacity bound, against graded forgetting at the same bound.
 
@@ -19,6 +20,9 @@ Usage:  python run_mem0_eviction.py --budget 0.35 -n 30
 """
 from __future__ import annotations
 
+import sys as _sys, pathlib as _pl
+_sys.path.insert(0, str(_pl.Path(__file__).resolve().parent.parent))
+
 import argparse, copy, json, random, re
 from datetime import datetime
 from pathlib import Path
@@ -35,7 +39,6 @@ ROOT = Path(__file__).resolve().parent
 RESULTS = ROOT / "results"; RESULTS.mkdir(exist_ok=True)
 SID = "conv-26"
 
-
 def evidence_ages():
     s = next(x for x in json.loads((ROOT / "data" / "locomo10.json").read_text())
              if x["sample_id"] == SID)
@@ -48,7 +51,6 @@ def evidence_ages():
            for k in keys for t in (conv.get(k) or []) if t.get("dia_id") and dates[k]}
     last = max(day.values())
     return s, day, last
-
 
 def main(a):
     llm = LLM("claude-sonnet-4-5")
@@ -153,7 +155,6 @@ def main(a):
         line += f"{100*sum(r['correct'] for r in rs)/len(rs):7.1f}%"
         print(line)
     print("=" * 66)
-
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()

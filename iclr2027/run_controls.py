@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python
 """Attribution controls: is the model using memory, or priors and inference?
 
@@ -17,6 +18,9 @@ Anything closed-book already gets was never a memory result.
 """
 from __future__ import annotations
 
+import sys as _sys, pathlib as _pl
+_sys.path.insert(0, str(_pl.Path(__file__).resolve().parent.parent))
+
 import argparse, json, random, statistics as st
 from pathlib import Path
 
@@ -31,7 +35,6 @@ ROOT = Path(__file__).resolve().parent
 CACHE = ROOT / ".graphs"
 RESULTS = ROOT / "results"
 
-
 def topk(g: MemoryGraph, llm: LLM, q: str, k: int = 20) -> list[str]:
     cids = list(g.contents)
     E = np.asarray(llm.embed([g.contents[c].text for c in cids], phase="construction_embed"))
@@ -39,7 +42,6 @@ def topk(g: MemoryGraph, llm: LLM, q: str, k: int = 20) -> list[str]:
     qe = np.asarray(llm.embed([q], phase="retrieval_embed")[0])
     qe /= max(float(np.linalg.norm(qe)), 1e-9)
     return [cids[i] for i in np.argsort(-(E @ qe))[:k]]
-
 
 def main(a):
     llm, jl, P = LLM(a.model), LLM(a.judge_model), Params()
@@ -105,7 +107,6 @@ def main(a):
 
     (RESULTS / a.out).write_text(json.dumps(rows, indent=1))
     print(f"\nwrote results/{a.out}")
-
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()

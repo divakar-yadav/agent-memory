@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python
 """The three experiments the REGEN architecture actually stands on.
 
@@ -11,6 +12,9 @@ evaluated questions and their evidence stay identical.  That isolates
 candidate-set dilution from question difficulty, which is the whole point.
 """
 from __future__ import annotations
+
+import sys as _sys, pathlib as _pl
+_sys.path.insert(0, str(_pl.Path(__file__).resolve().parent.parent))
 
 import argparse
 import copy
@@ -36,10 +40,8 @@ RESULTS.mkdir(exist_ok=True)
 
 from run_benchmark import CATEGORY, get_graph, judge  # reuse harness pieces
 
-
 def load_or_build(sample, llm, params):
     return get_graph(sample, llm, params, None)
-
 
 def answerable(sample, g, n, seed=0):
     kept = {d for c in g.contents.values() for d in c.dia_ids}
@@ -48,7 +50,6 @@ def answerable(sample, g, n, seed=0):
           and all(e in kept for e in q["evidence"])]
     random.Random(seed).shuffle(qa)
     return qa[:n]
-
 
 def pad_graph(base: MemoryGraph, donors: list[MemoryGraph], mult: int, params: Params) -> MemoryGraph:
     """Grow the store mult-fold with distractors from other conversations.
@@ -83,7 +84,6 @@ def pad_graph(base: MemoryGraph, donors: list[MemoryGraph], mult: int, params: P
         need -= 1
     g.now_days = base.now_days
     return g
-
 
 # ------------------------------------------------------------------ continual
 def continual(args, llm, judge_llm, params):
@@ -131,7 +131,6 @@ def continual(args, llm, judge_llm, params):
                   f"tok/q={row['tokens_per_q']:8,.0f}")
     return rows
 
-
 # --------------------------------------------------------------------- aging
 def aging(args, llm, judge_llm, params):
     """Recall as a function of the age of the supporting evidence.
@@ -173,7 +172,6 @@ def aging(args, llm, judge_llm, params):
               f"W={st['working_set']:4d} past_tau={st['past_tau']:4d} "
               f"recall={row['ev_recall']:.3f} acc={row['acc']:5.1f}%")
     return rows
-
 
 # ------------------------------------------------------------------ recovery
 def recovery(args, llm, judge_llm, params):
@@ -218,7 +216,6 @@ def recovery(args, llm, judge_llm, params):
                  "note": "deleted traces are unrecoverable by construction"})
     print(f"  {'deletion (Mem0-style)':38s} recall=0.000 acc=  0.0%  (by construction)")
     return rows
-
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()

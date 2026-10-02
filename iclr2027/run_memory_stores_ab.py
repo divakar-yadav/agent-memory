@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python
 """A/B test of memory LAYOUT against real Anthropic Memory Stores.
 
@@ -20,6 +21,9 @@ Usage:
   python run_memory_stores_ab.py --teardown
 """
 from __future__ import annotations
+
+import sys as _sys, pathlib as _pl
+_sys.path.insert(0, str(_pl.Path(__file__).resolve().parent.parent))
 
 import argparse
 import json
@@ -53,15 +57,12 @@ CONTROL_INSTRUCTIONS = (
     "questions about the conversation history."
 )
 
-
 def client(beta: str = BETA) -> anthropic.Anthropic:
     return anthropic.Anthropic(default_headers={"anthropic-beta": beta})
-
 
 def slug(s: str, n: int = 40) -> str:
     s = re.sub(r"[^a-z0-9]+", "-", (s or "misc").lower()).strip("-")
     return (s[:n] or "misc")
-
 
 # ---------------------------------------------------------------- build
 def build(args) -> None:
@@ -110,7 +111,6 @@ def build(args) -> None:
           f"regen={sizes['regen']:,}  ({100*sizes['regen']/sizes['control']:.0f}%)")
     print(f"state -> {STATE}")
 
-
 # ---------------------------------------------------------------- run
 JUDGE = """Grade this answer. Output valid JSON only.
 
@@ -122,7 +122,6 @@ GOLD: {gold}
 PREDICTION: {pred}
 
 {{"correct": true|false}}"""
-
 
 def judge(jc, q, gold, pred) -> bool:
     if not (pred or "").strip():
@@ -138,7 +137,6 @@ def judge(jc, q, gold, pred) -> bool:
     except Exception as e:
         print(f"\n  ! JUDGE FAILED: {type(e).__name__}: {str(e)[:120]}")
         raise
-
 
 def ensure_agent(c):
     st = json.loads(STATE.read_text())
@@ -157,7 +155,6 @@ def ensure_agent(c):
     STATE.write_text(json.dumps(st, indent=1))
     print(f"agent={agent.id} env={env.id}")
     return agent.id, env.id
-
 
 def ask(c, agent_id, env_id, store_id, instructions, question, timeout=240):
     """One question in a fresh session so nothing leaks between questions.
@@ -193,7 +190,6 @@ def ask(c, agent_id, env_id, store_id, instructions, question, timeout=240):
             u = getattr(e, "usage", None) or e
             tok = (getattr(u, "input_tokens", 0) or 0) + (getattr(u, "output_tokens", 0) or 0)
     return text, tok, tools
-
 
 def run(args) -> None:
     st = json.loads(STATE.read_text())
@@ -242,7 +238,6 @@ def run(args) -> None:
     print("=" * 54)
     print(f"\nwrote results/memory_stores_ab.json")
 
-
 def teardown(args) -> None:
     st = json.loads(STATE.read_text())
     c = client()
@@ -251,7 +246,6 @@ def teardown(args) -> None:
             c.beta.memory_stores.delete(sid); print(f"  deleted {cond} {sid}")
         except Exception as e:
             print(f"  {cond}: {type(e).__name__}")
-
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()

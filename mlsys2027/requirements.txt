@@ -1,0 +1,15 @@
+# core
+numpy>=2.0
+openai>=3.0
+anthropic>=1.7
+
+# model training (H100 node)
+torch>=2.4
+transformers>=4.45
+accelerate>=1.0
+datasets>=3.0
+sentencepiece
+
+# baselines / stores used by the ICLR experiments
+mem0ai>=2.1
+chromadb>=0.5
